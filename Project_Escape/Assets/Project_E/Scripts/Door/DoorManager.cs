@@ -25,11 +25,15 @@ public class DoorManager : SingleTon<DoorManager>
         return true;
     }
 
-    public void UnlockDoor(int id)
+    public void LockDoor(int id)
+    {
+        doorEntities[id].canAccess = false;
+    }
+
+    public void UnLockDoor(int id)
     {
         doorEntities[id].canAccess = true;
     }
-
 
     public void CheckDoorId(int id)
     {
@@ -38,8 +42,11 @@ public class DoorManager : SingleTon<DoorManager>
             if (door.id != id)
                 continue;
 
-            SetDoorState(!door.currentState, id);
-            door.currentState = !door.currentState;
+            if (door.canAccess)
+            {
+                SetDoorState(!door.currentState, id);
+                door.currentState = !door.currentState;
+            }          
         }
     }
 }

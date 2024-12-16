@@ -27,9 +27,8 @@ public class Door : MonoBehaviour, IInteract
         anim.Play(closeHashCode);
     }
 
-    public void UnlockDoor()
+    public void Interact()
     {
-
+        DoorManager.Instance.CheckDoorId(id);
     }
-
 }

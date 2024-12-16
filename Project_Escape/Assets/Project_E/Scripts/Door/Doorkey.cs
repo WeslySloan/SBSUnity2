@@ -2,14 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Doorkey : MonoBehaviour, IInteract
+public class ItemData : ScriptableObject
 {
-    // Item
-    // 문과 연결된 id 정보값
-    public int id;
+    public string mName;
+}
 
-    public void Interact()
-    {
-        DoorManager.Instance.UnlockDoor(id);
-    }
+[CreateAssetMenu(fileName = "doorkey", menuName = "ItemData/doorKey")]
+public class DoorKey : ItemData
+{
+    public int doorId;
+
+   
 }

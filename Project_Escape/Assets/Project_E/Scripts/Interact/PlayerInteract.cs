@@ -23,28 +23,11 @@ public class PlayerInteract : MonoBehaviour
             _camera.transform.forward, out hit, rayLength))
         {
             var interactable = hit.collider.GetComponent<IInteract>();
-            
+
             if(interactable != null && Input.GetKeyDown(keycode))
             {
                 interactable.Interact();
-            }
-
-
-
-
-            //if(door != null)
-            //{
-            //    if(Input.GetKeyDown(keycode))
-            //    {
-            //        DoorManager.Instance.CheckDoorId(door.id);
-            //        ExampleST.Instance.ShowDebug();
-            //        // DoorManager 문을 여세요
-            //        // DoorManager.CheckDoorId(door.id);
-            //        // Door Unlock 열쇠를 먹으면 -> CanAccess true
-            //        // DoorKey -> DoorManager DoorEntity 1번에 해당하는 열쇠를 먹었다.
-            //        // PlayerInter
-            //    }
-            //}
+            }       
         }
     }
 

@@ -11,9 +11,7 @@ public class PlayerInteract : MonoBehaviour
     private RaycastHit hit;
     [Header("Input Key")]
     public KeyCode keycode;
-
     private InspectItem currentItemInfo;
-
     public void Awake()
     {
         _camera = Camera.main;
@@ -26,13 +24,12 @@ public class PlayerInteract : MonoBehaviour
         {
             var inspectable = hit.collider.GetComponent<InspectItem>();
 
-
-            if (inspectable != null)
+            if(inspectable != null) 
             {
                 currentItemInfo = inspectable;
                 currentItemInfo.ShowObjectName(true);
 
-                if (Input.GetKeyDown(keycode))
+                if(Input.GetKeyDown(keycode))
                 {
                     currentItemInfo.ShowDetails();
                 }
@@ -44,7 +41,6 @@ public class PlayerInteract : MonoBehaviour
                     currentItemInfo.ShowObjectName(false);
                     currentItemInfo = null;
                 }
-
             }
 
             #region interactable
@@ -55,6 +51,11 @@ public class PlayerInteract : MonoBehaviour
                 interactable.Interact();
             }
             #endregion
+        }
+        else
+        {
+            currentItemInfo?.ShowObjectName(false);
+            currentItemInfo = null;
         }
     }
 

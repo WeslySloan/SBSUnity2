@@ -33,12 +33,12 @@ public class InspectManager : SingleTon<InspectManager>
         objectDetailCanvasGroup.alpha = 0;
     }
 
-    public void Update()
+    private void Update()
     {
-        if (startTimer)
+        if(startTimer)
         {
             timer -= Time.deltaTime;
-            if (timer <= 0)
+            if(timer <=0)
             {
                 timer = 0;
                 startTimer = false;
@@ -74,27 +74,22 @@ public class InspectManager : SingleTon<InspectManager>
 
     IEnumerator FadeUI(bool fadeIn, float duration)
     {
-        // interface, 순차적 접근 가능한 list화 , for foreach
-
         float startAlpha = fadeIn ? 0f : 1f;
         float endAlpha = 1f - startAlpha;
         float elapsedTime = 0f;
 
         objectDetailCanvasGroup.alpha = startAlpha;
 
-        while (elapsedTime < duration)
+        while(elapsedTime < duration)
         {
             elapsedTime += Time.deltaTime;
 
             float progress = elapsedTime / duration;
             objectDetailCanvasGroup.alpha =
                 Mathf.Lerp(startAlpha, endAlpha, progress);
-                 //선형보관
-
             yield return null;
         }
         objectDetailCanvasGroup.alpha = endAlpha;
-        // yield return null;
     }
 
 }

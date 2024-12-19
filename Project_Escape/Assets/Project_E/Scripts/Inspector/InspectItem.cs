@@ -6,7 +6,7 @@ public class InspectItem : MonoBehaviour
 {
     public InspectData inspectData;
 
-    public void ShowObjectName(bool enable )
+    public void ShowObjectName(bool enable)
     {
         if(inspectData.showObjectName)
         {
@@ -19,9 +19,7 @@ public class InspectItem : MonoBehaviour
         if(inspectData.showObjectDetails)
         {
             // InspectManager
-            InspectManager.Instance.ShowObjectDetail(inspectData.objectName);
+            InspectManager.Instance.ShowObjectDetail(inspectData.objectDetails);
         }
     }
-
-
 }

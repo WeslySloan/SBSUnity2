@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -307,6 +307,9 @@ MonoBehaviour:
   iconImage: {fileID: 1785627501}
   nameTextCompoent: {fileID: 978921156}
   descTextCompoent: {fileID: 755350141}
+  spinDuration: 2
+  revealDelay: 1
+  chnageInterval: 0.1
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,12 +622,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC544\uC774\uD15C \uC124\uBA85"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a2bb7989bcbc5340954641083c749b8, type: 2}
   m_sharedMaterial: {fileID: -7902396711741064638, guid: 8a2bb7989bcbc5340954641083c749b8,
     type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: -7902396711741064638, guid: 8a2bb7989bcbc5340954641083c749b8, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -871,12 +875,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC544\uC774\uD15C\uC758 \uC774\uB984"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a2bb7989bcbc5340954641083c749b8, type: 2}
   m_sharedMaterial: {fileID: -7902396711741064638, guid: 8a2bb7989bcbc5340954641083c749b8,
     type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: -7902396711741064638, guid: 8a2bb7989bcbc5340954641083c749b8, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -1006,12 +1011,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC544\uC774\uD15C \uC124\uBA85"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a2bb7989bcbc5340954641083c749b8, type: 2}
   m_sharedMaterial: {fileID: -7902396711741064638, guid: 8a2bb7989bcbc5340954641083c749b8,
     type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: -7902396711741064638, guid: 8a2bb7989bcbc5340954641083c749b8, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -1182,6 +1188,9 @@ MonoBehaviour:
   iconImage: {fileID: 51019177}
   nameTextCompoent: {fileID: 1528404573}
   descTextCompoent: {fileID: 1886496720}
+  spinDuration: 2
+  revealDelay: 1
+  chnageInterval: 0.1
 --- !u!1 &1379894389
 GameObject:
   m_ObjectHideFlags: 0
@@ -1314,12 +1323,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC544\uC774\uD15C\uC758 \uC774\uB984"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a2bb7989bcbc5340954641083c749b8, type: 2}
   m_sharedMaterial: {fileID: -7902396711741064638, guid: 8a2bb7989bcbc5340954641083c749b8,
     type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: -7902396711741064638, guid: 8a2bb7989bcbc5340954641083c749b8, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -1446,6 +1456,9 @@ MonoBehaviour:
   iconImage: {fileID: 1379894391}
   nameTextCompoent: {fileID: 1580922282}
   descTextCompoent: {fileID: 1136469629}
+  spinDuration: 2
+  revealDelay: 1
+  chnageInterval: 0.1
 --- !u!1 &1580922280
 GameObject:
   m_ObjectHideFlags: 0
@@ -1503,12 +1516,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC544\uC774\uD15C\uC758 \uC774\uB984"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a2bb7989bcbc5340954641083c749b8, type: 2}
   m_sharedMaterial: {fileID: -7902396711741064638, guid: 8a2bb7989bcbc5340954641083c749b8,
     type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: -7902396711741064638, guid: 8a2bb7989bcbc5340954641083c749b8, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -1860,12 +1874,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC544\uC774\uD15C \uC124\uBA85"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a2bb7989bcbc5340954641083c749b8, type: 2}
   m_sharedMaterial: {fileID: -7902396711741064638, guid: 8a2bb7989bcbc5340954641083c749b8,
     type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: -7902396711741064638, guid: 8a2bb7989bcbc5340954641083c749b8, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:

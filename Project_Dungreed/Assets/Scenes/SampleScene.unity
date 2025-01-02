@@ -881,7 +881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   max_speed: 5
-  jump_power: 5
+  jump_power: 10
 --- !u!95 &1391247162
 Animator:
   serializedVersion: 5

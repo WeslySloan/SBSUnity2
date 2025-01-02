@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Rendering.LookDev;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -40,12 +42,22 @@ public class PlayerController : MonoBehaviour
         if (animator.GetInteger("Horizon") == -1)
         {
             spriteRenderer.flipX = true;
+
         }
         else if (animator.GetInteger("Horizon") == 1)
         {
             spriteRenderer.flipX = false;
+
         }
 
+        //if (rigid.velocity.normalized.x == 0)
+        //{
+        //    animator.SetBool("walking", false);
+        //}
+        //else
+        //{
+        //    animator.SetBool("walking", true);
+        //}
         // 점프 애니메이션
         animator.SetBool("IsJump", is_jump);
 
@@ -69,11 +81,16 @@ public class PlayerController : MonoBehaviour
         if (rigid.velocity.y < 0 && is_jump)
         {
             Debug.DrawRay(rigid.position, Vector3.down, new Color(0, 1, 0));
-            RaycastHit2D rayhit = Physics2D.Raycast(rigid.position, Vector3.down, 0.5f, LayerMask.GetMask("PlatForm"));
+            RaycastHit2D rayhit = Physics2D.Raycast(rigid.position, Vector3.down, 0.5f, LayerMask.GetMask("Level"));
+
 
             if (rayhit.collider != null)
             {
                 is_jump = false;
+            }
+            else
+            {
+                Debug.Log("No ground detected");
             }
         }
     }

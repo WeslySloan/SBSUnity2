@@ -58,6 +58,7 @@ public class PlayerController : MonoBehaviour
         //{
         //    animator.SetBool("walking", true);
         //}
+
         // 점프 애니메이션
         animator.SetBool("IsJump", is_jump);
 

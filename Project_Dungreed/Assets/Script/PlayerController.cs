@@ -84,7 +84,6 @@ public class PlayerController : MonoBehaviour
             Debug.DrawRay(rigid.position, Vector3.down, new Color(0, 1, 0));
             RaycastHit2D rayhit = Physics2D.Raycast(rigid.position, Vector3.down, 0.5f, LayerMask.GetMask("Level"));
 
-
             if (rayhit.collider != null)
             {
                 is_jump = false;

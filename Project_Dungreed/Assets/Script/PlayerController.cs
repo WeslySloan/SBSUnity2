@@ -34,6 +34,10 @@ public class PlayerController : MonoBehaviour
         {
             rigid.AddForce(Vector2.up * jump_power, ForceMode2D.Impulse);
             is_jump = true;
+
+            Debug.Log("Is Jumping");
+
+
         }
 
 
@@ -62,8 +66,6 @@ public class PlayerController : MonoBehaviour
         // 점프 애니메이션
         animator.SetBool("IsJump", is_jump);
 
-
-
     }
 
     void FixedUpdate()
@@ -77,6 +79,7 @@ public class PlayerController : MonoBehaviour
         if (rigid.velocity.x < max_speed * (-1))
             rigid.velocity = new Vector2(max_speed * (-1), rigid.velocity.y);
 
+        // if (rigid.velocity.y < 0 && is_jump)
 
         // 레이 캐스트(2단점프 방지)
         if (rigid.velocity.y < 0 && is_jump)
@@ -84,14 +87,16 @@ public class PlayerController : MonoBehaviour
             Debug.DrawRay(rigid.position, Vector3.down, new Color(0, 1, 0));
             RaycastHit2D rayhit = Physics2D.Raycast(rigid.position, Vector3.down, 0.5f, LayerMask.GetMask("Level"));
 
-            if (rayhit.collider != null)
+            if ( rayhit.collider != null )
             {
                 is_jump = false;
             }
+
             else
             {
-                Debug.Log("No ground detected");
+                 Debug.Log("No ground detected");
             }
+           
         }
     }
 }

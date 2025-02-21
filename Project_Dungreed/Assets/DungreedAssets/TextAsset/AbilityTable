@@ -1,0 +1,10 @@
+id,name,type,description,max_level,connected_effect,require_ability_id,require_ability_lv
+1,파워 강화,0,적에게 입히는 데미지가 높아집니다.,10,STATUS_POWER,0,0
+2,방어 강화,0,적과 함정으로부터 받는 데미지가 줄어듭니다.,10,STATUS_TOUGHNESS,0,0
+3,크리티컬 강화,0,크리티컬 히트 확률이 높아집니다.,10,STATUS_CRITICAL,0,0
+4,회피 강화,0,회피 확률이 높아집니다.,10,STATUS_EVASION,0,0
+5,체력 강화,0,체력이 높아집니다.,10,STATUS_HEALTH,0,0
+6,더블점프,0,이단 점프가 가능해집니다.,1,DOUBLE_JUMP,0,0
+7,트리플점프,0,삼단 점프가 가능해집니다.,1,TRIPLE_JUMP,6,1
+8,대쉬,0,대쉬 횟수를 늘려줍니다.,5,DASH,0,0
+9,대쉬어택,0,대쉬중 적에게 50%의 데미지로 공격을 가합니다.,5,DASH_ATTACK,0,0

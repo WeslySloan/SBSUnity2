@@ -1,0 +1,4216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<key name="Abilities_Data_Critical_Description">
+		<korean>치명상을 입히는 방법을 훈련하여 크리티컬 히트 확률을 증가시킵니다.</korean>
+		<english>Increase the chance of fatal hits to enemies by training your critical.</english>
+		<japanese>ツヴァイハンダ</japanese>
+	</key>
+	<key name="Abilities_Data_Critical_Name">
+		<korean>치명상 훈련</korean>
+		<english>Critical Hit Training</english>
+		<japanese>致命傷を覆わ方法を訓練してクリティカルヒットの確率を増加させる。</japanese>
+	</key>
+	<key name="Abilities_Data_Dash_Description">
+		<korean>최대 대쉬 횟수를 증가시킵니다.</korean>
+		<english>Increase the maximum number of dashes.</english>
+		<japanese>致命傷訓練</japanese>
+	</key>
+	<key name="Abilities_Data_Dash_Name">
+		<korean>대쉬</korean>
+		<english>Dash</english>
+		<japanese>最大ダッシュ回数を増加させます。</japanese>
+	</key>
+	<key name="Abilities_Data_DashAttack_Description">
+		<korean>대쉬로도 적을 공격할 수 있습니다. (근접무기 장착 시에만 가능)</korean>
+		<english>You can attack an enemy with a dash. (Only available with melee weapon)</english>
+		<japanese>ダッシュ</japanese>
+	</key>
+	<key name="Abilities_Data_DashAttack_Name">
+		<korean>대쉬 공격 (근접)</korean>
+		<english>Dash Attack (for Melee)</english>
+		<japanese>ダッシュでも敵を攻撃することができます。 （近接武器装着時のみ可能）</japanese>
+	</key>
+	<key name="Abilities_Data_DoubleJump_Description">
+		<korean>점프를 두 번 할 수 있습니다.</korean>
+		<english>You can jump twice on air.</english>
+		<japanese>ダッシュ攻撃（近接）</japanese>
+	</key>
+	<key name="Abilities_Data_DoubleJump_Name">
+		<korean>이단 점프</korean>
+		<english>Double Jump</english>
+		<japanese>ジャンプを二回行うことができます。</japanese>
+	</key>
+	<key name="Abilities_Data_Evasion_Description">
+		<korean>회피를 훈련하여 공격을 피하는 방법을 배웁니다.</korean>
+		<english>Increase the chance to avoid attacks from enemies by training your evasion.</english>
+		<japanese>異端ジャンプ</japanese>
+	</key>
+	<key name="Abilities_Data_Evasion_Name">
+		<korean>회피 훈련</korean>
+		<english>Evasion Training</english>
+		<japanese>回避を訓練して、攻撃を避ける方法を学びます。</japanese>
+	</key>
+	<key name="Abilities_Data_FastReload_Description">
+		<korean>재장전 속도를 향상시킵니다.</korean>
+		<english>Increase reload speed.</english>
+		<japanese>回避訓練</japanese>
+	</key>
+	<key name="Abilities_Data_FastReload_Name">
+		<korean>빠른 재장전</korean>
+		<english>Fast Reload</english>
+		<japanese>リロード速度を向上させます。</japanese>
+	</key>
+	<key name="Abilities_Data_Frenzy_Description">
+		<korean>공격 속도를 상승시킵니다.</korean>
+		<english>Increase attack speed.</english>
+		<japanese>クイックリロード</japanese>
+	</key>
+	<key name="Abilities_Data_Frenzy_Name">
+		<korean>광란의 도가니</korean>
+		<english>Frenzy</english>
+		<japanese>攻撃速度を上昇させます。</japanese>
+	</key>
+	<key name="Abilities_Data_HP_Description">
+		<korean>최대 HP를 증가시킵니다.</korean>
+		<english>Increase max HP.</english>
+		<japanese>狂乱のるつぼ</japanese>
+	</key>
+	<key name="Abilities_Data_HP_Name">
+		<korean>체력 향상</korean>
+		<english>HP Training</english>
+		<japanese>最大HPを増加させます。</japanese>
+	</key>
+	<key name="Abilities_Data_MoneyLove_Description">
+		<korean>죽었을 때 잃는 골드 페널티를 감소시킵니다.</korean>
+		<english>Reduce the gold penalty you lose when you die.</english>
+		<japanese>体力の向上</japanese>
+	</key>
+	<key name="Abilities_Data_MoneyLove_Name">
+		<korean>돈이 좋아</korean>
+		<english>Love Money</english>
+		<japanese>死んだとき失う金ペナルティを減少させます。</japanese>
+	</key>
+	<key name="Abilities_Data_Power_Description">
+		<korean>위력을 훈련하여 적에게 입히는 데미지를 증가시킵니다.</korean>
+		<english>Increase the damage to enemies by training your power.</english>
+		<japanese>お金が好き</japanese>
+	</key>
+	<key name="Abilities_Data_Power_Name">
+		<korean>위력 훈련</korean>
+		<english>Power Training</english>
+		<japanese>筋力を訓練して敵に覆わダメージを増加させます。</japanese>
+	</key>
+	<key name="Abilities_Data_Satiety_Description">
+		<korean>위를 강화(?)하여 좀 더 먹을 수 있게 됩니다.</korean>
+		<english>Strengthen(?) your stomach and you will be able to eat more.</english>
+		<japanese>筋力トレーニング</japanese>
+	</key>
+	<key name="Abilities_Data_Satiety_Name">
+		<korean>더 강한 위장</korean>
+		<english>More Strong Stomach</english>
+		<japanese>上記の強化（？）して、より食べられるようになります。</japanese>
+	</key>
+	<key name="Abilities_Data_Swiftness_Description">
+		<korean>이동속도가 증가합니다.</korean>
+		<english>Increase movement speed.</english>
+		<japanese>胃腸強化</japanese>
+	</key>
+	<key name="Abilities_Data_Swiftness_Name">
+		<korean>신속</korean>
+		<english>Fleet</english>
+		<japanese>移動速度が増加します。</japanese>
+	</key>
+	<key name="Abilities_Data_Toughness_Description">
+		<korean>근성을 훈련하여 적으로부터 받는 데미지를 감소시킵니다.</korean>
+		<english>Reduce the damage from enemies by training your toughness.</english>
+		<japanese>迅速</japanese>
+	</key>
+	<key name="Abilities_Data_Toughness_Name">
+		<korean>근성 훈련</korean>
+		<english>Toughness Training</english>
+		<japanese>根性を訓練して敵から受けるダメージを減少させます。</japanese>
+	</key>
+	<key name="Abilities_Data_TripleJump_Description">
+		<korean>삼단 점프를 할 수 있습니다.</korean>
+		<english>You can jump three times on air.</english>
+		<japanese>根性訓練</japanese>
+	</key>
+	<key name="Abilities_Data_TripleJump_Name">
+		<korean>삼단 점프</korean>
+		<english>Triple Jump</english>
+		<japanese>三段ジャンプをすることができます。</japanese>
+	</key>
+	<key name="Boss_Belial">
+		<korean>벨리알</korean>
+		<english>Belial</english>
+	</key>
+	<key name="Boss_Belial_Sub">
+		<korean>감옥의 수문장</korean>
+		<english>The guardian of prison</english>
+	</key>
+	<key name="Boss_Niflheim">
+		<korean>니플헤임</korean>
+		<english>Niflheim</english>
+	</key>
+	<key name="Boss_Niflheim_Sub">
+		<korean>얼음마녀</korean>
+		<english>Ice witch</english>
+	</key>
+	<key name="Boss_Tunak">
+		<korean>투낙</korean>
+		<english>Tunak</english>
+	</key>
+	<key name="Boss_Tunak_Sub">
+		<korean>리자드맨의 왕</korean>
+		<english>The king of lizard man</english>
+	</key>
+	<key name="Boss_Envyrok">
+		<korean>엔비록</korean>
+		<english>Envyrok</english>
+	</key>
+	<key name="Boss_Envyrok_Sub">
+		<korean>악마 소공자</korean>
+		<english>Little lord of devil</english>
+	</key>
+	<key name="Boss_SlimeMaker">
+		<korean>슬라임메이커</korean>
+		<english>Slime Maker</english>
+	</key>
+	<key name="Boss_SlimeMaker_Sub">
+		<korean>융합된 기계</korean>
+		<english>Fused machine</english>
+	</key>
+	<key name="Boss_Lasley">
+		<korean>라슬리</korean>
+		<english>Lasley</english>
+	</key>
+	<key name="Boss_Lasley_Sub">
+		<korean>마검의 포로</korean>
+		<english>Captivity of the dark sword</english>
+	</key>
+	<key name="Boss_Arsha">
+		<korean>아르샤</korean>
+		<english>Arsha</english>
+	</key>
+	<key name="Boss_Arsha_Sub">
+		<korean>대마법사</korean>
+		<english>Arch mage</english>
+	</key>
+	<key name="Boss_MaWang"/>
+	<key name="Boss_MaWang_Sub"/>
+	<key name="Build_Data_Blacksmith_Description">
+		<korean>던전 입장 전 대장장이에게 말을 걸면 유용한 아이템을 하나 얻을 수 있습니다.</korean>
+		<english>Talk to the blacksmith before you enter the dungeon and you will get one useful item.</english>
+		<japanese>ダンジョン入場前鍛冶屋に話しかける便利なアイテムを1つを得ることができます。</japanese>
+	</key>
+	<key name="Build_Data_Blacksmith_Name">
+		<korean>대장간</korean>
+		<english>Blacksmith</english>
+		<japanese>鍛冶屋</japanese>
+	</key>
+	<key name="Build_Data_Blacksmith_SubDescription">
+		<korean>대장장이가 매번 유용한 아이템을 하나 만들어 줍니다.</korean>
+		<english>The blacksmith makes one useful item each time for you. </english>
+		<japanese>鍛冶屋が毎回便利なアイテムを一つ作ってくれます。</japanese>
+	</key>
+	<key name="Build_Data_Boutique_Description">
+		<korean>의상실은 당신이 얻은 코스튬을 변경할 수 있는 곳입니다.</korean>
+		<english>The boutique is where you can change the costumes you get.</english>
+		<japanese>ブティックでは、得られたコスチュームを変更することができているところです。</japanese>
+	</key>
+	<key name="Build_Data_Boutique_Name">
+		<korean>의상실</korean>
+		<english>Boutique</english>
+		<japanese>ブティック</japanese>
+	</key>
+	<key name="Build_Data_Boutique_SubDescription">
+		<korean>얻은 의상을 둘러보고, 교체할 수 있습니다.</korean>
+		<english>You can look around and reUI_Place your costumes.</english>
+		<japanese>日があり</japanese>
+	</key>
+	<key name="Build_Data_Gunsmith_Description">
+		<korean>다양한 총기류 아이템의 잠금이 해제되었습니다. 또한, 기본무기로 피스톨도 얻을 수 있습니다!</korean>
+		<english>Various firearm items are unlocked. Also, you can get a pistol as a base weapon!</english>
+		<japanese>UZI</japanese>
+	</key>
+	<key name="Build_Data_Gunsmith_Name">
+		<korean>총기공방</korean>
+		<english>Gunsmith</english>
+		<japanese>銃工房</japanese>
+	</key>
+	<key name="Build_Data_Gunsmith_SubDescription">
+		<korean>다양한 총기류가 던전에 추가됩니다. </korean>
+		<english>Unlocked variety of "Guns" in the dungeon.</english>
+		<japanese>様々な銃器がダンジョンに追加されます。</japanese>
+	</key>
+	<key name="Build_Data_Inn_Description">
+		<korean>여관주인이 음식을 만들어 줍니다. 물론 당연히 공짜는 아니죠!</korean>
+		<english>The owner makes food. Of course not for free!</english>
+		<japanese>宿屋の主人が料理を作ってくれます。 もちろん当然タダではないよ！</japanese>
+	</key>
+	<key name="Build_Data_Inn_Name">
+		<korean>여관</korean>
+		<english>Inn</english>
+		<japanese>旅館</japanese>
+	</key>
+	<key name="Build_Data_Inn_SubDescription">
+		<korean>여관에서 식사할 수 있습니다.</korean>
+		<english>You can dine at the inn.</english>
+		<japanese>ダンジョンに入る前に商品を購入することができます。</japanese>
+	</key>
+	<key name="Build_Data_Shop_Description">
+		<korean>상인으로부터 물건을 사서 던전에 입장할 수 있습니다. 판매하는 물건은 매번 바뀝니다.</korean>
+		<english>You can buy goods from the merchant and enter the dungeon. Selling things will change each time.</english>
+		<japanese>バンチョンファグク</japanese>
+	</key>
+	<key name="Build_Data_Shop_Name">
+		<korean>상점</korean>
+		<english>Shop</english>
+		<japanese>店</japanese>
+	</key>
+	<key name="Build_Data_Shop_SubDescription">
+		<korean>던전에 들어가기 전에 물건을 살 수 있습니다.</korean>
+		<english>You can buy things before you enter the dungeon.</english>
+		<japanese>商人から品物を買ってダンジョンに入場することができます。 販売しているものは、毎回変わります。</japanese>
+	</key>
+	<key name="Build_Data_Temple_Description">
+		<korean>무기를 바쳐 새로운 무기를 받을 수 있습니다.</korean>
+		<english>You can give up your weapons and receive new weapons.</english>
+		<japanese>祭壇</japanese>
+	</key>
+	<key name="Build_Data_Temple_Name">
+		<korean>신전</korean>
+		<english>Temple</english>
+		<japanese>神殿</japanese>
+	</key>
+	<key name="Build_Data_Temple_SubDescription">
+		<korean>신 페리누를 받들어 모시는 곳입니다. 기도를 드릴 수 있습니다.</korean>
+		<english>A temple dedicated to Perinue. You can pray.</english>
+		<japanese>新フェリー押すもっていただくところです。 祈りをささげることができます。</japanese>
+	</key>
+	<key name="Build_Data_TrainingCenter_Description">
+		<korean>카블로비나가 운영하게 될 훈련장입니다. 당신의 능력치를 상승시킬 수 있습니다.</korean>
+		<english>This is the Training School of Coblovina. You can train your abilities.</english>
+		<japanese>いつもと変わらなかった平和な町。</japanese>
+	</key>
+	<key name="Build_Data_TrainingCenter_Name">
+		<korean>훈련장</korean>
+		<english>Training School</english>
+		<japanese>タウンポータル</japanese>
+	</key>
+	<key name="Build_Data_TrainingCenter_SubDescription">
+		<korean>모험가의 능력치를 훈련할 수 있습니다.</korean>
+		<english>You can train your abilities.</english>
+		<japanese>三段ジャンプ</japanese>
+	</key>
+	<key name="CutScene_TutorialEnd_YulfordFirst_0">
+		<korean>……?! 마을로 돌아왔군!</korean>
+		<english>……?! 
+We're back in village!</english>
+		<japanese>... ... ？！ 村に戻ってきた！</japanese>
+	</key>
+	<key name="CutScene_TutorialEnd_YulfordFirst_1">
+		<korean>그 포탈을 통해 마을로 올 수 있는 것 같네…</korean>
+		<english>It seems that we can come to village through that portal.</english>
+		<japanese>そのポータルを介して村に来ることができるようだね...</japanese>
+	</key>
+	<key name="CutScene_TutorialEnd_YulfordFirst_2">
+		<korean>그나저나 마을이 폐허가 되었구만…</korean>
+		<english>By the way, the village has been ruined ...</english>
+		<japanese>とにかく町が廃墟がドゥェオトグが...</japanese>
+	</key>
+	<key name="CutScene_TutorialEnd_YulfordFirst_3">
+		<korean>이를 어쩌면 좋을지….</korean>
+		<english>What should I do..?</english>
+		<japanese>武器</japanese>
+	</key>
+	<key name="CutScene_TutorialEnd_YulfordNo_0">
+		<korean>….</korean>
+		<english>……</english>
+		<japanese>... 。</japanese>
+	</key>
+	<key name="CutScene_TutorialEnd_YulfordNo_1">
+		<korean>허허허! 역시 모험가… "도와준다니" 무척이나 고맙군 그래! 잘 부탁하네!</korean>
+		<english>Hahaha! Thank you very much for your "help"! </english>
+		<japanese>ホホホ！ やはり冒険家... 手伝ってくれるなんてとてもゴマプグンはい！ よろしくお願いね！</japanese>
+	</key>
+	<key name="CutScene_TutorialEnd_YulfordNo_2">
+		<korean>(아무래도 내 말은 귓등으로도 듣지 않은 듯하다)</korean>
+		<english>(I think he doesn't hear my answer)</english>
+		<japanese>（どうやら私はグィトドゥンにも聞いていないようだ）</japanese>
+	</key>
+	<key name="CutScene_TutorialEnd_YulfordSecond_0">
+		<korean>이보게 모험가여! 자네에게 부탁이 있네!</korean>
+		<english>Explorer! Please listen to me.</english>
+		<japanese>ロース冒険よ！ あなたにお願いがあるのね！</japanese>
+	</key>
+	<key name="CutScene_TutorialEnd_YulfordSecond_1">
+		<korean>나 말고도 던전에 빨려 들어간 사람이 많다네, 그 사람들을 찾아줄 수 있겠는가? 여력이 된다면 나는 마을을 재건할 준비를 하도록 하겠네.</korean>
+		<english>There are many villager who are left in the dungeon. Can you find them? I will prepare to rebuild the village.</english>
+		<japanese>注視者</japanese>
+	</key>
+	<key name="CutScene_TutorialEnd_YulfordSecond_2">
+		<korean>해줄 수 있겠는가?</korean>
+		<english>Could you do it?</english>
+		<japanese>てくれることでしょうか。</japanese>
+	</key>
+	<key name="CutScene_TutorialEnd_YulfordYes_0">
+		<korean>역시 모험가… 의협심이 넘치는군! 무척 고맙네!</korean>
+		<english>Explorer... You are full of chivalry! </english>
+		<japanese>やはり冒険家... 男気あふれる君！ すごくねぇ！</japanese>
+	</key>
+	<key name="CutScene_TutorialEnd_YulfordYes_1">
+		<korean>그럼 앞으로 잘 부탁하네!</korean>
+		<english>Thank you very much!</english>
+		<japanese>それではこれからよろしくお願いね！</japanese>
+	</key>
+	<key name="Dungeon_StroyStone0_0">
+		<korean>날짜: 왕국력 2월 2일, 탐사 계층: 1층</korean>
+		<english>Date: Kingdom February 2, Exploration Hierarchy: 1st floor</english>
+		<japanese>冒険家の能力値を訓練することができます。</japanese>
+	</key>
+	<key name="Dungeon_StroyStone0_1">
+		<korean>던전의 입구를 탐사한 후 마을을 나오려 해 보았으나 알 수 없는 이유로 인해 마을 밖을 나갈 수 없었다.</korean>
+		<english>After exploring the entrance to the dungeon, I tried to get out of the village, but I could not leave the village because of unknown reasons.</english>
+		<japanese>日：王国暦2月2日、探査層：1階</japanese>
+	</key>
+	<key name="Dungeon_StroyStone0_2">
+		<korean>짐작건데 던전의 함정으로 인해 내부의 장치를 해제하지 않으면 나갈 수 없는 것 같다. </korean>
+		<english>I guess I can not get out without releasing the internal device due to the trap of the dungeon.</english>
+		<japanese>ダンジョンの入り口を探査した後、町を出ようとしてましたが、未知の理由のために村の外を出て行くことができなかった。</japanese>
+	</key>
+	<key name="Dungeon_StroyStone0_3">
+		<korean>던전의 내부에는 마을의 잔재가 남아있어 이 던전이 마을을 통째로 빨아들인 것 같다.</korean>
+		<english>Inside the dungeon there is a remnant of the village, and this dungeon seems to have swallowed the entire village.</english>
+		<japanese>推測だがダンジョンのトラップに起因内部の装置を解除しないとしていくことができないようだ。</japanese>
+	</key>
+	<key name="Dungeon_StroyStone0_4">
+		<korean>혹시 마을 사람들도 같이 빨려 들어갔는지 확인하기로 하였다.</korean>
+		<english>I decided to check if villager were sucked in together.</english>
+		<japanese>ダンジョンの内部には、町の残滓が残っており、このダンジョンが町を丸ごと吸い込んだようだ。</japanese>
+	</key>
+	<key name="Dungeon_StroyStone1_0">
+		<korean>날짜: 왕국력 2월 6일, 탐사 계층: 3층</korean>
+		<english>Date: Kingdom Day February 6, Exploration Hierarchy: 3rd Floor</english>
+		<japanese>もしかしたら、村の人々も一緒に吸い込まれていったのかを確認することにした。</japanese>
+	</key>
+	<key name="Dungeon_StroyStone1_1">
+		<korean>폐허가 된 마을을 거점으로 하여, 던전을 조금씩 탐사하고 있으며, 현재 위치는 3층이라고 추정된다.</korean>
+		<english>Based on the ruined village, we are exploring the dungeon little by little and its current location is estimated to be on the third floor.</english>
+		<japanese>日：王国暦2月6日、探査層：3層</japanese>
+	</key>
+	<key name="Dungeon_StroyStone1_2">
+		<korean>던전의 끝은 아직 보이지 않고, 던전의 모양새 또한 크게 달라지지 않고 있다.</korean>
+		<english>The end of the dungeon is not yet visible, and the appearance of the dungeon is not greatly changed.</english>
+		<japanese>廃墟となった村を拠点とし、ダンジョンを少しずつ探査しており、現在の位置は、3階と推定される。</japanese>
+	</key>
+	<key name="Dungeon_StroyStone1_3">
+		<korean>가끔 돌벽이 아닌 흙벽 등이 있는 것을 보았을 때, 흙이나 나무 등도 그대로 빨려 들어간 것 같다.</korean>
+		<english>Sometimes when I saw that there was an earthen wall rather than a stone wall, it seemed that the soil and the trees were also sucked in.</english>
+		<japanese>ダンジョンの終わりはまだ見えず、ダンジョンの姿も大きく変わっていない。</japanese>
+	</key>
+	<key name="Dungeon_StroyStone1_4">
+		<korean>마을 사람이라고 추정되는 사람은 아직 발견하지 못하였다.</korean>
+		<english>I have not found anyone who is supposed to be a village.</english>
+		<japanese>時々岸壁ではなく、土などがあることを見たとき、土や木なども、そのまま吸い込まれたようだ。</japanese>
+	</key>
+	<key name="Dungeon_StroyStone2_0">
+		<korean>날짜: 왕국력 2월 13일, 탐사 계층: 5층</korean>
+		<english>Date: Kingdom Day February 13th, Exploration Hierarchy: 5th Floor</english>
+		<japanese>村人と推定される人は、まだ発見していなかった。</japanese>
+	</key>
+	<key name="Dungeon_StroyStone2_1">
+		<korean>마을 사람이라고 추정되는 사람을 발견하였으나, 한눈을 판 사이에 사라져 버렸다.</korean>
+		<english>I found a person who was supposed to be a village man, but he disappeared between the glances.</english>
+		<japanese>日：王国暦2月13日、探査層：5階</japanese>
+	</key>
+	<key name="Dungeon_StroyStone2_2">
+		<korean>본인이 길을 잘 못 찾는다고 주의를 받아 예의 주시하고 있었지만</korean>
+		<english>I was paying attention to the fact that I could not find my way,</english>
+		<japanese>村人と推定される人を発見したが、一目を板との間に消えてしまった。</japanese>
+	</key>
+	<key name="Dungeon_StroyStone2_3">
+		<korean>몬스터와 싸우는 도중 사라져 버렸다. 던전을 탐사하며 다시 그 사람을 찾아보기로 하였다.</korean>
+		<english>It disappeared while fighting monsters. He explored the dungeon and decided to look again.</english>
+		<japanese>本人が道をよく探せないと注意を受けて注視していたが</japanese>
+	</key>
+	<key name="Dungeon_StroyStone3_0">
+		<korean>날짜: 왕국력 3월 5일, 탐사 계층: 7층</korean>
+		<english>Date: Kingdom Day March 5, Exploration Hierarchy: 7th Floor</english>
+		<japanese>モンスターと戦う時に消えてしまった。 ダンジョンを探索し、再びその人を見つけてみることにした。</japanese>
+	</key>
+	<key name="Dungeon_StroyStone3_1">
+		<korean>던전의 환경이 변화하고 있다. 이곳은 춥고 눈들이 쌓여 녹지 않는다.</korean>
+		<english>The environment of the dungeon is changing. It is cold and snowy, so it does not melt.</english>
+		<japanese>日：王国暦3月5日、探査層：7階</japanese>
+	</key>
+	<key name="Dungeon_StroyStone3_2">
+		<korean>던전에 환경에 몬스터들이 생기거나 변화하는 조짐을 확인하였다.</korean>
+		<english>In the dungeon, there were signs that monsters appeared or changed in the environment.</english>
+		<japanese>ダンジョンの環境が変化している。 ここでは、寒くて雪が積もって溶けない。</japanese>
+	</key>
+	<key name="Dungeon_StroyStone3_3">
+		<korean>시체가 남는 몬스터와 그렇지 않은 몬스터가 있어 인위적으로 던전에서 생성된 몬스터가 존재하는 것 같다.</korean>
+		<english>There are monsters remaining in the body and non-monsters, so it seems that there are artifacts created in the dungeon.</english>
+		<japanese>ダンジョンに環境にモンスターが生じたり、変化する兆しを確認した。</japanese>
+	</key>
+	<key name="Dungeon_StroyStone4_0">
+		<korean>날짜: 왕국력 3월 19일, 탐사 계층: 9층</korean>
+		<english>Date: Kingdom Day March 19, Exploration Hierarchy: 9th Floor</english>
+		<japanese>死体が残るモンスターとそうでないモンスターがいて、人為的にダンジョンで生成されたモンスターが存在するようだ。</japanese>
+	</key>
+	<key name="Dungeon_StroyStone4_1">
+		<korean>던전의 층이 바뀌고 환경 또한 급속하게 바뀌었다.</korean>
+		<english>The layers of the dungeon have changed and the environment has also changed rapidly.</english>
+		<japanese>日：王国暦3月19日、探査層：9階</japanese>
+	</key>
+	<key name="Dungeon_StroyStone4_2">
+		<korean>시간에 따라 던전의 배치가 달라지지만, 4층마다 환경이 변화하는 것으로 확인되었다.</korean>
+		<english>The layout of the dungeons varies with time, but it has been confirmed that the environment changes every fourth floor.</english>
+		<japanese>ダンジョンの層が変わって環境も急速に変わった。</japanese>
+	</key>
+	<key name="Dungeon_StroyStone4_3">
+		<korean>현재 탐험 일지에는 지하감옥, 얼음, 정글이라고 임의로 지칭하였다.</korean>
+		<english>The explorer's journal now refers to dungeons, ice, and jungles.</english>
+		<japanese>時間に応じてダンジョンの配置が異なりますが、4階に環境が変化することが確認された。</japanese>
+	</key>
+	<key name="Dungeon_StroyStoneName">
+		<korean>무언가 쓰여져 있는 비석</korean>
+		<english>The Message stone</english>
+		<japanese>何か書かれている記念碑</japanese>
+	</key>
+	<key name="Dungeon_TheAltar_Name">
+		<korean>제단</korean>
+		<english>Altar</english>
+		<japanese>祭壇</japanese>
+	</key>
+	<key name="Dungeon_TheAltar_Say_Before_0">
+		<korean>무언가 올려놓을 수 있는 제단처럼 보인다.</korean>
+		<english>It looks like an altar to put something on.</english>
+		<japanese>現在探索日誌には、地下牢、氷、ジャングルと任意呼ばれた。</japanese>
+	</key>
+	<key name="Dungeon_TheAltar_Say_Main_0">
+		<korean>여신을 모시는 제단입니다. 공물을 바치시겠습니까?</korean>
+		<english>It is an altar to the goddess. Do you offer a tribute?</english>
+		<japanese>何か置くことができる祭壇のように見える。</japanese>
+	</key>
+	<key name="Dungeon_TownPortal_Inactivated">
+		<korean>(작동시키려면 층을 모두 밝혀야 합니다.)</korean>
+		<english>(You need to mark all rooms in the floor.)</english>
+		<japanese>女神を祀る祭壇です。 トリビュートを捧げたいですか？</japanese>
+	</key>
+	<key name="Dungeon_TownPortal_Inactivated_Tutorial">
+		<korean>작동하지 않는 듯하다.</korean>
+		<english>(It seems to be inactivated)</english>
+		<japanese>動作していないようだ。</japanese>
+	</key>
+	<key name="Dungeon_TownPortal_Name">
+		<korean>포탈</korean>
+		<english>The Portal</english>
+		<japanese>村</japanese>
+	</key>
+	<key name="Food_Data_SpecialtyCookedMeat_Name">
+		<korean>특제 고기 요리</korean>
+		<english>Specialty coocked meat</english>
+	</key>
+	<key name="Food_Data_SpecialtyCookedMeat_Description">
+		<korean>주인장이 자신있게 내놓는 요리!</korean>
+		<english>Cooked by the owner confidently!</english>
+	</key>
+	<key name="Food_Data_SmallBird_Name">
+		<korean>양념된 작은 새</korean>
+		<english>Seasoning small bird</english>
+	</key>
+	<key name="Food_Data_SmallBird_Description"/>
+	<key name="Food_Data_HotChickenStew_Name">
+		<korean>매운 치킨 스튜</korean>
+		<english>Hot chicken stew</english>
+	</key>
+	<key name="Food_Data_HotChickenStew_Description"/>
+	<key name="Food_Data_DeluxeBurger_Name">
+		<korean>디럭스 버거</korean>
+		<english>Deluxe burger</english>
+	</key>
+	<key name="Food_Data_DeluxeBurger_Description"/>
+	<key name="Food_Data_Bread_Name">
+		<korean>빵</korean>
+		<english>Bread</english>
+	</key>
+	<key name="Food_Data_Bread_Description"/>
+	<key name="Food_Data_StrawberryPie_Name">
+		<korean>딸기 파이</korean>
+		<english>Strawberry pie</english>
+	</key>
+	<key name="Food_Data_StrawberryPie_Description"/>
+	<key name="Food_Data_MinotaurSteak_Name">
+		<korean>미노타우루스 스테이크</korean>
+		<english>Minotaur steak</english>
+	</key>
+	<key name="Food_Data_MinotaurSteak_Description">
+		<korean>먹으면 죽은사람도 벌떡 일어난다는 그 맛!</korean>
+		<english>The taste that revive people who dead!</english>
+	</key>
+	<key name="Food_Data_FriedEgg_Name">
+		<korean>계란 프라이</korean>
+		<english>Fried egg</english>
+	</key>
+	<key name="Food_Data_FriedEgg_Description"/>
+	<key name="Food_Data_Bibimbap_Name">
+		<korean>비빔밥</korean>
+		<english>Bibimbap</english>
+	</key>
+	<key name="Food_Data_Bibimbap_Description"/>
+	<key name="Food_Data_TomatoSoup_Name">
+		<korean>토마토수프</korean>
+		<english>Tomato soup</english>
+	</key>
+	<key name="Food_Data_TomatoSoup_Description"/>
+	<key name="Food_Data_OnionSoup_Name">
+		<korean>양파 수프</korean>
+		<english>Onion soup</english>
+	</key>
+	<key name="Food_Data_OnionSoup_Description"/>
+	<key name="Food_Data_PeaSoup_Name">
+		<korean>완두콩 수프</korean>
+		<english>Pea soup</english>
+	</key>
+	<key name="Food_Data_PeaSoup_Description"/>
+	<key name="Food_Data_VegetableSalsaSoup_Name">
+		<korean>야채 살사 수프</korean>
+		<english>Vegetable salsa soup</english>
+	</key>
+	<key name="Food_Data_VegetableSalsaSoup_Description"/>
+	<key name="Food_Data_SweetMeatball_Name">
+		<korean>달콤한 소스 미트볼</korean>
+		<english>Meatball with sweet sauce</english>
+	</key>
+	<key name="Food_Data_SweetMeatball_Description"/>
+	<key name="Food_Data_SpicyMeatball_Name">
+		<korean>매운 소스 미트볼</korean>
+		<english>Meatball with spicy sauce</english>
+	</key>
+	<key name="Food_Data_SpicyMeatball_Description"/>
+	<key name="Food_Data_GarlicMeatball_Name">
+		<korean>양파 소스 미트볼</korean>
+		<english>Meatball with garlic sauce</english>
+	</key>
+	<key name="Food_Data_GarlicMeatball_Description"/>
+	<key name="Food_Data_Beer_Name">
+		<korean>맥주</korean>
+		<english>Beer</english>
+	</key>
+	<key name="Food_Data_Beer_Description"/>
+	<key name="Food_Data_ChocolateCookie_Name">
+		<korean>초콜릿 쿠키</korean>
+		<english>Chocolate cookie</english>
+	</key>
+	<key name="Food_Data_ChocolateCookie_Description"/>
+	<key name="Food_Data_RaspberryCookie_Name">
+		<korean>라즈베리 쿠키</korean>
+		<english>Raspberry cookie</english>
+	</key>
+	<key name="Food_Data_RaspberryCookie_Description"/>
+	<key name="Food_Data_GriffinEggOmelet_Name">
+		<korean>그리핀 알 오믈렛</korean>
+		<english>Griffin egg omelet</english>
+	</key>
+	<key name="Food_Data_GriffinEggOmelet_Description"/>
+	<key name="Food_Data_GrilledMushroom_Name">
+		<korean>구운 버섯</korean>
+		<english>Grilled mushroom</english>
+	</key>
+	<key name="Food_Data_GrilledMushroom_Description"/>
+	<key name="Food_Data_Lemonade_Name">
+		<korean>레몬에이드</korean>
+		<english>Lemonade</english>
+	</key>
+	<key name="Food_Data_Lemonade_Description"/>
+	<key name="IntroText_0">
+		<korean>여느때와 다름없던 평화로운 마을.</korean>
+		<english>There was a peaceful village.</english>
+		<japanese>私以外にもダンジョンに吸い込まれた人が多いはい、それらの人々を見つけることができるだろう？ 余力があれば、私は村を再建する準備をするようにするのね。</japanese>
+	</key>
+	<key name="IntroText_1">
+		<korean>마을에 나타난 의문의 던전은
+모든 것을 집어삼켰습니다.</korean>
+		<english>The mysterious dungeon appeared in village
+ and swallowed everything.</english>
+		<japanese>村に現れた謎の構造物は、 </japanese>
+	</key>
+	<key name="IntroText_2">
+		<korean>그로부터 2주 후…</korean>
+		<english>2 weeks later..</english>
+		<japanese>それから2週間後...</japanese>
+	</key>
+	<key name="Item_Data_AdvancedPistol_Description">
+		<korean>반짝반짝 광이 나는 피스톨</korean>
+		<english>A glittering pistol</english>
+		<japanese>キラキラ光が私ピストル</japanese>
+	</key>
+	<key name="Item_Data_AdvancedPistol_Name">
+		<korean>고급 권총</korean>
+		<english>Advanced Pistol</english>
+		<japanese>高級拳銃</japanese>
+	</key>
+	<key name="Item_Data_AK77_Description">
+		<korean>아주 튼튼한, 믿음직한 총입니다.</korean>
+		<english>It is a very strong, reliable gun.</english>
+		<japanese>非常に頑丈な、信頼できる銃です。</japanese>
+	</key>
+	<key name="Item_Data_AK77_Name">
+		<korean>AK-77</korean>
+		<english>AK-77</english>
+		<japanese>AK-77</japanese>
+	</key>
+	<key name="Item_Data_ARC-920_Description">
+		<korean>먼 별의 주방장이 사용하던 레일건 </korean>
+		<english>The rail gun used by the chef of distant stars</english>
+		<japanese>遠い星のシェフが使っていたレールガン</japanese>
+	</key>
+	<key name="Item_Data_ARC-920_Name">
+		<korean>ARC-920</korean>
+		<english>ARC-920</english>
+		<japanese>ARC-920</japanese>
+	</key>
+	<key name="Item_Data_AutoReloadRobot_Description">
+		<korean>이친구가 자동으로 재장전해줄 겁니다.</korean>
+		<english>This guy will automatically reload weapons.</english>
+		<japanese>（動作させるには層の両方を明らかにすします。）</japanese>
+	</key>
+	<key name="Item_Data_AutoReloadRobot_Name">
+		<korean>자동 재장전 로봇</korean>
+		<english>Auto Reload Robot</english>
+		<japanese>自動リロードロボット</japanese>
+	</key>
+	<key name="Item_Data_BambooSword_Description">
+		<korean>날 없이 검술 훈련을 할 때 사용되는 검 </korean>
+		<english>Sword used when training fencing without me</english>
+		<japanese>日なしで剣術の訓練をするときに使用されている剣</japanese>
+	</key>
+	<key name="Item_Data_BambooSword_Name">
+		<korean>죽도 </korean>
+		<english>Bamboo Sword</english>
+		<japanese>竹島</japanese>
+	</key>
+	<key name="Item_Data_Berdysh_Description">
+		<korean>초승달모양의 날이 선 무기 </korean>
+		<english>Crescent-shaped weapon</english>
+		<japanese>三日月形の日が線武器</japanese>
+	</key>
+	<key name="Item_Data_Berdysh_Name">
+		<korean>버디슈</korean>
+		<english>Berdysh</english>
+		<japanese>バディシュー</japanese>
+	</key>
+	<key name="Item_Data_BlackRoseSword_Description">
+		<korean>주방의 필수품이 다시 돌아왔습니다. </korean>
+		<english>The necessities of the kitchen came back.</english>
+		<japanese>キッチンの必需品が戻ってきました。</japanese>
+	</key>
+	<key name="Item_Data_BlackRoseSword_Name">
+		<korean>흑장미칼 </korean>
+		<english>BlackRose Sword</english>
+		<japanese>黒薔薇の剣</japanese>
+	</key>
+	<key name="Item_Data_BlessingOfSage_Description">
+		<korean>현자가 쓰다듬어 주었습니다.</korean>
+		<english>The sage stroked it.</english>
+		<japanese>賢者が撫でてくれました。</japanese>
+	</key>
+	<key name="Item_Data_BlessingOfSage_Name">
+		<korean>현자의 축복 </korean>
+		<english>Blessing Of Sage</english>
+		<japanese>賢者の祝福</japanese>
+	</key>
+	<key name="Item_Data_BloodstoneNecklace_Description">
+		<korean>붉은 기운이 말을 걸어옵니다.</korean>
+		<english>The red energy comes to the conversation.</english>
+		<japanese>この友人が自動的にリロード伝えるでしょう。</japanese>
+	</key>
+	<key name="Item_Data_BloodstoneNecklace_Name">
+		<korean>혈석 목걸이</korean>
+		<english>Bloodstone Necklace</english>
+		<japanese>ブラッドストーンネックレス</japanese>
+	</key>
+	<key name="Item_Data_BloodstoneRing_Description">
+		<korean>혈석 반지 설명</korean>
+		<english>not feel strong as strong as a bloodstone necklace.</english>
+		<japanese>ブラッドストーンネックレス説明</japanese>
+	</key>
+	<key name="Item_Data_BloodstoneRing_Name">
+		<korean>혈석 반지</korean>
+		<english>Bloodstone Ring</english>
+		<japanese>ブラッドストーンリング</japanese>
+	</key>
+	<key name="Item_Data_Blunderbuss_Description">
+		<korean>딸이 있는 아버지들이 사랑하는 총 </korean>
+		<english>A daughter's father loves a gun</english>
+		<japanese>娘が父が愛して総</japanese>
+	</key>
+	<key name="Item_Data_Blunderbuss_Name">
+		<korean>나팔총</korean>
+		<english>Blunderbuss</english>
+		<japanese>ラッパ銃</japanese>
+	</key>
+	<key name="Item_Data_BombPouch_Description">
+		<korean>폭탄이 가득 담긴 주머니입니다.</korean>
+		<english>A pouch full of BOMBS!</english>
+		<japanese>爆弾がいっぱい詰まった袋です。</japanese>
+	</key>
+	<key name="Item_Data_BombPouch_Name">
+		<korean>폭탄 주머니</korean>
+		<english>Bomb Pouch</english>
+		<japanese>爆弾袋</japanese>
+	</key>
+	<key name="Item_Data_BombShooter_Description">
+		<korean>원격으로 폭발하는 점착폭탄을 발사합니다.</korean>
+		<english>Fires a sticky bomb that explodes remotely.</english>
+		<japanese>リモートで爆発する粘着爆弾を発射します。</japanese>
+	</key>
+	<key name="Item_Data_BombShooter_Name">
+		<korean>폭탄 발사기</korean>
+		<english>BombShooter</english>
+		<japanese>爆弾ランチャー</japanese>
+	</key>
+	<key name="Item_Data_Boomerang_Description">
+		<korean>부메랑은 돌아오지만 사랑은 돌아오지 않습니다.</korean>
+		<english>The boomerang comes back, but love does not come back.</english>
+		<japanese>ブラッドストーンリング説明</japanese>
+	</key>
+	<key name="Item_Data_Boomerang_Name">
+		<korean>부메랑</korean>
+		<english>Boomerang</english>
+		<japanese>ブーメラン</japanese>
+	</key>
+	<key name="Item_Data_BouncyBall_Description">
+		<korean>탱탱볼 설명</korean>
+		<english>Description of Tengenball</english>
+		<japanese>ブーメランは戻ってくる愛は戻りません。</japanese>
+	</key>
+	<key name="Item_Data_BouncyBall_Name">
+		<korean>탱탱볼</korean>
+		<english>Bouncy Ball</english>
+		<japanese>テンテンボル</japanese>
+	</key>
+	<key name="Item_Data_BountyHunter_Description">
+		<korean>유명한 현상금 사냥꾼이 즐겨 사용했다는 리볼버</korean>
+		<english>The famous bounty hunter's favorite revolver</english>
+		<japanese>テンテンボル説明</japanese>
+	</key>
+	<key name="Item_Data_BountyHunter_Name">
+		<korean>현상금 사냥꾼</korean>
+		<english>BountyHunter</english>
+		<japanese>バウンティハンター</japanese>
+	</key>
+	<key name="Item_Data_Bow_Description">
+		<korean>해골 병사가 사용하는 낡은 활</korean>
+		<english>An old bow used by a skeleton soldier</english>
+		<japanese>有名な賞金稼ぎがよく使用したリボルバー</japanese>
+	</key>
+	<key name="Item_Data_Bow_Name">
+		<korean>낡은 활</korean>
+		<english>RustyBow</english>
+		<japanese>古い弓</japanese>
+	</key>
+	<key name="Item_Data_Bullion_Description">
+		<korean>상점에 팔면 돈이 될지도..?</korean>
+		<english>Would it be worth the money to sell it to a store?</english>
+		<japanese>スケルトン兵士が使用する古い弓</japanese>
+	</key>
+	<key name="Item_Data_Bullion_Name">
+		<korean>백금괴</korean>
+		<english>Platinum Bullion</english>
+		<japanese>プラチナ</japanese>
+	</key>
+	<key name="Item_Data_ButterflyKnife_Description">
+		<korean>고등학생은 MTB, 초등학생은 치마 들치기, 중학생은….</korean>
+		<english>MTB for high school students, skirts for elementary school students, junior high school students ... .</english>
+		<japanese>店に売ればお金になるかも..？</japanese>
+	</key>
+	<key name="Item_Data_ButterflyKnife_Name">
+		<korean>버터플라이 나이프</korean>
+		<english>Butterfly Knife</english>
+		<japanese>バタフライナイフ</japanese>
+	</key>
+	<key name="Item_Data_ChainArmor_Description">
+		<korean>가볍지만, 소리가 커서 발걸음이 위축되는 갑옷 </korean>
+		<english>Lightweight, but with a loud sound,</english>
+		<japanese>高校生はMTB、小学生はスカートめくり、中学生は... 。</japanese>
+	</key>
+	<key name="Item_Data_ChainArmor_Name">
+		<korean>사슬갑옷</korean>
+		<english>Chain Armor</english>
+		<japanese>チェーンメイル</japanese>
+	</key>
+	<key name="Item_Data_Chakram_Description">
+		<korean>동방의 전투집단에서 사용된 둥근 원형 무기 </korean>
+		<english>Round circular weapon used in the Eastern fighting group</english>
+		<japanese>軽いが、音が大きく足が萎縮されている鎧</japanese>
+	</key>
+	<key name="Item_Data_Chakram_Name">
+		<korean>차크람 </korean>
+		<english>Chakram</english>
+		<japanese>チャクラム</japanese>
+	</key>
+	<key name="Item_Data_CharmOfMadness_Description">
+		<korean>광기의 부적 설명</korean>
+		<english>Explanation of Amulet of Madness</english>
+		<japanese>東方の戦闘集団で使用された円形の円形武器</japanese>
+	</key>
+	<key name="Item_Data_CharmOfMadness_Name">
+		<korean>광기의 부적</korean>
+		<english>Charm of madness</english>
+		<japanese>狂気のお守り</japanese>
+	</key>
+	<key name="Item_Data_CharmOfPower_Description">
+		<korean>위력의 부적 설명</korean>
+		<english>Explain the talisman of power</english>
+		<japanese>狂気のお守り説明</japanese>
+	</key>
+	<key name="Item_Data_CharmOfPower_Name">
+		<korean>위력의 부적</korean>
+		<english>Charm of power</english>
+		<japanese>威力のお守り</japanese>
+	</key>
+	<key name="Item_Data_Chef'sSalvation_Description">
+		<korean>과거 위기에 빠진 세계를 구했다고 전해지는 뒤집개. 믿거나 말거나 (?)</korean>
+		<english>It is said to have saved the world in the past crisis. Believe it or not (?)</english>
+		<japanese>威力のお守り説明</japanese>
+	</key>
+	<key name="Item_Data_Chef'sSalvation_Name">
+		<korean>셰프의 구원</korean>
+		<english>Chef's Salvation</english>
+		<japanese>シェフの救い</japanese>
+	</key>
+	<key name="Item_Data_CheonjaGun_Description">
+		<korean>미사일이나 대포를 발사하는 먼 동방의 화포 </korean>
+		<english>A far east canvas that launches a missile or cannon</english>
+		<japanese>過去の危機に陥った世界を救ったと伝えられるフライ返し。 信じられないかもしれません（？）</japanese>
+	</key>
+	<key name="Item_Data_CheonjaGun_Name">
+		<korean>천자총통</korean>
+		<english>Cheonja Cannon</english>
+		<japanese>穿刺総統</japanese>
+	</key>
+	<key name="Item_Data_CowhideDress_Description">
+		<korean>명품 소가죽갑옷.... 근데 좀 꽉 낍니다.</korean>
+		<english>A luxury leather armor .... but a little tight.</english>
+		<japanese>ミサイルや大砲を発射する遠い東方のキャンバス</japanese>
+	</key>
+	<key name="Item_Data_CowhideDress_Name">
+		<korean>소가죽갑옷</korean>
+		<english>Cowhide Dress</english>
+		<japanese>牛革アーマー</japanese>
+	</key>
+	<key name="Item_Data_CrossShield_Description">
+		<korean>왕국 기사단의 방패입니다.</korean>
+		<english>Shield of Kingdom knights.</english>
+		<japanese>王国騎士団の盾です。</japanese>
+	</key>
+	<key name="Item_Data_CrossShield_Name">
+		<korean>십자 방패</korean>
+		<english>Cross Shield</english>
+		<japanese>十字の盾</japanese>
+	</key>
+	<key name="Item_Data_DaimyoOakBow_Description">
+		<korean>단단해서 때리는 데 쓸 수도 있을 것 같습니다. </korean>
+		<english>I think I could use it hard to beat.</english>
+		<japanese>固くて殴るのに使うこともできるようです。</japanese>
+	</key>
+	<key name="Item_Data_DaimyoOakBow_Name">
+		<korean>떡갈나무 활</korean>
+		<english>Daimyo Oak Bow</english>
+		<japanese>樫の木の弓</japanese>
+	</key>
+	<key name="Item_Data_DangerousShotgun_Description">
+		<korean>무척 강하지만 매우 조심히 다뤄야 합니다. </korean>
+		<english>It's very strong, but you have to be very careful.</english>
+		<japanese>非常に強いが、非常に注意しながら扱うます。</japanese>
+	</key>
+	<key name="Item_Data_DangerousShotgun_Name">
+		<korean>위험한 산탄총</korean>
+		<english>Dangerous Shotgun</english>
+		<japanese>危険な散弾銃</japanese>
+	</key>
+	<key name="Item_Data_Deadlykiss_Description">
+		<korean>기다리는 건 지쳤어.</korean>
+		<english>I'm tired of waiting.</english>
+		<japanese>待っているのは疲れている。</japanese>
+	</key>
+	<key name="Item_Data_Deadlykiss_Name">
+		<korean>죽음의 입맞춤 </korean>
+		<english>Deadly kiss</english>
+		<japanese>死の口づけ</japanese>
+	</key>
+	<key name="Item_Data_DemonHands_Description">
+		<korean>크큭…이 오른손의 붕대를 푸는 순간 모두 죽.여.주.마. </korean>
+		<english>Crunch ... The moment I untie the bandage of this right hand..</english>
+		<japanese>クスクス笑う... この右手の包帯を解く瞬間すべてお粥。以上注。で。</japanese>
+	</key>
+	<key name="Item_Data_DemonHands_Name">
+		<korean>악마의 손 </korean>
+		<english>Demon Hands</english>
+		<japanese>悪魔の手</japanese>
+	</key>
+	<key name="Item_Data_DiceGod'sTrick_Description">
+		<korean>이 주사위는 사용자가 원하는 면을 보여줍니다.</korean>
+		<english>This dice shows you what you want.</english>
+		<japanese>ラグジュアリー牛革甲冑....ところでちょっとタイト張ります。</japanese>
+	</key>
+	<key name="Item_Data_DiceGod'sTrick_Name">
+		<korean>주사위 신의 농간</korean>
+		<english>DiceGod'sTrick</english>
+		<japanese>サイコロ神手練</japanese>
+	</key>
+	<key name="Item_Data_DwarvenArmor_Description">
+		<korean>드워프 들이 만든 이 갑옷은 가볍지만, 무척 단단합니다. </korean>
+		<english>The armor made by Dwarven is lightweight, but it is very hard.</english>
+		<japanese>ドワーフが作ったこの鎧は軽いが、非常に堅くします。</japanese>
+	</key>
+	<key name="Item_Data_DwarvenArmor_Name">
+		<korean>드워프제 갑옷</korean>
+		<english>Dwarven Armor</english>
+		<japanese>ドワーフ第鎧</japanese>
+	</key>
+	<key name="Item_Data_Executioner_Description">
+		<korean>위풍당당한 걸음을 아무도 막을 수 없습니다. </korean>
+		<english>Nobody can stop the imposing steps.</english>
+		<japanese>威風堂々とした歩みを、誰も止めることができません。</japanese>
+	</key>
+	<key name="Item_Data_Executioner_Name">
+		<korean>집행자</korean>
+		<english>Executioner</english>
+		<japanese>執行者</japanese>
+	</key>
+	<key name="Item_Data_FabricDress_Description">
+		<korean>따뜻합니다.</korean>
+		<english>It is warm.</english>
+		<japanese>暖かいです。</japanese>
+	</key>
+	<key name="Item_Data_FabricDress_Name">
+		<korean>천 옷</korean>
+		<english>Fabric Dress</english>
+		<japanese>千服</japanese>
+	</key>
+	<key name="Item_Data_FireSmashHammer_Description">
+		<korean>대지가 진동하는 것을 느낄 수 있습니다.</korean>
+		<english>You can feel the ground vibrate.</english>
+		<japanese>マウス右クリックでアイテムを装着することができます。</japanese>
+	</key>
+	<key name="Item_Data_FireSmashHammer_Name">
+		<korean>용의 망치</korean>
+		<english>Dragon's Hammer</english>
+		<japanese>用のハンマー</japanese>
+	</key>
+	<key name="Item_Data_Flamberge_Description">
+		<korean>물결 모양의 날을 가진 화려한 외형의 도검 </korean>
+		<english>A sword with a gorgeous outline with a wavy blade</english>
+		<japanese>波状の日の華やかな見た目の刀剣</japanese>
+	</key>
+	<key name="Item_Data_Flamberge_Name">
+		<korean>프랑베르쥬 </korean>
+		<english>Flamberge</english>
+		<japanese>フランベルジュ</japanese>
+	</key>
+	<key name="Item_Data_Flame-Thrower_Description">
+		<korean>몬스터들을 빠르게 구워버릴 수 있는 무기 </korean>
+		<english>A weapon that can quickly burn out monsters</english>
+		<japanese>モンスターを素早く焼いてしまうことができる武器</japanese>
+	</key>
+	<key name="Item_Data_Flame-Thrower_Name">
+		<korean>화염 방사기 </korean>
+		<english>Flame-Thrower</english>
+		<japanese>火炎放射器</japanese>
+	</key>
+	<key name="Item_Data_Gladius_Description">
+		<korean>짧고 가벼운 숏 소드. </korean>
+		<english>A short, lightweight short sword.</english>
+		<japanese>短く軽いショートソード。</japanese>
+	</key>
+	<key name="Item_Data_Gladius_Name">
+		<korean>글라디우스</korean>
+		<english>Gladius</english>
+		<japanese>グラディウス</japanese>
+	</key>
+	<key name="Item_Data_GoldCandy_Description">
+		<korean>너무나도 귀한 나머지 입에 물고있으면 몸이 부들부들 떨립니다.</korean>
+		<english>It is so precious that if you are bitten by your mouth, your body will shiver.</english>
+		<japanese>このサイコロは、ユーザーが希望する面を示しています。</japanese>
+	</key>
+	<key name="Item_Data_GoldCandy_Name">
+		<korean>황금 사탕</korean>
+		<english>Gold Candy</english>
+		<japanese>黄金のお菓子</japanese>
+	</key>
+	<key name="Item_Data_Granade_Description">
+		<korean>손으로 던지는 유탄. 던지면 수 초 후 폭발합니다.</korean>
+		<english>Hand-casting grenades. If thrown, it explodes in a few seconds.</english>
+		<japanese>あまりにも貴重な残りの口にくわえていると体がぶるぶる震え。</japanese>
+	</key>
+	<key name="Item_Data_Granade_Name">
+		<korean>수류탄</korean>
+		<english>Granade</english>
+		<japanese>手榴弾</japanese>
+	</key>
+	<key name="Item_Data_GreatSword_Description">
+		<korean>크고 아름다운 소드</korean>
+		<english>Big and beautiful sword</english>
+		<japanese>大きな美しいソード</japanese>
+	</key>
+	<key name="Item_Data_GreatSword_Name">
+		<korean>그레이트 소드</korean>
+		<english>GreatSword</english>
+		<japanese>グレートソード</japanese>
+	</key>
+	<key name="Item_Data_GreenBat_Description">
+		<korean>카블로비나가 훈련을 시킨 초록 박쥐입니다. 모험가의 공격을 지원합니다.</korean>
+		<english>The Green bat that Cabobina trained. Supports attack of the explorer.</english>
+		<japanese>カーブロー雨が訓練をさせた緑バットです。 冒険家の攻撃をサポートします。</japanese>
+	</key>
+	<key name="Item_Data_GreenBat_Name">
+		<korean>초록 박쥐</korean>
+		<english>GreenBat</english>
+		<japanese>緑バット</japanese>
+	</key>
+	<key name="Item_Data_Gwendolyn_Description">
+		<korean>마력을 흡수하는 푸른 돌을 깎아 넣은 창 </korean>
+		<english>A window carved with blue stone that absorbs magic</english>
+		<japanese>魔力を吸収する青い石を削って入れたウィンドウ</japanese>
+	</key>
+	<key name="Item_Data_Gwendolyn_Name">
+		<korean>그웬돌린</korean>
+		<english>Gwendolyn</english>
+		<japanese>グウェンドリン</japanese>
+	</key>
+	<key name="Item_Data_Halberd_Description">
+		<korean>도끼처럼, 창처럼 사용할 수 있는 무기 </korean>
+		<english>Like an ax, a weapon that can be used like a window</english>
+		<japanese>斧のように、窓のように使用できる武器</japanese>
+	</key>
+	<key name="Item_Data_Halberd_Name">
+		<korean>미늘창</korean>
+		<english>Halberd</english>
+		<japanese>ルーバー</japanese>
+	</key>
+	<key name="Item_Data_HammerOfTegus_Description">
+		<korean>대장장이 티거스의 망치. 손이 미끄러지는 경우를 막아준다.</korean>
+		<english>The hammer of the blacksmith Tigus. It prevents the hand from slipping.</english>
+		<japanese>鍛冶屋ティーガスのハンマー。 手が滑る場合を防いでくれる。</japanese>
+	</key>
+	<key name="Item_Data_HammerOfTegus_Name">
+		<korean>티거스의 망치 </korean>
+		<english>Hammer of Tegus</english>
+		<japanese>ティーガスのハンマー</japanese>
+	</key>
+	<key name="Item_Data_HandCrossbow_Description">
+		<korean>활을 고정틀에 물리고 화살을 올려 쏘는 전통 무기</korean>
+		<english>A traditional weapon that bites a bow in a fixture and shoots an arrow</english>
+		<japanese>手で投げる榴弾。 投げる数秒後に爆発します。</japanese>
+	</key>
+	<key name="Item_Data_HandCrossbow_Name">
+		<korean>손쇠뇌</korean>
+		<english>Hand Crossbow</english>
+		<japanese>弓をゴジョントゥルにかま矢を上げて撮影伝統武器</japanese>
+	</key>
+	<key name="Item_Data_HawkEarring_Description">
+		<korean>몸의 중심을 더 안정적으로 지탱하게 해 줍니다</korean>
+		<english>Supports the center of the body more reliably</english>
+		<japanese>手カタパルト</japanese>
+	</key>
+	<key name="Item_Data_HawkEarring_Name">
+		<korean>매 귀걸이</korean>
+		<english>HawkEarring</english>
+		<japanese>枚イヤリング</japanese>
+	</key>
+	<key name="Item_Data_HecateTheAnti-MatarialSniperRifle_Description">
+		<korean>명계의 여왕에게 제물을 바쳐라.</korean>
+		<english>Offer sacrifices to the queen of honor.</english>
+		<japanese>体の中心をより安定的に支えにしています</japanese>
+	</key>
+	<key name="Item_Data_HecateTheAnti-MatarialSniperRifle_Name">
+		<korean>헤카테 대물 저격용 총 </korean>
+		<english>Hecate</english>
+		<japanese>ヘカテ対物狙撃銃</japanese>
+	</key>
+	<key name="Item_Data_HoreseKillerSword_Description">
+		<korean>말의 발을 베어내는데 사용했던 커다란 도검 </korean>
+		<english>The big sword I used to break a horse's foot</english>
+		<japanese>言葉の足を斬りに使いた大きな剣</japanese>
+	</key>
+	<key name="Item_Data_HoreseKillerSword_Name">
+		<korean>참마도 </korean>
+		<english>HoreseKillerSword</english>
+		<japanese>山芋も</japanese>
+	</key>
+	<key name="Item_Data_Indecision_Description">
+		<korean>죽일지 살릴지 선택해야 합니다. </korean>
+		<english>You have to choose whether to kill or save.</english>
+		<japanese>殺すか生かすかを選択する必要があります。</japanese>
+	</key>
+	<key name="Item_Data_Indecision_Name">
+		<korean>우유부단</korean>
+		<english>Indecision</english>
+		<japanese>優柔不断</japanese>
+	</key>
+	<key name="Item_Data_IronArmor_Description">
+		<korean>항상 2위지만 나쁜 갑옷이 아닙니다.</korean>
+		<english>It is always 2nd, but not bad armor.</english>
+		<japanese>常に2位だが、悪い鎧がありません。</japanese>
+	</key>
+	<key name="Item_Data_IronArmor_Name">
+		<korean>철갑옷</korean>
+		<english>Iron Armor</english>
+		<japanese>鉄の鎧</japanese>
+	</key>
+	<key name="Item_Data_JetPack_Description">
+		<korean>공중에서 날 수 있도록 제작된 신비한 기계</korean>
+		<english>A mysterious machine that can fly in midair.</english>
+		<japanese>冥界の女王に供物を捧げなさい。</japanese>
+	</key>
+	<key name="Item_Data_JetPack_Name">
+		<korean>제트팩</korean>
+		<english>Jet pack</english>
+		<japanese>ファクト第</japanese>
+	</key>
+	<key name="Item_Data_Katana_Description">
+		<korean>단 한 번의 베기를 위해 만들어진, 날카로운 동방의 검</korean>
+		<english>A sharp sword made for a single cut</english>
+		<japanese>ジェットパック</japanese>
+	</key>
+	<key name="Item_Data_Katana_Name">
+		<korean>카타나</korean>
+		<english>Katana</english>
+		<japanese>カタナ</japanese>
+	</key>
+	<key name="Item_Data_Lara'sMagicWand_Description">
+		<korean>마법 소녀 리라가 잃어버린 요술봉입니다. </korean>
+		<english>Magical Girl Lira is a lost coin.</english>
+		<japanese>魔法少女リラのが失われたヨスルボンです。</japanese>
+	</key>
+	<key name="Item_Data_Lara'sMagicWand_Name">
+		<korean>라라의 요술봉</korean>
+		<english>Lara's Magic Wand</english>
+		<japanese>ララのヨスルボン</japanese>
+	</key>
+	<key name="Item_Data_LeatherDress_Description">
+		<korean>무두질이 잘 된 가죽은 배신하지 않습니다. </korean>
+		<english>Tanned leather is not betrayed.</english>
+		<japanese>日焼けがよくされた革は、裏切りません。</japanese>
+	</key>
+	<key name="Item_Data_LeatherDress_Name">
+		<korean>가죽옷</korean>
+		<english>Leather Dress</english>
+		<japanese>革の服</japanese>
+	</key>
+	<key name="Item_Data_LightBrnger_Description">
+		<korean>길을 잃은 자를 인도해준다고 합니다.</korean>
+		<english>He says he will lead the lost.</english>
+		<japanese>道に迷った者、インドくれるします。</japanese>
+	</key>
+	<key name="Item_Data_LightBrnger_Name">
+		<korean>빛의 인도자</korean>
+		<english>LightBrnger</english>
+		<japanese>光の導き手</japanese>
+	</key>
+	<key name="Item_Data_Lightsaber_Description">
+		<korean>고온의 플라즈마를 칼날 삼아 모든 걸 베어버리는 광검 </korean>
+		<english>A light sword that cuts everything in high-temperature plasma</english>
+		<japanese>高温のプラズマを刃三すべてを切り裂くグァンゴム</japanese>
+	</key>
+	<key name="Item_Data_Lightsaber_Name">
+		<korean>라이트 세이버 </korean>
+		<english>Lightsaber</english>
+		<japanese>ライトセイバー</japanese>
+	</key>
+	<key name="Item_Data_Lily'sSecondScythe_Description">
+		<korean>악마를 가르는 그녀가 애용했던 낫 </korean>
+		<english>The sick she used to love the devil</english>
+		<japanese>悪魔を分ける彼女が愛用していた鎌</japanese>
+	</key>
+	<key name="Item_Data_Lily'sSecondScythe_Name">
+		<korean>릴리의 두 번째 낫 </korean>
+		<english>Lily's Second Scythe</english>
+		<japanese>リリーの第二の鎌</japanese>
+	</key>
+	<key name="Item_Data_LongStaff_Description">
+		<korean>무예를 수련하던 수도승들이 사용하는 봉 </korean>
+		<english>A rod used by monks who practiced martial arts</english>
+		<japanese>武芸を修練していた僧侶たちが使用している棒</japanese>
+	</key>
+	<key name="Item_Data_LongStaff_Name">
+		<korean>장봉 </korean>
+		<english>Long Staff</english>
+		<japanese>長峰</japanese>
+	</key>
+	<key name="Item_Data_MagicalMagnifyingGlass_Description">
+		<korean>보는 대상을 실제로 더 크게 만들어 줍니다.</korean>
+		<english>It actually makes the viewer bigger.</english>
+		<japanese>ワン斬りのために作られた、鋭い東方の剣</japanese>
+	</key>
+	<key name="Item_Data_MagicalMagnifyingGlass_Name">
+		<korean>마법의 돋보기</korean>
+		<english>Magical Magnifying Glass</english>
+		<japanese>魔法の拡大鏡</japanese>
+	</key>
+	<key name="Item_Data_MagmaBoots_Description">
+		<korean>신는 사람이 뒤의 열기에 쫓기게 되는 장화</korean>
+		<english>Boots in which the wearer is chased by the heat of the back</english>
+		<japanese>見る対象を実際に大きく作られています。</japanese>
+	</key>
+	<key name="Item_Data_MagmaBoots_Name">
+		<korean>용암 장화</korean>
+		<english>Magma Boots</english>
+		<japanese>溶岩のブーツ</japanese>
+	</key>
+	<key name="Item_Data_Magnet_Description">
+		<korean>작고 노랗고 반짝이는 금속만 모아주는 친절한 막대</korean>
+		<english>A friendly bar that only collects small, yellow, and shiny metals</english>
+		<japanese>履く人が後の展開に追われるブーツ</japanese>
+	</key>
+	<key name="Item_Data_Magnet_Name">
+		<korean>자석</korean>
+		<english>Magnet</english>
+		<japanese>磁石</japanese>
+	</key>
+	<key name="Item_Data_Magnum_Description">
+		<korean>모든 리볼버에 쓰이는 탄의 이름입니다</korean>
+		<english>This is the name of the shot used in all revolvers.</english>
+		<japanese>すべてのリボルバーに使われる弾の名前です</japanese>
+	</key>
+	<key name="Item_Data_Magnum_Name">
+		<korean>매그넘 권총</korean>
+		<english>Magnum</english>
+		<japanese>マグナム拳銃</japanese>
+	</key>
+	<key name="Item_Data_MainGauche_Description">
+		<korean>왼손으로 잡아 적의 공격을 방어하는데 사용했던 단검 </korean>
+		<english>The dagger that was used to defend the enemy's attack</english>
+		<japanese>左手でキャッチ敵の攻撃を防御するために使用していた短剣</japanese>
+	</key>
+	<key name="Item_Data_MainGauche_Name">
+		<korean>망고슈 </korean>
+		<english>Main-gauche</english>
+		<japanese>マンゴーシュ</japanese>
+	</key>
+	<key name="Item_Data_MatchlockGun_Description">
+		<korean>비가 오면 사용할 수 없는 총입니다. </korean>
+		<english>It is a gun that can not be used when it rains.</english>
+		<japanese>雨が降れば使用できないの合計です。</japanese>
+	</key>
+	<key name="Item_Data_MatchlockGun_Name">
+		<korean>화승총</korean>
+		<english>MatchlockGun</english>
+		<japanese>火縄銃</japanese>
+	</key>
+	<key name="Item_Data_MediQ_Description">
+		<korean>체력을 조금씩 회복시켜주는 도구</korean>
+		<english>A tool that restores your strength slightly</english>
+		<japanese>体力を少しずつ回復させてくれるツール</japanese>
+	</key>
+	<key name="Item_Data_MediQ_Name">
+		<korean>메디-Q</korean>
+		<english>Medi Q</english>
+		<japanese>メディ-Q</japanese>
+	</key>
+	<key name="Item_Data_MetalBoots_Description">
+		<korean>바닥부분에 강철을 덧댔습니다.</korean>
+		<english>I put steel on the bottom.</english>
+		<japanese>小さく黄色に輝く金属のみ集めてくれる親切なバー</japanese>
+	</key>
+	<key name="Item_Data_MetalBoots_Name">
+		<korean>강철장화</korean>
+		<english>Steel Boots</english>
+		<japanese>底部分に鋼をドトデトた。</japanese>
+	</key>
+	<key name="Item_Data_Minigun_Description">
+		<korean>원본인 개틀링 기관총보다 작아져서 미니건입니다. </korean>
+		<english>It is smaller than the original Gatling machine gun.</english>
+		<japanese>元のガトリング銃よりも小さくなってミニガンです。</japanese>
+	</key>
+	<key name="Item_Data_Minigun_Name">
+		<korean>N134 개틀링 기관총</korean>
+		<english>Minigun</english>
+		<japanese>N134ガトリング銃</japanese>
+	</key>
+	<key name="Item_Data_MirrorOfMummy_Description">
+		<korean>보물에 손을 댄 자에게 저주가 내려진다고 합니다.</korean>
+		<english>A curse falls upon a person who has touched a treasure.</english>
+		<japanese>鋼ブーツ</japanese>
+	</key>
+	<key name="Item_Data_MirrorOfMummy_Name">
+		<korean>미이라의 거울</korean>
+		<english>Mirror of Mummy</english>
+		<japanese>ミイラの鏡</japanese>
+	</key>
+	<key name="Item_Data_Misteltein_Description">
+		<korean>아무도 겨우살이 나뭇가지가 신을 죽일지 몰랐을 거야. </korean>
+		<english>Nobody would have known the mistletoe tree would kill the god.</english>
+		<japanese>誰もヤドリギの枝が神を殺すか知らなかったよ。</japanese>
+	</key>
+	<key name="Item_Data_Misteltein_Name">
+		<korean>미스틸테인 </korean>
+		<english>Misteltein</english>
+		<japanese>ミスチルテイン</japanese>
+	</key>
+	<key name="Item_Data_Mjolnir_Description">
+		<korean>선택받은 자만이 들을 수 있다는 해머 </korean>
+		<english>Hammer that only selected people can hear</english>
+		<japanese>選択された者だけが聞くことができるというハンマー</japanese>
+	</key>
+	<key name="Item_Data_Mjolnir_Name">
+		<korean>묠니르 </korean>
+		<english>Mjolnir</english>
+		<japanese>ミョルニル</japanese>
+	</key>
+	<key name="Item_Data_Monocle_Description">
+		<korean>적의 약점을 더 잘 보여주게 하는 안경</korean>
+		<english>Glasses that show the enemy's weakness better</english>
+		<japanese>宝物に手を出した者に呪いが降りそうです。</japanese>
+	</key>
+	<key name="Item_Data_Monocle_Name">
+		<korean>모노클</korean>
+		<english>Monocle</english>
+		<japanese>モノクローナル</japanese>
+	</key>
+	<key name="Item_Data_MoonWalker_Description">
+		<korean>더욱 빠르게, 더욱 높게 </korean>
+		<english>Faster, faster</english>
+		<japanese>迅速、更に高く</japanese>
+	</key>
+	<key name="Item_Data_MoonWalker_Name">
+		<korean>문 워커 </korean>
+		<english>Moon Walker</english>
+		<japanese>ドアウォーカー</japanese>
+	</key>
+	<key name="Item_Data_MT8Carbine_Description">
+		<korean>가볍고 연사가 빠른 돌격소총</korean>
+		<english>Lightweight and rapid-fire assault rifle</english>
+		<japanese>軽くて連写が速いアサルトライフル</japanese>
+	</key>
+	<key name="Item_Data_MT8Carbine_Name">
+		<korean>MT8 카빈</korean>
+		<english>MT8 Carbine</english>
+		<japanese>MT8カービン</japanese>
+	</key>
+	<key name="Item_Data_Muramasa_Description">
+		<korean>수많은 운명을 뛰어넘은 아름다운 동방의 검</korean>
+		<english>A beautiful oriental sword that has surpassed many fates</english>
+		<japanese>敵の弱点をよりよく示すことのメガネ</japanese>
+	</key>
+	<key name="Item_Data_Muramasa_Name">
+		<korean>무라마사</korean>
+		<english>Muramasa</english>
+		<japanese>ムラマサ</japanese>
+	</key>
+	<key name="Item_Data_OrangeHairband_Description">
+		<korean>운명의 붉은 실. 결국, 그 이름을 아는 자는 없었습니다.</korean>
+		<english>Red thread of fate. After all, no one knew the name.</english>
+		<japanese>運命の赤い糸。 最後に、その名前を知っている者は、ありませんでした。</japanese>
+	</key>
+	<key name="Item_Data_OrangeHairband_Name">
+		<korean>오렌지 색 머리끈 </korean>
+		<english>Orange Hairband</english>
+		<japanese>オレンジ色の髪のひも</japanese>
+	</key>
+	<key name="Item_Data_Pistol_Description">
+		<korean>약간 엉성한 만듦새의 권총입니다.</korean>
+		<english>It's a little lame build pistol.</english>
+		<japanese>少し型崩れ体格の拳銃です。</japanese>
+	</key>
+	<key name="Item_Data_Pistol_Name">
+		<korean>엉성한 권총</korean>
+		<english>Pistol</english>
+		<japanese>型崩れ拳銃</japanese>
+	</key>
+	<key name="Item_Data_PistolSword_Description">
+		<korean>검신에 총이 내장된 독특한 무기. </korean>
+		<english>Unique weapon with built-in gun on the blade.</english>
+		<japanese>刀身に銃が内蔵されたユニークな武器。</japanese>
+	</key>
+	<key name="Item_Data_PistolSword_Name">
+		<korean>피스톨 소드 </korean>
+		<english>Pistol Sword</english>
+		<japanese>ピストルソード</japanese>
+	</key>
+	<key name="Item_Data_PoliceShield_Description">
+		<korean>가볍지만 단단합니다.</korean>
+		<english>It is light but hard.</english>
+		<japanese>軽いがしっかりします。</japanese>
+	</key>
+	<key name="Item_Data_PoliceShield_Name">
+		<korean>경찰 방패</korean>
+		<english>Police Shield</english>
+		<japanese>警察の盾</japanese>
+	</key>
+	<key name="Item_Data_PowerOverwhelming_Description">
+		<korean>나의 영혼이 불타오르는 것 같아. </korean>
+		<english>I think my soul is burning.</english>
+		<japanese>私の魂が燃え上がるように思える。</japanese>
+	</key>
+	<key name="Item_Data_PowerOverwhelming_Name">
+		<korean>압도적인 힘 </korean>
+		<english>Power Overwhelming</english>
+		<japanese>圧倒的な強さ</japanese>
+	</key>
+	<key name="Item_Data_RedDragonKiller_Description">
+		<korean>화룡의 심장을 꿰뚫은 후부터 사그라지지 않는 불꽃이 깃들었습니다. </korean>
+		<english>After the penetration of the heart of the fire dragon, a flame that did not collapse was caught.</english>
+		<japanese>火竜の心臓を貫いた後からおさまらない炎が宿っました。</japanese>
+	</key>
+	<key name="Item_Data_RedDragonKiller_Name">
+		<korean>화룡 살해자</korean>
+		<english>RedDragonKiller</english>
+		<japanese>火竜の殺害者</japanese>
+	</key>
+	<key name="Item_Data_Revolver_Description">
+		<korean>순간적으로 빠르게 쏠 수 있는 총.</korean>
+		<english>A gun that can shoot quickly in a moment.</english>
+		<japanese>瞬間的に急速に撃つことができるの合計。</japanese>
+	</key>
+	<key name="Item_Data_Revolver_Name">
+		<korean>권총</korean>
+		<english>Revolver</english>
+		<japanese>拳銃</japanese>
+	</key>
+	<key name="Item_Data_RingOfMadness_Description">
+		<korean>무기가 더 손에 감기는 느낌을 받습니다. </korean>
+		<english>Ring of Attack</english>
+		<japanese>武器が手に風邪は感じを受けます。</japanese>
+	</key>
+	<key name="Item_Data_RingOfMadness_Name">
+		<korean>광기의 반지</korean>
+		<english>Ring of Madness</english>
+		<japanese>狂気のリング</japanese>
+	</key>
+	<key name="Item_Data_RingOfMidas_Description">
+		<korean>몬스터의 손을 황금으로 만들어 줍니다. </korean>
+		<english>Makes the hand of the monster golden.</english>
+		<japanese>モンスターの手を金で作られています。</japanese>
+	</key>
+	<key name="Item_Data_RingOfMidas_Name">
+		<korean>마이더스의 반지 </korean>
+		<english>Ring of Midas</english>
+		<japanese>ミダスのリング</japanese>
+	</key>
+	<key name="Item_Data_RingOfSpeed_Description">
+		<korean>온몸이 한결 가벼워짐을 느낍니다.</korean>
+		<english>I feel that my whole body is getting lighter.</english>
+		<japanese>全身が一様軽く荷物感じます。</japanese>
+	</key>
+	<key name="Item_Data_RingOfSpeed_Name">
+		<korean>속도의 반지</korean>
+		<english>Ring Of Speed</english>
+		<japanese>速度のリング</japanese>
+	</key>
+	<key name="Item_Data_RobotArm_Description">
+		<korean>로봇 팔 설명</korean>
+		<english>Robot arm description</english>
+		<japanese>数多くの運命を超えた美しい東方の剣</japanese>
+	</key>
+	<key name="Item_Data_RobotArm_Name">
+		<korean>로봇 팔</korean>
+		<english>Robot Arm</english>
+		<japanese>ロボットアーム</japanese>
+	</key>
+	<key name="Item_Data_RocketLauncher_Description">
+		<korean>강력한 한방!</korean>
+		<english>Strong one-sided!</english>
+		<japanese>強力な漢方！</japanese>
+	</key>
+	<key name="Item_Data_RocketLauncher_Name">
+		<korean>로켓런처</korean>
+		<english>Rocket Launcher</english>
+		<japanese>ロケットランチャー</japanese>
+	</key>
+	<key name="Item_Data_RoundShield_Description">
+		<korean>나무로 만들어진 원형 방패</korean>
+		<english>Circular shield made of wood</english>
+		<japanese>木で作られた円形の盾</japanese>
+	</key>
+	<key name="Item_Data_RoundShield_Name">
+		<korean>원형 방패</korean>
+		<english>Round Shield</english>
+		<japanese>円形の盾</japanese>
+	</key>
+	<key name="Item_Data_RubyNecklace_Description">
+		<korean>최대 체력을 늘려줍니다.</korean>
+		<english>Increases maximum health.</english>
+		<japanese>最大体力を増やしてくれます。</japanese>
+	</key>
+	<key name="Item_Data_RubyNecklace_Name">
+		<korean>루비 목걸이</korean>
+		<english>Ruby Necklace</english>
+		<japanese>ルビーネックレス</japanese>
+	</key>
+	<key name="Item_Data_RustyShortSword_Description">
+		<korean>해골 병사가 사용하는 낡은 검</korean>
+		<english>Old Sword used by Skeleton Soldiers</english>
+		<japanese>スケルトン兵士が使用する古い剣</japanese>
+	</key>
+	<key name="Item_Data_RustyShortSword_Name">
+		<korean>낡은 숏 소드</korean>
+		<english>RustyShortSword</english>
+		<japanese>古いショートソード</japanese>
+	</key>
+	<key name="Item_Data_Saber_Description">
+		<korean>먼 동방의 왕국에서 전해진 아름다운 검 </korean>
+		<english>The Beautiful Sword, From Eastern Kingdom.</english>
+		<japanese>遠い東方の王国から伝わった美しい剣</japanese>
+	</key>
+	<key name="Item_Data_Saber_Name">
+		<korean>환도</korean>
+		<english>Saber</english>
+		<japanese>環</japanese>
+	</key>
+	<key name="Item_Data_Salamander'sEye_Description">
+		<korean>화산의 정상, 가장 마지막으로 나온 용암은 붉은 보석을 남겼습니다.</korean>
+		<english>The top of the volcano, the last lava left a red gem.</english>
+		<japanese>ロボットアームの説明</japanese>
+	</key>
+	<key name="Item_Data_Salamander'sEye_Name">
+		<korean>샐러맨더의 눈</korean>
+		<english>Salamander's Eye</english>
+		<japanese>サラマンダーの目</japanese>
+	</key>
+	<key name="Item_Data_ScatterBullet_Description">
+		<korean>탄을 세 갈래로 나누어 뿌려줍니다. 데미지도 세 갈래가 됩니다. </korean>
+		<english>Divide the burnt into three fragments. Damage also becomes three-pronged.</english>
+		<japanese>火山の上、最後に出てきた溶岩は赤い宝石を残しました。</japanese>
+	</key>
+	<key name="Item_Data_ScatterBullet_Name">
+		<korean>갈래총탄</korean>
+		<english>Scatter Bullet</english>
+		<japanese>本銃弾</japanese>
+	</key>
+	<key name="Item_Data_Schmit`sBirchBaton_Description">
+		<korean>무술의 달인이 애용하던 쌍단봉. 맞으면 매우 아픕니다. </korean>
+		<english>A pair of martial arts masters who love it. If it is correct, it is very bad.</english>
+		<japanese>武術の達人が愛用していたペア単峰。 当たれば非常に痛いです。</japanese>
+	</key>
+	<key name="Item_Data_Schmit`sBirchBaton_Name">
+		<korean>박달나무 쌍단봉 </korean>
+		<english>Schmit`s BirchBaton</english>
+		<japanese>シラカバペア単峰</japanese>
+	</key>
+	<key name="Item_Data_ScientificRailgun_Description">
+		<korean>동전을 한번 튕기고 넣으면 강해집니다. </korean>
+		<english>Strike a coin once and insert it.</english>
+		<japanese>コインを一度弾い入れると強くなります。</japanese>
+	</key>
+	<key name="Item_Data_ScientificRailgun_Name">
+		<korean>초전자포 </korean>
+		<english>Scientific Railgun</english>
+		<japanese>超電磁砲</japanese>
+	</key>
+	<key name="Item_Data_Scope_Description">
+		<korean>저격수의 상징. 먼 곳에 있는 목표물을 볼 수 있게 해 줍니다.</korean>
+		<english>The symbol of a sniper. Allows you to see targets in the distance.</english>
+		<japanese>打撃を三つに分けて分散させてくれます。 ダメージも三つ又になります。</japanese>
+	</key>
+	<key name="Item_Data_Scope_Name">
+		<korean>조준경</korean>
+		<english>Scope</english>
+		<japanese>照準</japanese>
+	</key>
+	<key name="Item_Data_SecretMap_Description">
+		<korean>던전의 모든 것을 보여주는 이 비밀지도를 보려면 아래의 주문을 외워야 한답니다: -나는 천하의 멍텅구리임을 엄숙히 선언합니다.-</korean>
+		<english>To see this secret map showing everything in the dungeon, you have to call out the following order: -I solemnly swear that I am up to no good-</english>
+		<japanese>サンダーバードの目</japanese>
+	</key>
+	<key name="Item_Data_SecretMap_Name">
+		<korean>던전의 비밀 지도</korean>
+		<english>Secret Map Of The Dungeon</english>
+		<japanese>ダンジョンの秘密の地図</japanese>
+	</key>
+	<key name="Item_Data_SEERI-TheCombatHelper_Description">
+		<korean>주변 적을 알아서 처리합니다.</korean>
+		<english>Handle nearby enemies.</english>
+		<japanese>周辺の敵の世話を処理します。</japanese>
+	</key>
+	<key name="Item_Data_SEERI-theCombatHelper_Name">
+		<korean>SEERI-전투 도우미 </korean>
+		<english>SEERI the Combat Helper</english>
+		<japanese>SEERI-戦闘ヘルパー</japanese>
+	</key>
+	<key name="Item_Data_Shamshir_Description">
+		<korean>사막의 나라에서 사용하는 외날 도검 </korean>
+		<english>A sword in the desert country</english>
+		<japanese>砂漠の国で使用されるかたは刀剣</japanese>
+	</key>
+	<key name="Item_Data_Shamshir_Name">
+		<korean>샴쉬르 </korean>
+		<english>Shamshir</english>
+		<japanese>シャムシール</japanese>
+	</key>
+	<key name="Item_Data_Shortsword_Description">
+		<korean>가볍고 휘두르기 편한 검</korean>
+		<english>Slightly wielding sword</english>
+		<japanese>軽く振り回すやすい剣</japanese>
+	</key>
+	<key name="Item_Data_Shortsword_Name">
+		<korean>숏소드</korean>
+		<english>Shortsword</english>
+		<japanese>ショートソード</japanese>
+	</key>
+	<key name="Item_Data_Shotgun_Description">
+		<korean>보통의 산탄총</korean>
+		<english>Ordinary shotgun</english>
+		<japanese>通常の散弾銃</japanese>
+	</key>
+	<key name="Item_Data_Shotgun_Name">
+		<korean>산탄총</korean>
+		<english>Shotgun</english>
+		<japanese>散弾銃</japanese>
+	</key>
+	<key name="Item_Data_SilverBullet_Description">
+		<korean>은탄 설명</korean>
+		<english>Silver Explained</english>
+		<japanese>狙撃のシンボル。 遠いところにある目標物を見ることができるようにします。</japanese>
+	</key>
+	<key name="Item_Data_SilverBullet_Name">
+		<korean>은탄</korean>
+		<english>Silver Bullet</english>
+		<japanese>銀の弾丸</japanese>
+	</key>
+	<key name="Item_Data_SilverEaring_Description">
+		<korean>반짝이는 귀는 몬스터의 주의를 조금이라도 끌 수 있을 겁니다.</korean>
+		<english>The glittering ears will be able to attract a little attention from the monster.</english>
+		<japanese>輝く耳はモンスターの注意を少しでも切り替えることができでしょう。</japanese>
+	</key>
+	<key name="Item_Data_SilverEaring_Name">
+		<korean>은귀고리</korean>
+		<english>Silver Earring</english>
+		<japanese>はイヤリング</japanese>
+	</key>
+	<key name="Item_Data_SilverRing_Description">
+		<korean>반으로 나누어 착용하는, 은으로 만든 가락지</korean>
+		<english>Made of silver, worn in half</english>
+		<japanese>半分に分けて着用する、はで作った指輪</japanese>
+	</key>
+	<key name="Item_Data_SilverRing_Name">
+		<korean>은반지</korean>
+		<english>Silver Ring</english>
+		<japanese>銀の指輪</japanese>
+	</key>
+	<key name="Item_Data_Skeletonking'sSword_Description">
+		<korean>해골 왕의 혼이 서려 있는 대검</korean>
+		<english>Great sword with the soul of the skeleton king</english>
+		<japanese>スケルトンキングの魂が込められた大剣</japanese>
+	</key>
+	<key name="Item_Data_Skeletonking'sSword_Name">
+		<korean>해골 왕의 대검</korean>
+		<english>Skeletonking's Sword</english>
+		<japanese>スケルトンキングの大剣</japanese>
+	</key>
+	<key name="Item_Data_SlingShot_Description">
+		<korean>먼 고대에서부터 인간들이 사용한 원거리 무기 </korean>
+		<english>Remote weapons used by humans from distant antiquity</english>
+		<japanese>遠い古代から人間が使用遠距離武器</japanese>
+	</key>
+	<key name="Item_Data_SlingShot_Name">
+		<korean>새총</korean>
+		<english>SlingShot</english>
+		<japanese>パチンコ</japanese>
+	</key>
+	<key name="Item_Data_Spear_Description">
+		<korean>찌르기에 특화된 날이 붙은 무기</korean>
+		<english>A weapon with a stab-specific day</english>
+		<japanese>突きに特化した日がついた武器</japanese>
+	</key>
+	<key name="Item_Data_Spear_Name">
+		<korean>창</korean>
+		<english>Spear</english>
+		<japanese>ウィンドウ</japanese>
+	</key>
+	<key name="Item_Data_SpeedReloader_Description">
+		<korean>총기류의 재장전을 도와주는 기구 </korean>
+		<english>A device to help reload guns</english>
+		<japanese>銃器のリロードを支援する機構</japanese>
+	</key>
+	<key name="Item_Data_SpeedReloader_Name">
+		<korean>스피드 리로더</korean>
+		<english>Speed Reloader</english>
+		<japanese>スピードリーローダー</japanese>
+	</key>
+	<key name="Item_Data_SpikeBall_Description">
+		<korean>모험가의 주위를 돌면서 적들을 혼내줍니다.</korean>
+		<english>It attacks the enemy as it revolves around the warrior.</english>
+		<japanese>冒険家の周りを回りながら敵を叱るます。</japanese>
+	</key>
+	<key name="Item_Data_SpikeBall_Name">
+		<korean>뾰족 공</korean>
+		<english>Spike Ball</english>
+		<japanese>最高のボール</japanese>
+	</key>
+	<key name="Item_Data_SpringShoes_Description">
+		<korean>스프링 신발 설명</korean>
+		<english>Spring Shoes Description</english>
+		<japanese>銀の弾丸説明</japanese>
+	</key>
+	<key name="Item_Data_SpringShoes_Name">
+		<korean>스프링 신발</korean>
+		<english>Spring shoes</english>
+		<japanese>スプリング靴の説明</japanese>
+	</key>
+	<key name="Item_Data_SteelMace_Description">
+		<korean>강철로 만든 메이스</korean>
+		<english>Mace made of steel</english>
+		<japanese>鋼で作られたメイス</japanese>
+	</key>
+	<key name="Item_Data_SteelMace_Name">
+		<korean>강철 메이스</korean>
+		<english>Iron Mace</english>
+		<japanese>鋼メイス</japanese>
+	</key>
+	<key name="Item_Data_SteelWarHammer_Description">
+		<korean>강철 워해머 설명</korean>
+		<english>Steel Warham Description</english>
+		<japanese>スプリング靴</japanese>
+	</key>
+	<key name="Item_Data_SteelWarHammer_Name">
+		<korean>강철 워해머</korean>
+		<english>Steel War Hammer</english>
+		<japanese>鋼ウォーハンマー</japanese>
+	</key>
+	<key name="Item_Data_StoneSword_Description">
+		<korean>선택받지 못했다면 내 선택은…!</korean>
+		<english>If I have not been chosen, my choice is ... !</english>
+		<japanese>鋼ウォーハンマー説明</japanese>
+	</key>
+	<key name="Item_Data_StoneSword_Name">
+		<korean>바위검</korean>
+		<english>Stone Sword</english>
+		<japanese>岩の剣</japanese>
+	</key>
+	<key name="Item_Data_SwordOfVine_Description">
+		<korean>가시덩굴이 휘감긴 검</korean>
+		<english>Sword of a thornvale</english>
+		<japanese>可視ツルが編ま剣</japanese>
+	</key>
+	<key name="Item_Data_SwordOfVine_Name">
+		<korean>덩굴검</korean>
+		<english>Sword Of Vine</english>
+		<japanese>つる剣</japanese>
+	</key>
+	<key name="Item_Data_TANNAtheDefenseHelper_Description">
+		<korean>TAANA-방어 도우미</korean>
+		<english>TAANA</english>
+		<japanese>TAANA-防御ヘルパー</japanese>
+	</key>
+	<key name="Item_Data_TANNAtheDefenseHelper_Description">
+		<korean>모험가를 보호해주는 방어막을 생성합니다.</korean>
+		<english>Create a shield that protects the explorer.</english>
+		<japanese>冒険を保護するシールドを作成します。</japanese>
+	</key>
+	<key name="Item_Data_TearMace_Description">
+		<korean>금속을 눈물 모양으로 가공한 메이스</korean>
+		<english>Mace with a metallic texture</english>
+		<japanese>金属を涙状に加工したメイス</japanese>
+	</key>
+	<key name="Item_Data_TearMace_Name">
+		<korean>눈물 철퇴</korean>
+		<english>Tear Mace</english>
+		<japanese>涙撤退</japanese>
+	</key>
+	<key name="Item_Data_TheColt_Description">
+		<korean>링컨은 모두를 자유롭게 했고, 콜트는 모두를 평등하게 했다. </korean>
+		<english>Lincoln freed everyone and Colt made everyone equal.</english>
+		<japanese>選択されなかった場合、私の選択は... ！</japanese>
+	</key>
+	<key name="Item_Data_TheColt_Name">
+		<korean>더 콜트 </korean>
+		<english>The Colt</english>
+		<japanese>よりコルト</japanese>
+	</key>
+	<key name="Item_Data_TheFairyOfExplosion_Description">
+		<korean>이 요정은 사람의 엉덩이에 붙어 장난치는 걸 좋아합니다</korean>
+		<english>This fairy likes to play tricks on a person's ass.</english>
+		<japanese>リンカーンはすべてを自由にし、コルトはすべてを平等にした。</japanese>
+	</key>
+	<key name="Item_Data_TheFairyOfExplosion_Name">
+		<korean>폭발의 요정</korean>
+		<english>The Fairy Of Explosion</english>
+		<japanese>爆発の妖精</japanese>
+	</key>
+	<key name="Item_Data_TheSpiritOfTheWarrior_Description">
+		<korean>악에 대항해 싸웠던 어떤 용사의 영혼입니다.</korean>
+		<english>It is the soul of any mighty man who fought against evil.</english>
+		<japanese>この妖精は、人のお尻についていたずら好きです</japanese>
+	</key>
+	<key name="Item_Data_TheSpiritOfTheWarrior_Name">
+		<korean>전사의 혼</korean>
+		<english>The Spirit of the warrior</english>
+		<japanese>すべてを手に飲み込まました。</japanese>
+	</key>
+	<key name="Item_Data_Three-TieredBaton_Description">
+		<korean>호신용으로 사용되는, 3단으로 접히는 단봉 </korean>
+		<english>Used as a self-defense, three-fold folding rod</english>
+		<japanese>悪に対抗して戦ったどの勇士の魂です。</japanese>
+	</key>
+	<key name="Item_Data_Three-TieredBaton_Name">
+		<korean>삼단봉 </korean>
+		<english>Three-TieredBaton</english>
+		<japanese>カーブロー雨が運営される訓練場です。 訓練場では、あなたの能力値を上昇させることができます。</japanese>
+	</key>
+	<key name="Item_Data_ThrowingKnife_Description">
+		<korean>던질 때 마다 항상 손잡이가 아닌 날쪽이 적을 향하는 신비한 칼</korean>
+		<english>Every time you throw a mysterious knife instead of a handle,</english>
+		<japanese>護身用に使用され、3段に折る単峰</japanese>
+	</key>
+	<key name="Item_Data_ThrowingKnife_Name">
+		<korean>투척용 칼</korean>
+		<english>Throwing knife</english>
+		<japanese>三段棒</japanese>
+	</key>
+	<key name="Item_Data_Thunderbird'sEye_Description">
+		<korean>먼 옛날 하늘을 누볐던 새의 눈은 닮았다고 하는 이 보석은 대기의 전기를 모읍니다.</korean>
+		<english>This gem, which says that the eyes of a bird that sank to the sky in the distant past resemble the atmosphere.</english>
+		<japanese>投げるたびに、常にハンドルではなく、ナルチョクが少ない向かう神秘的な剣</japanese>
+	</key>
+	<key name="Item_Data_Thunderbird'sEye_Name">
+		<korean>썬더버드의 눈</korean>
+		<english>Thunderbird's Eye</english>
+		<japanese>雷電クナイ</japanese>
+	</key>
+	<key name="Item_Data_ThunderKunai_Description">
+		<korean>역수로 잡고 단검처럼 사용하는 먼 동방의 무기 </korean>
+		<english>Far Eastern weapon used as a reciprocal and used like a dagger</english>
+		<japanese>投擲用のナイフ</japanese>
+	</key>
+	<key name="Item_Data_ThunderKunai_Name">
+		<korean>뇌전 쿠나이</korean>
+		<english>Thunder Kunai</english>
+		<japanese>逆数に保持する短剣のように使用している遠い東方の武器</japanese>
+	</key>
+	<key name="Item_Data_Torch_Description">
+		<korean>사방이 밝아지는 만큼 자신의 위치가 보이게 됩니다.</korean>
+		<english>You will see your position as much as everywhere is bright.</english>
+		<japanese>遠い昔、空を歩き回っ鳥の目は似ているこの宝石は、大気の電気を集めます。</japanese>
+	</key>
+	<key name="Item_Data_Torch_Name">
+		<korean>횃불</korean>
+		<english>Torch</english>
+		<japanese>ダンジョンのすべてのことを示すが秘密の地図を表示する次の注文を覚えなければならんですよ： -私は天下の愚か者であることを厳粛に宣言します。 -</japanese>
+	</key>
+	<key name="Item_Data_TowerShield_Description">
+		<korean>직사각형의 몸 전체를 숨길 수 있을 정도의 대형 방패 </korean>
+		<english>A large shield that can hide the whole body of a rectangle</english>
+		<japanese>根性</japanese>
+	</key>
+	<key name="Item_Data_TowerShield_Name">
+		<korean>타워 실드 </korean>
+		<english>Tower Shield</english>
+		<japanese>長方形の体全体を非表示にすることができる程度の大型の盾</japanese>
+	</key>
+	<key name="Item_Data_Tuba_Description">
+		<korean>묵직한 음을 내는 금관악기 </korean>
+		<english>A brass instrument with a heavy sound</english>
+		<japanese>固定ダメージ</japanese>
+	</key>
+	<key name="Item_Data_Tuba_Name">
+		<korean>튜바</korean>
+		<english>Tuba</english>
+		<japanese>どっしりとした音を出す金管楽器</japanese>
+	</key>
+	<key name="Item_Data_Undine'sEye_Description">
+		<korean>호수 속 동굴 가장 깊은 곳, 잠들어 있는 돌들은 정령의 가호를 받아 푸르게 빛납니다. </korean>
+		<english>In the deepest part of the cave in the lake, the asleep stones glow in blue under the influence of the spirit.</english>
+		<japanese>四方が明るくなるほど、自分の位置が見えるようになります。</japanese>
+	</key>
+	<key name="Item_Data_Undine'sEye_Name">
+		<korean>운디네의 눈</korean>
+		<english>Undine's Eye</english>
+		<japanese>高級アイテム</japanese>
+	</key>
+	<key name="Item_Data_UZI_Description">
+		<korean>가벼운 한손 기관단총</korean>
+		<english>Light one handed submachine gun.</english>
+		<japanese>軽い片手サブマシンガン</japanese>
+	</key>
+	<key name="Item_Data_UZI_Name">
+		<korean>UZI</korean>
+		<english>UZI</english>
+		<japanese>スペースキーを押して、ジェットパックを使用可能</japanese>
+	</key>
+	<key name="Item_Data_Watcher_Description">
+		<korean>주변에 닿는 원거리 투사체들을 방어해줍니다.</korean>
+		<english>It blocks the projectile.</english>
+		<japanese>周辺に届く長距離投射体を守るます。</japanese>
+	</key>
+	<key name="Item_Data_Watcher_Name">
+		<korean>주시자</korean>
+		<english>The Watcher</english>
+		<japanese>間近に聞こえる声</japanese>
+	</key>
+	<key name="Item_Data_WaterBalloon_Description">
+		<korean>물풍선 박으면 꼼짝 못 해 </korean>
+		<english>I do not get stuck with a water balloon.</english>
+		<japanese>様々な銃器アイテムのロックが解除されました。 また、基本的な武器としてピストルも得ることができます！</japanese>
+	</key>
+	<key name="Item_Data_WaterBalloon_Name">
+		<korean>물풍선</korean>
+		<english>Water Balloon</english>
+		<japanese>水風船打ち込む釘付けして</japanese>
+	</key>
+	<key name="Item_Data_Wing_Description">
+		<korean>오호오호오호오호</korean>
+		<english>oh hoew</english>
+		<japanese>湖の中の洞窟の最も深い所、眠っている石は、精霊の加護を受けて青く光ります。</japanese>
+	</key>
+	<key name="Item_Data_Wing_Name">
+		<korean>날개</korean>
+		<english>wing</english>
+		<japanese>オホーツクオホーツクオホーツクうわっ</japanese>
+	</key>
+	<key name="Item_Data_WingBoots_Description">
+		<korean>발걸음이 아주 가벼워집니다.</korean>
+		<english>The foot is much lighter.</english>
+		<japanese>全ウィンドウ画面</japanese>
+	</key>
+	<key name="Item_Data_WingBoots_Name">
+		<korean>윙 부츠 </korean>
+		<english>Wing Boots</english>
+		<japanese>足が非常に軽くなります。</japanese>
+	</key>
+	<key name="Item_Data_YoePo'sSpear_Description">
+		<korean>강한 장수가 사용했다고 하는 달 모양 칼날이 달린 창 </korean>
+		<english>a moon shaped blade that is said to have a strong longevity</english>
+		<japanese>ウィングブーツ</japanese>
+	</key>
+	<key name="Item_Data_YoePo'sSpear_Name">
+		<korean>방천화극 </korean>
+		<english>Yoe Po's Spear</english>
+		<japanese>強い長寿が使用したという月の形刃が付いたウィンドウ</japanese>
+	</key>
+	<key name="Item_Data_Zweihander_Description">
+		<korean>한번 휘두르면 땅이 흔들릴 정도로 큰 대검 </korean>
+		<english>A great sword that wields once and wakes the ground</english>
+		<japanese>率フォード</japanese>
+	</key>
+	<key name="Item_Data_Zweihander_Name">
+		<korean>츠바이핸더</korean>
+		<english>Zweihander</english>
+		<japanese>一度振ると地面が揺れるほどの大きな大剣</japanese>
+	</key>
+	<key name="Item_Option_AttackSpeed">
+		<korean>초당 공격 횟수</korean>
+		<english>Attack Per Second</english>
+		<japanese>毎秒攻撃回数</japanese>
+	</key>
+	<key name="Item_Option_Damage">
+		<korean>공격력</korean>
+		<english>Damage</english>
+		<japanese>攻撃力</japanese>
+	</key>
+	<key name="Item_Option_Defense">
+		<korean>방어력</korean>
+		<english>Defense</english>
+		<japanese>防御力</japanese>
+	</key>
+	<key name="Item_RarityTier_Common">
+		<korean>일반 아이템</korean>
+		<english>Common</english>
+		<japanese>一般アイテム</japanese>
+	</key>
+	<key name="Item_RarityTier_Legend">
+		<korean>전설 아이템</korean>
+		<english>Legend</english>
+		<japanese>伝説のアイテム</japanese>
+	</key>
+	<key name="Item_RarityTier_Rare">
+		<korean>희귀 아이템</korean>
+		<english>Rare</english>
+		<japanese>レアアイテム</japanese>
+	</key>
+	<key name="Item_RarityTier_Uncommon">
+		<korean>고급 아이템</korean>
+		<english>Uncommon</english>
+		<japanese>両手武器</japanese>
+	</key>
+	<key name="Item_Type_Accessory">
+		<korean>액세서리</korean>
+		<english>Accessory</english>
+		<japanese>アクセサリー</japanese>
+	</key>
+	<key name="Item_Type_Costume">
+		<korean>코스튬</korean>
+		<english>Costume</english>
+		<japanese>コスチューム</japanese>
+	</key>
+	<key name="Item_Type_Weapon">
+		<korean>무기</korean>
+		<english>Weapon</english>
+		<japanese>水風船</japanese>
+	</key>
+	<key name="Item_WeaponHand_Main">
+		<korean>한손 (주무기)</korean>
+		<english>Main Handed</english>
+		<japanese>片手（主な武器）</japanese>
+	</key>
+	<key name="Item_WeaponHand_Off">
+		<korean>한손 (보조무기)</korean>
+		<english>Off Handed</english>
+		<japanese>片手（補助武器）</japanese>
+	</key>
+	<key name="Item_WeaponHand_Two">
+		<korean>양손무기</korean>
+		<english>Two Handed</english>
+		<japanese>チューバ</japanese>
+	</key>
+	<key name="Monster_Bat">
+		<korean>박쥐</korean>
+		<english>Bat</english>
+	</key>
+	<key name="Monster_RedBat">
+		<korean>붉은 박쥐</korean>
+		<english>Red Bat</english>
+	</key>
+	<key name="Monster_BigBat">
+		<korean>큰 박쥐</korean>
+		<english>Big Bat</english>
+	</key>
+	<key name="Monster_BigRedBat">
+		<korean>큰 붉은 박쥐</korean>
+		<english>Big Red Bat</english>
+	</key>
+	<key name="Monster_LittleGhost">
+		<korean>꼬마유령</korean>
+		<english>Little Ghost</english>
+	</key>
+	<key name="Monster_BigGhost">
+		<korean>어른유령</korean>
+		<english>Big Ghost</english>
+	</key>
+	<key name="Monster_Skeledog">
+		<korean>스켈리독</korean>
+		<english>Skeledog</english>
+	</key>
+	<key name="Monster_MetalSkeledog">
+		<korean>강철 스켈리독</korean>
+		<english>Metal Skeledog</english>
+	</key>
+	<key name="Monster_Lilith">
+		<korean>릴리스</korean>
+		<english>Lilith</english>
+	</key>
+	<key name="Monster_Gargoyle">
+		<korean>가고일</korean>
+		<english>Gargoyle</english>
+	</key>
+	<key name="Monster_Banshee">
+		<korean>밴시</korean>
+		<english>Banshee</english>
+	</key>
+	<key name="Monster_AbyssBanshee">
+		<korean>심연의 밴시</korean>
+		<english>Abyss Banshee</english>
+	</key>
+	<key name="Monster_Skeleton">
+		<korean>스켈레톤</korean>
+		<english>Skeleton</english>
+	</key>
+	<key name="Monster_BlackSkeleton">
+		<korean>검은 스켈레톤</korean>
+		<english>Black Skeleton</english>
+	</key>
+	<key name="Monster_MetalSkeleton">
+		<korean>강철 스켈레톤</korean>
+		<english>Metal Skeleton</english>
+	</key>
+	<key name="Monster_SkeletonElite">
+		<korean>정예 스켈레톤 </korean>
+		<english>Elite Skeleton</english>
+	</key>
+	<key name="Monster_IceSkeletonElite">
+		<korean>정예 서리 스켈레톤 </korean>
+		<english>Elite Frost Skeleton</english>
+	</key>
+	<key name="Monster_IceMage">
+		<korean>서리 스켈레톤 마법사</korean>
+		<english>Frost Skeleton Magician</english>
+	</key>
+	<key name="Monster_Goblin">
+		<korean>고블린</korean>
+		<english>Goblin</english>
+	</key>
+	<key name="Monster_FireMage">
+		<korean>화염 스켈레톤 마법사</korean>
+		<english>Flame Skeleton Magician</english>
+	</key>
+	<key name="Monster_Android">
+		<korean>안드로이드</korean>
+		<english>Android</english>
+	</key>
+	<key name="Monster_SentryGun">
+		<korean>센트리건</korean>
+		<english>Sentry Gun</english>
+	</key>
+	<key name="Monster_Minotaurs">
+		<korean>미노타우루스</korean>
+		<english>Minotaur</english>
+	</key>
+	<key name="Monster_Ovibos">
+		<korean>오비보스</korean>
+		<english>Ovivos</english>
+	</key>
+	<key name="Monster_LizardMan">
+		<korean>리자드맨</korean>
+		<english>Lizard Man</english>
+	</key>
+	<key name="Monster_LizardManSoldier">
+		<korean>리자드맨 보병</korean>
+		<english>Lizard Man Soldier</english>
+	</key>
+	<key name="Monster_LizardManScout">
+		<korean>리자드맨 정찰병</korean>
+		<english>Lizard Man Scout</english>
+	</key>
+	<key name="Monster_LizardManShieldbearer">
+		<korean>리자드맨 방패병</korean>
+		<english>Lizard Man Shieldbearer</english>
+	</key>
+	<key name="Monster_LizardManSkirmisher">
+		<korean>리자드맨 척후병</korean>
+		<english>Lizard Man Skirmisher</english>
+	</key>
+	<key name="Monster_LizardManShaman">
+		<korean>리자드맨 주술사</korean>
+		<english>Lizard Man Shaman</english>
+	</key>
+	<key name="Monster_LizardManCenturion">
+		<korean>리자드맨 백인대장</korean>
+		<english>Lizard Man Centurion</english>
+	</key>
+	<key name="Monster_Rafflesia">
+		<korean>라플레시아</korean>
+		<english>Rafflesia</english>
+	</key>
+	<key name="Monster_Snake">
+		<korean>뱀</korean>
+		<english>Snake</english>
+	</key>
+	<key name="Monster_GreenSpider">
+		<korean>초록 거미</korean>
+		<english>Green Spider</english>
+	</key>
+	<key name="Monster_YellowSpider">
+		<korean>노란 거미</korean>
+		<english>Yellow Spider</english>
+	</key>
+	<key name="Monster_Cerberos">
+		<korean>서버러스</korean>
+		<english>Cerberos</english>
+	</key>
+	<key name="Monster_ChainDemon">
+		<korean>악마</korean>
+		<english>Chain Demon</english>
+	</key>
+	<key name="Monster_EnvyrokDemon">
+		<korean>엔비록의 악마</korean>
+		<english>Envyrok Demon</english>
+	</key>
+	<key name="Monster_HellFlower">
+		<korean>지옥꽃</korean>
+		<english>Hell Flower</english>
+	</key>
+	<key name="Monster_HellGrass">
+		<korean>지옥풀</korean>
+		<english>Hell Grass</english>
+	</key>
+	<key name="Monster_HellHound">
+		<korean>헬하운드</korean>
+		<english>Hell Hound</english>
+	</key>
+	<key name="Monster_LittleDevil">
+		<korean>소악마</korean>
+		<english>Little Devil</english>
+	</key>
+	<key name="Monster_Orthus">
+		<korean>오르토스</korean>
+		<english>Orthus</english>
+	</key>
+	<key name="Monster_Mine">
+		<korean>지뢰</korean>
+		<english>Mine</english>
+	</key>
+	<key name="Monster_MineRobot">
+		<korean>지뢰설치로봇</korean>
+		<english>Mine Robot</english>
+	</key>
+	<key name="Monster_MetalWing">
+		<korean>메탈 윙</korean>
+		<english>Metal Wing</english>
+	</key>
+	<key name="Monster_MetalJumper">
+		<korean>메탈 점퍼</korean>
+		<english>Metal Jumper</english>
+	</key>
+	<key name="Monster_Wyvern">
+		<korean>비룡</korean>
+		<english>Wyvern</english>
+	</key>
+	<key name="Monster_Astrape">
+		<korean>어스트레이프</korean>
+		<english>Astrape</english>
+	</key>
+	<key name="Monster_LightningRodFlower">
+		<korean>피뢰침 꽃</korean>
+		<english>Lightning Rod Flower</english>
+	</key>
+	<key name="Monster_AbyssKnight">
+		<korean>심연의 기사</korean>
+		<english>Abyss Knight</english>
+	</key>
+	<key name="Monster_AbyssGuradian">
+		<korean>심연의 수호자</korean>
+		<english>Abyss Guardian</english>
+	</key>
+	<key name="Monster_Necromander">
+		<korean>네크로맨서</korean>
+		<english>Necromander</english>
+	</key>
+	<key name="Monster_Werewolf">
+		<korean>웨어울프</korean>
+		<english>Werewolf</english>
+	</key>
+	<key name="Monster_Gangshi">
+		<korean>강시</korean>
+		<english>Gangshi</english>
+	</key>
+	<key name="Monster_Lamia">
+		<korean>라미아</korean>
+		<english>Lamia</english>
+	</key>
+	<key name="Monster_EgoSword">
+		<korean>에고 소드</korean>
+		<english>Ego Sword</english>
+	</key>
+	<key name="Monster_EvilFanaticKnight">
+		<korean>악신교단 기사</korean>
+		<english>Evil Fanatic Knight</english>
+	</key>
+	<key name="Monster_EvilFanaticPriest">
+		<korean>악신교단 사제</korean>
+		<english>Evil Fanatic Priest</english>
+	</key>
+	<key name="Monster_EvilFanaticArcher">
+		<korean>악신교단 궁수</korean>
+		<english>Evil Fanatic Archer</english>
+	</key>
+	<key name="Monster_EvilFanaticRanger">
+		<korean>악신교단 사수</korean>
+		<english>Evil Fanatic Ranger</english>
+	</key>
+	<key name="Monster_EvilFanaticShaman">
+		<korean>악신교단 주술사</korean>
+		<english>Evil Fanatic Shaman</english>
+	</key>
+	<key name="Monster_EvilFanaticAssassin">
+		<korean>악신교단 암살자</korean>
+		<english>Evil Fanatic Assassin</english>
+	</key>
+	<key name="Monster_EvilFanaticMagician">
+		<korean>악신교단 마법사</korean>
+		<english>Evil Fanatic Magician</english>
+	</key>
+	<key name="NPC_Name_Arsha">
+		<korean>아르샤</korean>
+		<english>Arsha</english>
+		<japanese>アールシャ</japanese>
+	</key>
+	<key name="NPC_Name_Bloch">
+		<korean>블로슈</korean>
+		<english>Bloch</english>
+		<japanese>ブローシュー</japanese>
+	</key>
+	<key name="NPC_Name_Celein">
+		<korean>셀레인</korean>
+		<english>Celein</english>
+		<japanese>セレナの</japanese>
+	</key>
+	<key name="NPC_Name_Coblovina">
+		<korean>카블로비나</korean>
+		<english>Coblovina</english>
+		<japanese>カーブロー雨</japanese>
+	</key>
+	<key name="NPC_Name_Croc">
+		<korean>크록</korean>
+		<english>Croc</english>
+		<japanese>クロック</japanese>
+	</key>
+	<key name="NPC_Name_Fiat">
+		<korean>피아트</korean>
+		<english>Fiat</english>
+		<japanese>フィアット</japanese>
+	</key>
+	<key name="NPC_Name_Haken">
+		<korean>하켄</korean>
+		<english>Haken</english>
+		<japanese>ハーケン</japanese>
+	</key>
+	<key name="NPC_Name_Horerica">
+		<korean>호레리카</korean>
+		<english>Horerica</english>
+		<japanese>ホルヘリカ</japanese>
+	</key>
+	<key name="NPC_Name_Millia">
+		<korean>밀리아</korean>
+		<english>Millia</english>
+		<japanese>ミリア</japanese>
+	</key>
+	<key name="NPC_Name_Rozen">
+		<korean>로젠</korean>
+		<english>Rozen</english>
+		<japanese>ローゼン</japanese>
+	</key>
+	<key name="NPC_Name_Yulford">
+		<korean>율포드</korean>
+		<english>Yulford</english>
+		<japanese>ダッシュをつけました。</japanese>
+	</key>
+	<key name="NPC_Talk_Choice_Activate">
+		<korean>활성화</korean>
+		<english>Activate</english>
+	</key>
+	<key name="NPC_Talk_Choice_DoHelp">
+		<korean>도와준다</korean>
+		<english>Sure</english>
+	</key>
+	<key name="NPC_Talk_Choice_DontHelp">
+		<korean>안도와준다</korean>
+		<english>Nope</english>
+	</key>
+	<key name="NPC_Talk_Choice_Accomplain">
+		<korean>동행</korean>
+		<english>Accomplain</english>
+	</key>
+	<key name="NPC_Talk_Choice_Shop">
+		<korean>상점</korean>
+		<english>Shop</english>
+	</key>
+	<key name="NPC_Talk_Choice_Bless">
+		<korean>축복</korean>
+		<english>Bless</english>
+	</key>
+	<key name="NPC_Talk_Choice_FoodShop">
+		<korean>음식점</korean>
+		<english>FoodShop</english>
+	</key>
+	<key name="NPC_Talk_Choice_Tribute">
+		<korean>공물을 바친다</korean>
+		<english>Tribute</english>
+	</key>
+	<key name="NPC_Talk_Choice_Boutique">
+		<korean>의상실</korean>
+		<english>Boutique</english>
+	</key>
+	<key name="NPC_Talk_Choice_Talk">
+		<korean>이야기하기</korean>
+		<english>Talk</english>
+	</key>
+	<key name="NPC_Talk_Choice_Train">
+		<korean>훈련장</korean>
+		<english>Train</english>
+	</key>
+	<key name="NPC_Talk_Choice_Build">
+		<korean>건설</korean>
+		<english>Build</english>
+	</key>
+	<key name="NPC_Talk_Choice_Nothing">
+		<korean>아무것도</korean>
+		<english>Nothing</english>
+	</key>
+	<key name="NPC_Talk_Arsha_First_0">
+		<korean>아르샤(마법사) 구출 후 마을 첫 대화 01</korean>
+		<english>Arsha (wizard) rescued after village first conversation 01</english>
+		<japanese>翼</japanese>
+	</key>
+	<key name="NPC_Talk_Arsha_First_1">
+		<korean>아르샤(마법사) 구출 후 마을 첫 대화 02</korean>
+		<english>Arsha (wizard) rescued after village first conversation 02</english>
+		<japanese>アール・シャー（ウィザード）救出後の村の最初の会話01</japanese>
+	</key>
+	<key name="NPC_Talk_Arsha_First_2">
+		<korean>아르샤(마법사) 구출 후 마을 첫 대화 03</korean>
+		<english>Arsha (wizard) rescued after village first conversation 03</english>
+		<japanese>アール・シャー（ウィザード）救出後の村の最初の会話02</japanese>
+	</key>
+	<key name="NPC_Talk_Arsha_First_3">
+		<korean>아르샤(마법사) 구출 후 마을 첫 대화 04</korean>
+		<english>The first conversation of village after rescue of Arsha (wizard) 04</english>
+		<japanese>アール・シャー（ウィザード）救出後の村の最初の会話03</japanese>
+	</key>
+	<key name="NPC_Talk_Bloch_AlredyRescue_0">
+		<korean>자네, 동행자가 있군.</korean>
+		<english>You have a companion.</english>
+		<japanese>アール・シャー（ウィザード）救出後の村の最初の会話04</japanese>
+	</key>
+	<key name="NPC_Talk_Bloch_AlredyRescue_1">
+		<korean>그 사람을 먼저 구출하고 나서 오는게 효율이 훨씬 좋을 것 같네.</korean>
+		<english>I think it would be much better to come after you rescued him first.</english>
+		<japanese>あなた、友達がね。</japanese>
+	</key>
+	<key name="NPC_Talk_Bloch_AlredyRescue_2">
+		<korean>그리고 돌아올때는 좀 씻고 오게. 먼지투성이인 사람과 같이 걷고 싶지는 않군.</korean>
+		<english>And come back when you come back. I do not want to walk with dusty people.</english>
+		<japanese>その人を先に救出してから来るの効率がはるかに良いでしょうね。</japanese>
+	</key>
+	<key name="NPC_Talk_Bloch_First_0">
+		<korean>고맙네. 내 이름은 블로슈. 왕궁 귀족들의 옷을 관리하고 있었지.</korean>
+		<english>Thank you. My name is Bloch. I was managing the royal palace clothes.</english>
+		<japanese>そして帰ってくるときは、いくつかの洗い来る。 ほこりだらけの人のように歩いてたくは悪い。</japanese>
+	</key>
+	<key name="NPC_Talk_Bloch_First_1">
+		<korean>여기 사람들은 모두 나와 똑같은 신세로군. 자신이 살던 곳으로 가지 못해.</korean>
+		<english>These people are all the same as me. I can not go to where I lived.</english>
+		<japanese>おかげmate商品。 私の名前はブローシュー。 王宮貴族の服を管理していた。</japanese>
+	</key>
+	<key name="NPC_Talk_Bloch_First_2">
+		<korean>던전 위쪽 이상으로 나가지 못해도, 다들 희망을 잃은 것처럼 보이지는 않는군. 당신 때문인가?</korean>
+		<english>Even if you can not get beyond the top of the dungeon, everyone does not seem to have lost hope. Is it because of you?</english>
+		<japanese>ここの人々は、すべて私と同じ境遇だな。 自分が住んでいたところに行かず、。</japanese>
+	</key>
+	<key name="NPC_Talk_Bloch_First_3">
+		<korean>나 역시, 환경이 갖추어지면 당신에게 도움을 주도록 하지. 그 촌스런 두건 대신에 다른 걸 입혀주겠네.</korean>
+		<english>I, too, will help you if the environment is well equipped. I'll wear something else instead of that dirty hood.</english>
+		<japanese>ダンジョン上向き以上に出なくても、みんなの希望を失ったかのように見えないね。 あなたのためか？</japanese>
+	</key>
+	<key name="NPC_Talk_Bloch_Main_0">
+		<korean>옷 갈아입을 준비는 되었나?</korean>
+		<english>Are you ready to change clothes?</english>
+		<japanese>私も、環境が整えば、あなたに助けを与えるようにありません。 その村なフードの代わりに他のものを着せてあげね。</japanese>
+	</key>
+	<key name="NPC_Talk_Bloch_RescueMessage_0">
+		<korean>덕분에 드디어 햇빛을 보네. 고맙네!</korean>
+		<english>I finally see the sunshine. Thank you!</english>
+		<japanese>服着替えの準備はなったか？</japanese>
+	</key>
+	<key name="NPC_Talk_Bloch_RescueMessage_0">
+		<korean>모험가의 복장을 하고 있군. 자네, 이곳을 탐험하고 있나?</korean>
+		<english>You're dressing up as an explorer. Are you exploring this place?</english>
+		<japanese>おかげで、最終的に太陽の光をだね。 ねぇ！</japanese>
+	</key>
+	<key name="NPC_Talk_Bloch_RescueMessage_1">
+		<korean>시간이 된다면 나를 여기서 내 보내줄 수 있는가? 여기는 사람이 없어서 지루하군.</korean>
+		<english>Can you let me out of here in time? It's boring because there are no people here.</english>
+		<japanese>冒険の服装をしているね。 あなたが、ここを探索しているか？</japanese>
+	</key>
+	<key name="NPC_Talk_Bloch_Talk_0_0">
+		<korean>블로슈 기본 대화</korean>
+		<english>Bloch basic conversation</english>
+		<japanese>時間があれば、私はここに私手放すことができますか？ ここの人がいなくて退屈だね。</japanese>
+	</key>
+	<key name="NPC_Talk_Bloch_Talk_0_1">
+		<korean>블로슈 기본 대화 2</korean>
+		<english>Bloch basic conversation 2</english>
+		<japanese>ブログシュー基本会話</japanese>
+	</key>
+	<key name="NPC_Talk_Bloch_ThanksForBuild_0">
+		<korean>흠..흐음. 하켄씨가 드디어 내 요구 사항을 들어주셨군. 세계 최고의 디자이너에겐 이런 곳이 필요하지.</korean>
+		<english>Hmm .. Hmm. Mr. Hacken finally heard my request. The world's top designers need this kind of place.</english>
+		<japanese>ブログシュー基本会話2</japanese>
+	</key>
+	<key name="NPC_Talk_Bloch_ThanksForBuild_1">
+		<korean>외관을 더 구경하고 방 정리를 해야겠어. 아, 고맙다는 말을 깜빡했군. 정말 고맙네.</korean>
+		<english>I have to look at the exterior more and do the room cleaning. Oh, I forgot to say thank you. Thank you very much.</english>
+		<japanese>うーん..ふむ。 ハーケンさんがついに私の要件を聞いてくださったね。 世界最高のデザイナーには、このようなところが必要ありません。</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_AlredyRescue_0">
+		<korean>이미 동행자가 있군.</korean>
+		<english>There is a companion already.</english>
+		<japanese>外観をより口径し、部屋の整理をするつもり。 ああ、お礼を言うのを忘れてしまった。 本当にねぇ。</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_AlredyRescue_1">
+		<korean>여기에서 움직이지 않고 기다릴테니, 조금 뒤에 다시 와주겠나?</korean>
+		<english>I will wait here without moving, will you come back soon?</english>
+		<japanese>すでに友達がね。</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_First_0">
+		<korean>마을! 드디어!</korean>
+		<english>village! finally!</english>
+		<japanese>ここで動かず待ってるから、ちょっと後ろ再び来てさらさら？</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_First_1">
+		<korean>지금까지 마을지도를 가지고 다녀서 괜찮았건만..!</korean>
+		<english>So far I have had a map of the village and it was okay ...!</english>
+		<japanese>村！ ついに！</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_First_2">
+		<korean>주섬주섬 (꾸깃꾸깃한 지도를 꺼냈다. 지도를 거꾸로 보고 있는 것 같다)</korean>
+		<english>Jusum Island (I pulled out a cunning map.</english>
+		<japanese>今までの村の地図を持って通ってよかったけれど...！</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_First_3">
+		<korean>이곳도 새로 지도를 그려야 하는가. 아 참, 내 이름은 카블로비나.</korean>
+		<english>Do we have to draw new maps here as well? Oh yes, my name is Cablobin.</english>
+		<japanese>ジュソムジュソム（くしゃくしゃした地図を取り出した。地図を逆さまに見ているようだ）</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_First_4">
+		<korean>이 마을에서 마을 경비대의 훈련을 맡고 있었지. 잘 부탁하네!</korean>
+		<english>I was training the village guards in this village. Thank you very much!</english>
+		<japanese>こちらも新たに地図を描画するのか。 ああそうだ、私の名前はカーブロー雨。</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_Main_0">
+		<korean>자네 왔군! 훈련할 텐가?</korean>
+		<english>You are here! Do you want to train?</english>
+		<japanese>この町から町警備隊の訓練を担当していた。 よろしくお願いね！</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_RescueMessage_0">
+		<korean>오… 자네는 모험가처럼 보이는군.</korean>
+		<english>Oh...  You look like an explorer.</english>
+		<japanese>あなたてきた！ 訓練するべきだろう？</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_RescueMessage_1">
+		<korean>자꾸 길을 헤매서.. 혹시 괜찮다면 이 던전의 출구까지 안내해 주겠나?</korean>
+		<english>Do you know where the exit is? I don't know where I am.</english>
+		<japanese>ああ..王。 あなたは冒険のように見えるね。</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_RescueMessage_2">
+		<korean>자주 이러는 건 아니고.. 이곳은 너무 헷갈려서 그런 거라네! 정말로!</korean>
+		<english>I find the way very well. But this place is too complicated! Really!</english>
+		<japanese>しきりに道を迷って...もしよかったら、このダンジョンの出口まで案内してくれるか？</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_RescueSuccess_0">
+		<korean>여기가 자네가 말한 포탈인가 보군! 고맙네!</korean>
+		<english>This is the portal you said me! Thank you!</english>
+		<japanese>よくこれを行うのではなく。このダンジョンがとてもヘトガルリョソそんなだろうネ！ 本当に！</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_Talk_0_0">
+		<korean>나의 부모님은 두 분 모두 강한 기사였다고 하네. 할머니께 길러져 단 한 번도 보지 못했지만.</korean>
+		<english>My parents were strong knights. Although I have never seen them, my grandmother raised me.</english>
+		<japanese>ここでは、あなたが言うポータルかだな！ ねぇ！</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_Talk_0_1">
+		<korean>그래도 내 검과 영혼에 두 분이 항상 함께하고 있다 느낀다네. 자네의 검에는 누가 함께하는지 궁금하군.</korean>
+		<english>But I feel that my parents are always together in my sword and soul. I wonder who's in your sword.</english>
+		<japanese>私の両親は二人とも強い記事だったね。 おばあちゃんに培われて一度も見ていない。</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_Talk_1_0">
+		<korean>기사의 삶이 항상 전쟁과 가까이에서 자신을 깎는 것만은 아니라네. 주민들을 보호하는 것 또한 기사의 임무.</korean>
+		<english>Knight 's life is not always merely cutting itself off from war and its. It is also the duty of the article to protect the inhabitants.</english>
+		<japanese>それでも、私の剣と魂の二人がいつも一緒にしている感じね。 あなたの剣は誰にするかのだろう。</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_Talk_1_1">
+		<korean>그리고, 사실 경비병들을 훈련시키는 것도 작은 전쟁 중 하나지. 하하.</korean>
+		<english>And, in fact, training guards is one of the little wars. haha.</english>
+		<japanese>記事の人生は常に戦争と近くで自分自身を削るだけではなく、はい。 住民を保護することも記事の任務。</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_Talk_2_0">
+		<korean>율포드님에게 말씀드려서, 건물들을 원래 있던 자리에 다시 세워달라고 말씀드렸는데, 거절하셨네.</korean>
+		<english>I told Julopard I told him to put the buildings back in their original place, but he refused.</english>
+		<japanese>そして、実際に警備兵を訓練させることも、小さな戦争の一つか。 ハハ。</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_Talk_2_1">
+		<korean>재건하는 사람들이 다른 곳을 느껴보고 싶다나..훈련장만이 예전 위치 그대로라네.</korean>
+		<english>Rebuilding people want to feel another place. Only the training area is the same as before.</english>
+		<japanese>率フォード様に言っまして、建物を元の位置に戻って立ててもらう言いまし、拒絶ハショトネ。</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_ThanksForBuild_0">
+		<korean>훈련장을 지어줬군! 고맙네!</korean>
+		<english>You built the training school! Thank you!</english>
+		<japanese>再建する人が別の場所を感じてみたい、または。訓練場だけが以前の位置のままだね。</japanese>
+	</key>
+	<key name="NPC_Talk_Coblovina_ThanksForBuild_1">
+		<korean>자네의 능력을 훈련하고 싶으면 언제든지 내게로 오게나. 마을 서쪽에 있으니!</korean>
+		<english>If you want to train your abilities, Come to me anytime. It's in west of village!</english>
+		<japanese>訓練場を建設ジュォトグン！ ねぇ！</japanese>
+	</key>
+	<key name="NPC_Talk_Croc_Shop_First_0">
+		<korean>자네, 행색을 보아하니 여행자구만!</korean>
+		<english>You look like a traveler!</english>
+		<japanese>あなたの能力を訓練したい、いつでも私にオゲナ。 村の西にありますので、！</japanese>
+	</key>
+	<key name="NPC_Talk_Croc_Shop_First_1">
+		<korean>난 여기서 꽤나 오래 눌러앉아 장사하고있는 크록이라 하네.</korean>
+		<english>I was called Croc for a long time.</english>
+		<japanese>あなた、身なりを見たところの旅行者だな！</japanese>
+	</key>
+	<key name="NPC_Talk_Croc_Shop_First_2">
+		<korean>진귀한 물건들이 많다네, 자주 들러주게나!</korean>
+		<english>There are a lot of precious things.</english>
+		<japanese>私はここでかなり長い間押して座って商売しているクロックとね。</japanese>
+	</key>
+	<key name="NPC_Talk_Croc_Shop_Main_0">
+		<korean>반갑구만! 물건보러 왔나?!</korean>
+		<english>Excuse me! Did you come to see the stuff ?!</english>
+		<japanese>珍しいものが多いはい、よく立ち寄ってくれや！</japanese>
+	</key>
+	<key name="NPC_Talk_Fiat_AlreadyMade_0">
+		<korean>한손에 한정씩은 사나이의 로망이긴 하지만, 효율도 안좋고 위험해. 그만둬.</korean>
+		<english>Although limited to one hand, it is a man's dream, but efficiency is bad and dangerous. stop.</english>
+		<japanese>バンガプグだけ！ モノ見行く？！</japanese>
+	</key>
+	<key name="NPC_Talk_Fiat_AlredyRescue_0">
+		<korean>나는 내 총들을 더 찾아봐야겠어.</korean>
+		<english>I have to find more of my guns.</english>
+		<japanese>片手に限定ずつ男のロマンはあるが、効率も良くなくて危険。 やめ。</japanese>
+	</key>
+	<key name="NPC_Talk_Fiat_AlredyRescue_1">
+		<korean>근처에 있을테니, 조금 있다 다시 이쪽으로 와줘!</korean>
+		<english>I'll be nearby, so come back here a little!</english>
+		<japanese>私は私の総をより探すつもりです。</japanese>
+	</key>
+	<key name="NPC_Talk_Fiat_First_0">
+		<korean>하아.. 결국 와버렸군. 어찌 되었든 위험한 곳에서 탈출시켜줘서 고마워.</korean>
+		<english>Oh ... I'm finally here. Thank you for escaping from a dangerous place anyway.</english>
+		<japanese>近くにあるので、ちょっとある再びこちらに来てくれ！</japanese>
+	</key>
+	<key name="NPC_Talk_Fiat_First_1">
+		<korean>나는 피아트. 여기와는 다른 세계에서 살고 있었는데, 어쩌다 보니 빨려 들어오게 되었어.</korean>
+		<english>I am Fiat. I was living in a world different from here,</english>
+		<japanese>はぁ...結局とのこぎり。 いずれにせよ、危険な場所からの脱出させてくれてありがとう。</japanese>
+	</key>
+	<key name="NPC_Talk_Fiat_First_2">
+		<korean>자네는 혹시 총이라는 물건을 알아? 당신에게 화약 냄새가 나는데.. 킁킁</korean>
+		<english>Do you know anything about guns? I smell you gunpowder .. sniffing</english>
+		<japanese>私はフィアット。 ここでは、別の世界に住んでいたが、たまたま吸い込まれてくるようになった。</japanese>
+	</key>
+	<key name="NPC_Talk_Fiat_First_3">
+		<korean>더 좋은 총을 사용하고 싶다면, 내가 총기를 정비할 수 있는 장소를 마련해 줘.</korean>
+		<english>If you want to use a better gun, give me a place where I can repair my gun.</english>
+		<japanese>あなたはもしかしたら総というものを知っている？ あなたに火薬のにおいが...盗聴</japanese>
+	</key>
+	<key name="NPC_Talk_Fiat_MakeCommon_0">
+		<korean>이정도면 총 구실은 할 수 있겠네.</korean>
+		<english>This is a total excuse.</english>
+		<japanese>より良い銃を使用したい場合は、私は銃を整備することができる場所を設けてくれ。</japanese>
+	</key>
+	<key name="NPC_Talk_Fiat_MakeUncommon_0">
+		<korean>오, 이번에는 꽤 괜찮은데?</korean>
+		<english>Oh, it's pretty good this time.</english>
+		<japanese>この程度なら総口実はでき悩ます。</japanese>
+	</key>
+	<key name="NPC_Talk_Fiat_RescueMessage_0">
+		<korean>거기 당신, 혹시 여기까지 오면서 길쭉하게 생긴, 철로 된 무기 같은 걸 못 봤어? </korean>
+		<english>Did not you see anything like a long, irony weapon coming up here?</english>
+		<japanese>ああ、今回はかなり大丈夫？</japanese>
+	</key>
+	<key name="NPC_Talk_Fiat_RescueMessage_1">
+		<korean>일단 나가야 한다고? 그만둬! 내 총들이 날 기다리고 있다고!</korean>
+		<english>You should go out once? stop! My guns are waiting for me!</english>
+		<japanese>そこ、もしかしたらここまできて長めに生じた、鉄の武器のようなもの見ていない？</japanese>
+	</key>
+	<key name="NPC_Talk_Fiat_RescueSuccess_0">
+		<korean>내 총들..그래도 일단 목숨이 우선이니. 고마워!</korean>
+		<english>(Fiat rescued successful metabolism 0)</english>
+		<japanese>一度いくべきだと？ やめ！ 私の総が私を待っていると！</japanese>
+	</key>
+	<key name="NPC_Talk_Fiat_ThanksForBuild_0">
+		<korean>고마워! 벌써부터 총을 만들 생각에 가슴이 떨리는걸?</korean>
+		<english>Thanks! I'm already shaking my head to make a gun?</english>
+		<japanese>（フィアット救出成功大使0）</japanese>
+	</key>
+	<key name="NPC_Talk_Fiat_ThanksForBuild_1">
+		<korean>대장장이님이 건물까지 지어 주셨으니, 고향으로 돌아가는건 잠시 접어도 되겠네.</korean>
+		<english>Since the blacksmith has built the building, I can go back to my homevillage for a while.</english>
+		<japanese>ありがとう！ すでに銃を作る考えに胸が震えるのを？</japanese>
+	</key>
+	<key name="NPC_Talk_Haken_AlreadyMade_0">
+		<korean>오늘 만든 건 그것뿐이야. 다음에 다시 찾아와!</korean>
+		<english>That 's all I made today. Come back next time!</english>
+		<japanese>鍛冶屋さんが建物まで建ててくださった、故郷に帰るのはしばらくたたんでも良いね。</japanese>
+	</key>
+	<key name="NPC_Talk_Haken_AlredyRescue_0">
+		<korean>호오.. 자네 동행자가 있구만.</korean>
+		<english>I have your companion.</english>
+		<japanese>今日作ったのは、それだけ。 その後、再び訪れて！</japanese>
+	</key>
+	<key name="NPC_Talk_Haken_AlredyRescue_1">
+		<korean>그래. 알겠네. 내 몸은 내가 지킬 수 있으니. 다녀오게나.</korean>
+		<english>Yes. I understand. I can keep my body. Come on.</english>
+		<japanese>ほう...あなたの友達がいるな。</japanese>
+	</key>
+	<key name="NPC_Talk_Haken_First_0">
+		<korean>고생했구만. 내 이름은 하켄. 대장장이일세.</korean>
+		<english>I was in trouble. My name is Haken. It's a blacksmith.</english>
+		<japanese>はい。 わかった。 私の体は、私は保つことがありますので、。 行っオゲナ。</japanese>
+	</key>
+	<key name="NPC_Talk_Haken_First_1">
+		<korean>사정은 들었네. 여길 나가려면 던전을 탐험해야 한다고.</korean>
+		<english>I heard about it. I have to explore the dungeon to get out of here.</english>
+		<japanese>苦労ヘトグマン。 私の名前はハーケン。 鍛冶屋だね。</japanese>
+	</key>
+	<key name="NPC_Talk_Haken_First_2">
+		<korean>내 여유가 날 때마다 무기를 만들어 줌세. 다만!</korean>
+		<english>I make a weapon whenever I can afford it. but!</english>
+		<japanese>事情は聞いた。 場違い私にはダンジョンを探索しなければならないと。</japanese>
+	</key>
+	<key name="NPC_Talk_Haken_First_3">
+		<korean>무기는 내가 만들고 싶은 것만 만들겠네. 품질은 걱정하지 않아도 좋아.</korean>
+		<english>The weapon will only make what I want to make. I do not have to worry about quality.</english>
+		<japanese>私の余裕が飛ぶたびに、武器を作っジュムセ。 ただし！</japanese>
+	</key>
+	<key name="NPC_Talk_Haken_First_4">
+		<korean>내 아이들을 잘 부탁함세.</korean>
+		<english>Please ask my children well.</english>
+		<japanese>武器は、私が作りたいだけ作成ね。 品質は心配しなくても良い。</japanese>
+	</key>
+	<key name="NPC_Talk_Haken_MakeCommon_0">
+		<korean>그리 좋은 물건은 아니지만… 보탬은 될 걸세!</korean>
+		<english>It's not such a good thing ... It will be helpful!</english>
+		<japanese>私の子供たちをよろしくお願いハムセ。</japanese>
+	</key>
+	<key name="NPC_Talk_Haken_MakeUncommon_0">
+		<korean>나름 쓸만한 놈을 만들어 봤다네! 멋지지 않은가?! 으하하!</korean>
+		<english>I've made a nice guy! Is not it cool ?! Huh!</english>
+		<japanese>それほど良いものではありませんが... 足しはなるだろうね！</japanese>
+	</key>
+	<key name="NPC_Talk_Haken_RescueMessage_0">
+		<korean>어여~안녕하신가!</korean>
+		<english>Hey ~ Hello!</english>
+		<japanese>それなりに使える奴を作ってみたネ！ 素敵支持でしょうか？！ ウハハ！</japanese>
+	</key>
+	<key name="NPC_Talk_Haken_RescueMessage_1">
+		<korean>자네도 여기에 빨려 들어왔는가? 이야기할 친구가 생겨서 좋구먼!</korean>
+		<english>Have you been sucked in here too? It's good to have friends to talk to!</english>
+		<japanese>オヨ〜こんにちは！</japanese>
+	</key>
+	<key name="NPC_Talk_Haken_RescueSuccess_0">
+		<korean>저 포탈을 통하면 마을로 갈 수 있다고? 고맙구먼! 마을에서 뵙세!</korean>
+		<english>You can go to village by going through that portal? Thank you! I'll see you in village!</english>
+		<japanese>あなたもここに吸い込まれて来たか 話をする友達ができても良いです遠い！</japanese>
+	</key>
+	<key name="NPC_Talk_Haken_ThanksForBuild_0">
+		<korean>오…멋지구만!!!!!!!!!!!!!!!!!!!!</korean>
+		<english>Oh… Great! !!!!!!</english>
+		<japanese>そのポータルを通せば町に行くことができると？ ゴマプグ遠い！ 町でブェプセ！</japanese>
+	</key>
+	<key name="NPC_Talk_Haken_ThanksForBuild_1">
+		<korean>내 한번 솜씨를 보여주지. 조금만 기다리게.</korean>
+		<english>I'll show you my skill. I'll wait a little.</english>
+		<japanese>オ... モトジグ万!!!!!!!!!!!!!!!!!!!!</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_AlredyRescue_0">
+		<korean>두분이서 절 구하러 오신 건가요?</korean>
+		<english>Are you two here to rescue me?</english>
+		<japanese>私一度腕を見せてくれ。 少しお待たせ。</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_AlredyRescue_1">
+		<korean>아니라면 둘중에 한분만 다시 와주세요. 그게 더 낭만적이니까요.</korean>
+		<english>If not, please come back only one of them. It's more romantic.</english>
+		<japanese>お二人イ節救うために来らんですか？</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_First_0">
+		<korean>안녕하세요 여행자님. 저는 호레리카라고 합니다.</korean>
+		<english>Hello traveler. I am Horrorka.</english>
+		<japanese>そうでない場合の両方の中一人だけ戻って来てください。 それよりロマンチックですからね。</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_First_1">
+		<korean>저는 던전의 낭만을 책임져야할 여관주인으로서 사명을 다하기 위해서,</korean>
+		<english>In order to fulfill my mission as the innkeeper who should be responsible for the dungeon romance,</english>
+		<japanese>こんにちは旅行者様。 私はホルヘリカと呼ばれます。</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_First_2">
+		<korean>여기 오는 여행자들에게 음식을 대접해드리고 있습니다. </korean>
+		<english>I am offering food to travelers here.</english>
+		<japanese>私はダンジョンのロマンを担当する宿屋の主人としての使命を果たすために、</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_First_3">
+		<korean>귀한 재료를 엄선해서 만들고 있으니, 부디 자주 들려주세요.</korean>
+		<english>We are making carefully selected precious materials, please listen to it often.</english>
+		<japanese>ここに来る旅行者に食べ物をもてなしています。</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_Food_First_0">
+		<korean>반가워요. 여행자신가요? 전 여관을 운영하고 있는 호레리카라고 합니다.</korean>
+		<english>Nice to meet you. Are you a traveler? I'm Horerika, who runs the former inn.</english>
+		<japanese>貴重な材料を厳選して作っているので、是非よく聞かせください。</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_Food_First_1">
+		<korean>맛있는 음식들도 있으니 편히 쉬다 가세요.</korean>
+		<english>There are some delicious foods, so take a rest.</english>
+		<japanese>チャームド。 旅行者でしょうか？ 前旅館を運営しているホルヘリカと呼ばれます。</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_Food_Frozen">
+		<korean>날씨가 알게 모르게 추워졌네요..이럴때는 시원한 맥주! 그렇죠?</korean>
+		<english>It was cold when I did not know the weather. indeed?</english>
+		<japanese>おいしい食べ物もありますので、ゆっくり休む行ってください。</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_Food_Jungle_0">
+		<korean>안녕하세요, 이곳은 지반이 튼튼하지 않아서 건물을 내리는데 많이 힘드네요. </korean>
+		<english>Hello, this place is not very strong so it is hard to get down the building.</english>
+		<japanese>天気が知らず知らず寒くなりましたね。このような時は、冷たいビール！ そうですよね？</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_Food_Jungle_1">
+		<korean>리자드맨을 처리하는것도 힘들고.. 어라. 호호, 마지막 말은 못들은걸로 해주세요?</korean>
+		<english>It's hard to handle Lizardmen. Hoho, can you tell me you did not hear the last word?</english>
+		<japanese>こんにちは、ここでは、地盤が強くなくて建物を下す多く大変ですね。</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_Food_Main_0">
+		<korean>어서오세요. 쉬다 가실 건가요?</korean>
+		<english>welcome. Are you going to rest?</english>
+		<japanese>リザードマンを処理することも大変。あれ。 ほほ、最後の言葉は聞こえないことで下さい。</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_Food_Prison">
+		<korean>안녕하세요. 이곳에 있으면 왠지 모르게 채찍을 쓰고 싶어져요. 모험가님도 그렇게 생각하시겠죠?</korean>
+		<english>Good morning. If I'm here, I want to use a whip for some reason. So do you think so, too?</english>
+		<japanese>ようこそ。 休息行くんですか？</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_Main_0">
+		<korean>오늘은 어떤 요리를 드시러 오셨나요?</korean>
+		<english>What kind of dishes did you come for today?</english>
+		<japanese>こんにちは。 ここにいれば何となく鞭を使いたくなりますよ。 冒険者様もそのように考えんでしょう？</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_RescueMessage_0">
+		<korean>아아..! 절 구하러 온 모험가님이군요.</korean>
+		<english>Alas..! I am an explorer who came to save me.</english>
+		<japanese>今日はどんな料理を食べに来たの？</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_RescueMessage_1">
+		<korean>모험가님이라고요? 당신…. 낭만을 모르는군요. 흥.</korean>
+		<english>An explorer? you… . You do not know romance. huh.</english>
+		<japanese>ああ...！ 節救助に来る冒険者様ですね。</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_Talk_0_0">
+		<korean>강한 힘이 아니더라도, 제 요리가 누군가를 구원할 수 있을 거라고 믿어요.</korean>
+		<english>Even if it is not a strong power, I believe my dish will save someone.</english>
+		<japanese>冒険者様ですよ？ あなた... 。 ロマンを知らないですね。 ふん</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_Talk_0_1">
+		<korean>물론 구원이 아니라 파멸도. 후후, 아직 그러고 싶은 사람은 없답니다.</korean>
+		<english>Of course not salvation, but destruction. Juha, nobody wants to do that yet.</english>
+		<japanese>強い力がなくても、私の料理が誰かを救うことができると信じます。</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_Talk_1_0">
+		<korean>여관을 운영하는데는 많은 준비가 필요하답니다. 저를 복제하는 마법을 익히는 것부터 시작해서 던전에 지반을 만드는 일이나,</korean>
+		<english>It takes a lot of preparation to run the inn. Starting from learning the magic that replicates me, to make the ground in the dungeon,</english>
+		<japanese>もちろん救いではなく、破滅も。 ふふ、まだそうしたい人はないんです。</japanese>
+	</key>
+	<key name="NPC_Talk_Horerica_Talk_1_1">
+		<korean>식재료를 현장에서 수급하여 맛있는 요리를 대접하는것까지..어머, 왜 그런 눈으로 보시는거죠?</korean>
+		<english>From supplying the ingredients to serving delicious food. Oh, why do you look at them like that?</english>
+		<japanese>旅館を運営するには、多くの準備が必要ですよ。 私を複製する魔法を身につけることから始めてダンジョンに地盤を作ることや、</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_AlredyRescue_0">
+		<korean>어머, 이미 동행자분이 계시네요!</korean>
+		<english>Oh, you already have a companion!</english>
+		<japanese>食材を現場で需給て美味しい料理をもてなすするのまで..あら、どうしてそんな目でご覧のですか？</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_AlredyRescue_1">
+		<korean>저는 괜찮으니, 동행자분을 먼저 탈출시켜 주세요.</korean>
+		<english>I'm fine, please escort your companion first.</english>
+		<japanese>あら、もう友達の方がいらっしゃいますね！</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_First_0">
+		<korean>구해주셔서 감사합니다. 제 이름은 밀리아. 이 마을에서 상점을 운영하고 있었지요.</korean>
+		<english>Thank you for saving. My name is Milia. I was running a shop in this village.</english>
+		<japanese>私グェンチャンウニ、友達の方を先に脱出させてください。</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_First_1">
+		<korean>실례지만 혹시 나이를.. 음..? 아하……으음..그래, 좋아! 그렇게 하자!</korean>
+		<english>Excuse me, but if you're older ... um ...? Aha… ... Uh ... yeah, yeah! Let's do it!</english>
+		<japanese>旧いただきありがとうございます。 私の名前はミリア。 この町で店を運営していました。</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_First_2">
+		<korean>응? 장비들을 어떻게 구하냐고? 그런 건 걱정하지 않아도 돼. 상인에겐 상인의 방법이 있거든.</korean>
+		<english>Huh? How do you get the equipment? You do not have to worry about it. A trader has a trader's way.</english>
+		<japanese>失礼ですがあなたは年齢を..うーん..？ なるほど... ... ううん。はい、好き！ そうしよう！</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_First_3">
+		<korean>앞으로 잘 부탁할게!</korean>
+		<english>I'll do my best in the future!</english>
+		<japanese>うん？ 機器をどのように取得するかと？ そんな心配しなくていい。 商人には商人の方法があれば。</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_RescueMessage_0">
+		<korean>안녕하세요! 뭐 좀 사시겠어요?</korean>
+		<english>Good morning! Would you like something to buy?</english>
+		<japanese>これからよろしくお願いよ！</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_RescueMessage_1">
+		<korean>앗 또 말버릇이.. 팔 물건도 없는데 우습네요. 후훗</korean>
+		<english>It is ridiculous that there is no arm thing. Huh</english>
+		<japanese>こんにちは！ 何かを斜視ますか？</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_RescueMessage_2">
+		<korean>여긴 위험하니 일단 나가서 이야기하죠!</korean>
+		<english>It's dangerous, I'll go out and talk!</english>
+		<japanese>アッまた口癖が。腕ものもないのにおかしいですね。 ふふっ</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_RescueSuccess_0">
+		<korean>마을로 가는 포탈이군요! 고맙습니다!</korean>
+		<english>It's a portal to village! thank you!</english>
+		<japanese>ここ危ないから一旦外に出て話でしょう！</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_Shop_0">
+		<korean>안녕! 어떤 걸 사갈래?</korean>
+		<english>Hello! What do you want to buy?</english>
+		<japanese>村に行くポータルですね！ ありがとうございます！</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_Shop_1">
+		<korean>오늘은 어떤 걸 보여줄까?</korean>
+		<english>What do you want to show today?</english>
+		<japanese>こんにちは！ いくつかのことを買って行く？</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_Talk_0_0">
+		<korean>마을이 재건되는데 얼마나 오랜 시간이 걸릴까?</korean>
+		<english>How long will it take for the village to be rebuilt?</english>
+		<japanese>今日はどんなことを示したいですか？</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_Talk_0_1">
+		<korean>반년이 넘을 것 같은데, 왠지 모르게 엄청나게 빨리 재건될 것 같아.</korean>
+		<english>It seems to be over half a year, but I think it will be reconstructed enormously soon without knowing why.</english>
+		<japanese>町が再建されどのくらいの時間がかかろう？</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_Talk_1_0">
+		<korean>같은 곳을 계속 보고 있으니, 마치 시간이 멈춰 있는 것 같아. 너는 어때?</korean>
+		<english>I keep seeing the same place, it seems as though time has stopped. How about you?</english>
+		<japanese>半年を超えるようだが、なぜか非常に高速再建されるように思える。</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_Talk_2_0">
+		<korean>하켄님은 정말 대단하신 것 같아. 별다른 일 없이 망치질 한번에 무기가 나오더라구!</korean>
+		<english>I think Haken is really great. The weapon came out at once without hitting it!</english>
+		<japanese>同じところをずっと見ていると、まるで時間が止まっているように思える。 あなたはどうですか？</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_Talk_3_0">
+		<korean>호레리카 언니는 나 대신에 가문의 업을 이어받았어. 고맙기도 하고 미안하기도 하지만, 왠지 지금 모습은 너무 어울린다고 해야 하나.</korean>
+		<english>Horrorika took over the family business instead of me. I am thankful and I am sorry, but I must say that it looks so good now.</english>
+		<japanese>ハーケン様は本当にすごいたように思える。 特別ことなくハンマ一度武器が出てくるが判明！</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_Talk_3_1">
+		<korean>마치 처음부터 여관주인으로 있었던 것 같아. 그 고된 훈련들은 도대체 어떻게 넘어간걸까..</korean>
+		<english>I feel like I was the innkeeper from the beginning. How the hell did they go?</english>
+		<japanese>ホルヘリカ姉は私の代わりに家のアップを続け受けた。 ありがたかったりして申し訳ありませんこともあるが、なぜか今の姿はとても似合うとすべきか。</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_ThanksForBuild_0">
+		<korean>상점을 지어줬구나! 제가 생각하던 이미지를 그대로네.</korean>
+		<english>You built a shop! The image I thought was the same.</english>
+		<japanese>まるで最初から宿主にあったように思える。 そのつらい訓練は一体どのように渡ったのか。</japanese>
+	</key>
+	<key name="NPC_Talk_Millia_ThanksForBuild_1">
+		<korean>물건살때 가격을 많이 깎아 줄게!</korean>
+		<english>I'll cut prices a lot when I buy things!</english>
+		<japanese>店を建ててくれたんだ！ 私思っていたイメージをそのままはい。</japanese>
+	</key>
+	<key name="NPC_Talk_Rozen_AlredyRescue_0">
+		<korean>동행자가 계시는군요.</korean>
+		<english>You have a companion.</english>
+		<japanese>モノ歳価格をたくさん削ってあげる！</japanese>
+	</key>
+	<key name="NPC_Talk_Rozen_AlredyRescue_1">
+		<korean>페리누님이 저를 지켜주실 동안, 동행자 분을 먼저 구해주세요.</korean>
+		<english>While Perry will protect me, please save your companion first.</english>
+		<japanese>友達がいらっしゃるんですね。</japanese>
+	</key>
+	<key name="NPC_Talk_Rozen_First_0">
+		<korean>저는 이곳에 모험가님을 기다리고 있었습니다. 비록 꼴사납게 빨려 들어오긴 했지만요..</korean>
+		<english>I was waiting for the explorer here. Though it was furiously sucked in ...</english>
+		<japanese>フェリー姉が私を守ってくださるの間に、友達の方を先に求め下さい。</japanese>
+	</key>
+	<key name="NPC_Talk_Rozen_First_1">
+		<korean>페리누님과 좀 더 이야기해야겠습니다. 페리누님을 모실 제단을 준비해 주세요. </korean>
+		<english>I need to talk to you more. Please prepare an altar for Perry's sister.</english>
+		<japanese>私は、ここに冒険者様を待っていました。 たとえ見苦しく吸い込まれ手に入れヘトジマンヨ。</japanese>
+	</key>
+	<key name="NPC_Talk_Rozen_First_2">
+		<korean>던전의 안에도 제단이 있습니다만, 마을의 제단을 완성해야 기도가 닿을 것이라 생각합니다.</korean>
+		<english>There is also an altar inside the dungeon, but I think the prayer can be reached by completing the altar of the village.</english>
+		<japanese>フェリー姉とより話す必要がありましょう。 フェリー姉を運ぶ祭壇を用意してください。</japanese>
+	</key>
+	<key name="NPC_Talk_Rozen_First_3">
+		<korean>그럼, 부탁드리겠습니다.</korean>
+		<english>Then, please.</english>
+		<japanese>ダンジョンの中にも祭壇がありますが、町の祭壇を完成しなければなら祈りが届くと思います。</japanese>
+	</key>
+	<key name="NPC_Talk_Rozen_Main_0">
+		<korean>당신의 강한 마음은, 분명 페리누님께 닿을 수 있을 거예요.</korean>
+		<english>Your strong heart will surely reach Perry.</english>
+		<japanese>だから、お願いいたします。</japanese>
+	</key>
+	<key name="NPC_Talk_Rozen_RescueMessage_0">
+		<korean>안녕하세요 모험가님. 저는 여신 페리누를 모시는 신녀 로젠이라고 합니다.</korean>
+		<english>Hello explorer. I am Rosen, a beautiful woman who cares for the goddess Perion.</english>
+		<japanese>あなたの強い心は、きっとフェリー姉に届くことができるでしょう。</japanese>
+	</key>
+	<key name="NPC_Talk_Rozen_RescueMessage_1">
+		<korean>저를 마을로 데려다주세요.</korean>
+		<english>Please take me to the village.</english>
+		<japanese>こんにちは冒険者様。 私は女神フェリー押す祀る神女ローゼン呼ばれます。</japanese>
+	</key>
+	<key name="NPC_Talk_Rozen_RescueSuccess_0">
+		<korean>감사합니다. 모험가님께 페리누님의 은총이 가득하시길..</korean>
+		<english>Thank you. Perry's grace is filled with explorers.</english>
+		<japanese>私を村に連れて行ってください。</japanese>
+	</key>
+	<key name="NPC_Talk_Rozen_Talk_0_0">
+		<korean>페리누님은 어째서 이런 옷을 입으라고 하시는 걸까요?</korean>
+		<english>Perry, why does sister ask me to wear these clothes?</english>
+		<japanese>ありがとうございます。 冒険者様フェリー姉の恵みいっぱいになって。</japanese>
+	</key>
+	<key name="NPC_Talk_Rozen_Talk_0_1">
+		<korean>신들은 다들 이런 옷을 입는 것 같지만..저는 조금 부끄러워요.</korean>
+		<english>The gods seem to wear these clothes, but ... I'm a bit embarrassed.</english>
+		<japanese>フェリー姉はどうしてこのような服を着せとされるのでしょうか？</japanese>
+	</key>
+	<key name="NPC_Talk_Rozen_Talk_1_0">
+		<korean>페리누님은 당신을 눈여겨 보고 계십니다. 던전의 가장 깊숙한 곳까지 얼마 남지 않았다고 하셨지요.</korean>
+		<english>Perry is watching you. He said he was not far from the deepest part of the dungeon.</english>
+		<japanese>神々はみんなこのような服を着るようだが..私は少し恥ずかしい。</japanese>
+	</key>
+	<key name="NPC_Talk_Rozen_Talk_1_1">
+		<korean>저는 그때까지, 모험가님을 위해 기도하고 있겠습니다.</korean>
+		<english>Until then, I am praying for the explorer.</english>
+		<japanese>ペリー姉はあなたの注視しておられます。 ダンジョンの最も奥深いところまで残り少ないなかった言われました。</japanese>
+	</key>
+	<key name="NPC_Talk_Rozen_ThanksForBuild_0">
+		<korean>제단이 완성되었군요. 페리누님도 감사해 하고 계십니다.</korean>
+		<english>The altar is finished. Perry is also thanking you.</english>
+		<japanese>私はその時までに、冒険者様のために祈っております。</japanese>
+	</key>
+	<key name="NPC_Talk_Rozen_ThanksForBuild_1">
+		<korean>목소리가 더 잘 들리니, 앞으로 모험가님에게 더 많은 도움을 드릴 수 있을거에요.</korean>
+		<english>Your voice will be heard better, and I will be able to help you more in the future.</english>
+		<japanese>祭壇が完成ね。 フェリー姉にも感謝してしておられます。</japanese>
+	</key>
+	<key name="NPC_Talk_Yulford_Main_0">
+		<korean>오, 자네군.</korean>
+		<english>Oh, Explorer.</english>
+		<japanese>声がよく聞こえる、これから冒険者様に、より多くの助けを与えることができると思います。</japanese>
+	</key>
+	<key name="NPC_Talk_Yulford_RescueMessage_0">
+		<korean>구해줘서 고맙소, 폐허가 된 마을을 조사하기 위해 왕국에서 파견된 모험가여!</korean>
+		<english>Thanks for helping me. explorer from the kingdom to investigate a ruined village!</english>
+		<japanese>助けて立って有りか、廃墟となった村を調査するために王国から派遣された冒険家よ！</japanese>
+	</key>
+	<key name="NPC_Talk_Yulford_RescueMessage_1">
+		<korean>나는 마을에서 목수를 하는 율포드라고 하네.</korean>
+		<english>I'm Yulford, a carpenter in the village.</english>
+		<japanese>私はダンジョンのすぐ上の村で大工をする栗浦ドラゴね。</japanese>
+	</key>
+	<key name="NPC_Talk_Yulford_RescueMessage_2">
+		<korean>자네가 왕국에서 파견된 걸 어떻게 아느냐고? 다 아는 방법이 있네. 허허... 우선 나가는 길을 찾아볼까?</korean>
+		<english>You wonder how I know you were sent from the kingdom? There is a way to know that thing. Hah. But let's find a way out first.</english>
+		<japanese>あなたが王国から派遣されたことをどのようにアヌニャゴ？ 多知っている方法があるのね。 ハハー...まずいく道を見つけてみようか？</japanese>
+	</key>
+	<key name="NPC_Talk_Yulford_Talk_0_0">
+		<korean>나 말고도 빨려들어간 사람이 있을테니 그 사람들을 찾아주게.</korean>
+		<english>Please Rescue villager left in the dungeon.</english>
+		<japanese>ああ、あなたね。</japanese>
+	</key>
+	<key name="NPC_Talk_Yulford_Talk_0_1">
+		<korean>나는 그 사람들에게 필요한 거처를 만들도록 하겠네.</korean>
+		<english>then I will make the house of them.</english>
+		<japanese>私以外にも吸い込まれた人がいるだろうから、その人たちを見つけてくれ。</japanese>
+	</key>
+	<key name="Skill_BigExplosion_Name">
+		<korean>대폭발</korean>
+		<english>Big Explosion</english>
+	</key>
+	<key name="Skill_BigExplosion_Description">
+		<korean>모든 폭탄을 한꺼번에 폭발시킵니다.</korean>
+		<english>Explode all bombs.</english>
+	</key>
+	<key name="Skill_FireBall_Name">
+		<korean>화염구</korean>
+		<english>Fire Ball</english>
+	</key>
+	<key name="Skill_FireBall_Description">
+		<korean>거대한 화염구를 발사합니다</korean>
+		<english>Fire large fire ball.</english>
+	</key>
+	<key name="Skill_FlameCircus_Name">
+		<korean>불꽃 서커스</korean>
+		<english>Flame Circus</english>
+	</key>
+	<key name="Skill_FlameCircus_Description">
+		<korean>주변을 도는 불꽃을 생성합니다.</korean>
+		<english>Create flame that spining around me.</english>
+	</key>
+	<key name="Skill_FireInTheHole_Name">
+		<korean>수류탄 투척!</korean>
+		<english>Fire In The Hole!</english>
+	</key>
+	<key name="Skill_FireInTheHole_Description">
+		<korean>펑-</korean>
+		<english>Booooom</english>
+	</key>
+	<key name="Skill_HeavyStand_Name">
+		<korean>헤비 스탠드</korean>
+		<english>Heavy Stand</english>
+	</key>
+	<key name="Skill_HeavyStand_Description">
+		<korean>방패를 들어 3초간 모든 공격을 막습니다. (시전중 공격불가)</korean>
+		<english>Hold the shield and block all attacks for 3 seconds. (Can not attack during casting)</english>
+	</key>
+	<key name="Skill_SnowBall_Name">
+		<korean>눈덩이</korean>
+		<english>Snow Ball</english>
+	</key>
+	<key name="Skill_SnowBall_Description">
+		<korean>거대한 눈덩이를 발사합니다.</korean>
+		<english>Fire large snow ball.</english>
+	</key>
+	<key name="Skill_Lightning_Name">
+		<korean>라이트닝</korean>
+		<english>Lightning</english>
+	</key>
+	<key name="Skill_Lightning_Description">
+		<korean>자기 위치 주변에 번개를 내려칩니다.</korean>
+		<english>Create lightning around my position.</english>
+	</key>
+	<key name="Skill_LightningBall_Name">
+		<korean>전격구</korean>
+		<english>Lightning Ball</english>
+	</key>
+	<key name="Skill_LightningBall_Description">
+		<korean>거대한 전격구를 발사합니다.</korean>
+		<english>Fire large lightning ball.</english>
+	</key>
+	<key name="Skill_MolotovCocktail_Name">
+		<korean>화염병 투척!</korean>
+		<english>Molotov cocktail</english>
+	</key>
+	<key name="Skill_MolotovCocktail_Description">
+		<korean>전방에 화염병을 던집니다.</korean>
+		<english>Throw Molotov cocktail.</english>
+	</key>
+	<key name="Skill_ShootingStars_Name">
+		<korean>유성폭격</korean>
+		<english>Shooting Stars</english>
+	</key>
+	<key name="Skill_ShootingStars_Description">
+		<korean>한번에 많은 별을 발사합니다.</korean>
+		<english>Shoot lot of stars.</english>
+	</key>
+	<key name="Skill_Shuriken_Name">
+		<korean>수리검</korean>
+		<english>Shuriken</english>
+	</key>
+	<key name="Skill_Shuriken_Description">
+		<korean>전방에 수리검을 던집니다.</korean>
+		<english>Throw shuriken.</english>
+	</key>
+	<key name="Skill_WillpowerOfGladiator_Name">
+		<korean>검투사의 의지</korean>
+		<english>Willpower of Gladiator</english>
+	</key>
+	<key name="Skill_WillpowerOfGladiator_Description">
+		<korean>:time:동안 위력을 올려줍니다.</korean>
+		<english>Increase your Power for :time:.</english>
+	</key>
+	<key name="StatusModule_AddShotOnDash">
+		<korean>대쉬할 때 탄약 추가</korean>
+		<english>Add Shots on dash</english>
+		<japanese>ダッシュするとき弾薬追加</japanese>
+	</key>
+	<key name="StatusModule_AtkSpeed">
+		<korean>공격속도</korean>
+		<english>Attack Speed</english>
+		<japanese>攻撃速度</japanese>
+	</key>
+	<key name="StatusModule_Block">
+		<korean>막기</korean>
+		<english>Block</english>
+		<japanese>防ぐ</japanese>
+	</key>
+	<key name="StatusModule_Condition_Burn">
+		<korean>화상 공격</korean>
+		<english>Burn Condition</english>
+		<japanese>画像攻撃</japanese>
+	</key>
+	<key name="StatusModule_Condition_Chill">
+		<korean>빙결 공격</korean>
+		<english>Chill Condition</english>
+		<japanese>氷結攻撃</japanese>
+	</key>
+	<key name="StatusModule_Condition_Poison">
+		<korean>중독 공격</korean>
+		<english>Poison Condition</english>
+		<japanese>中毒攻撃</japanese>
+	</key>
+	<key name="StatusModule_Condition_Shock">
+		<korean>감전 공격</korean>
+		<english>Shock Condition</english>
+		<japanese>感電攻撃</japanese>
+	</key>
+	<key name="StatusModule_Condition_Stun">
+		<korean>기절 공격</korean>
+		<english>Stun Condition</english>
+		<japanese>気絶攻撃</japanese>
+	</key>
+	<key name="StatusModule_ConditionResist_Burn">
+		<korean>화상 저항</korean>
+		<english>Burn Resist</english>
+		<japanese>画像抵抗</japanese>
+	</key>
+	<key name="StatusModule_ConditionResist_Chill">
+		<korean>빙결 저항</korean>
+		<english>Chill Resist</english>
+		<japanese>氷結抵抗</japanese>
+	</key>
+	<key name="StatusModule_ConditionResist_Poison">
+		<korean>중독 저항</korean>
+		<english>Poison Resist</english>
+		<japanese>中毒性</japanese>
+	</key>
+	<key name="StatusModule_ConditionResist_Shock">
+		<korean>감전 저항</korean>
+		<english>Shock Resist</english>
+		<japanese>感電抵抗</japanese>
+	</key>
+	<key name="StatusModule_ConditionResist_Stun">
+		<korean>기절 저항</korean>
+		<english>Stun Resist</english>
+		<japanese>気絶抵抗</japanese>
+	</key>
+	<key name="StatusModule_Critical">
+		<korean>크리티컬</korean>
+		<english>Critical</english>
+		<japanese>クリティカル</japanese>
+	</key>
+	<key name="StatusModule_CriticalDamageRate">
+		<korean>크리티컬 데미지</korean>
+		<english>Critical Damage Rate</english>
+		<japanese>クリティカルダメージ</japanese>
+	</key>
+	<key name="StatusModule_Dash">
+		<korean>대쉬 횟수</korean>
+		<english>Dash</english>
+		<japanese>ダッシュの回数</japanese>
+	</key>
+	<key name="StatusModule_DashAttackDamage">
+		<korean>대쉬 공격력</korean>
+		<english>Dash Damage</english>
+		<japanese>ダッシュ攻撃力</japanese>
+	</key>
+	<key name="StatusModule_DashInvincible">
+		<korean>대쉬 중 무적</korean>
+		<english>Get Invincible On Dash</english>
+		<japanese>ダッシュ中は無敵</japanese>
+	</key>
+	<key name="StatusModule_DoubleJump">
+		<korean>이단 점프</korean>
+		<english>Double Jump</english>
+		<japanese>異端ジャンプ</japanese>
+	</key>
+	<key name="StatusModule_Evasion">
+		<korean>회피</korean>
+		<english>Evasion</english>
+		<japanese>回避</japanese>
+	</key>
+	<key name="StatusModule_FinalATKPercent">
+		<korean>최종 공격력</korean>
+		<english>Final Damage</english>
+		<japanese>最終攻撃力</japanese>
+	</key>
+	<key name="StatusModule_FinalDEFPercent">
+		<korean>최종 방어력</korean>
+		<english>Final Defense</english>
+		<japanese>最終防御力</japanese>
+	</key>
+	<key name="StatusModule_GoldDrop">
+		<korean>골드 획득</korean>
+		<english>Gold Drop</english>
+		<japanese>ゴールド獲得</japanese>
+	</key>
+	<key name="StatusModule_GoldPanelty">
+		<korean>잃는 골드</korean>
+		<english>Gold Panelty</english>
+		<japanese>失うゴールド</japanese>
+	</key>
+	<key name="StatusModule_HP">
+		<korean>최대 체력</korean>
+		<english>Max Health</english>
+		<japanese>最大体力</japanese>
+	</key>
+	<key name="StatusModule_JumpPower">
+		<korean>점프력</korean>
+		<english>Jump Power</english>
+		<japanese>ジャンプ力</japanese>
+	</key>
+	<key name="StatusModule_MoveSpeed">
+		<korean>이동 속도</korean>
+		<english>Move Speed</english>
+		<japanese>移動速度</japanese>
+	</key>
+	<key name="StatusModule_Power">
+		<korean>위력</korean>
+		<english>Power</english>
+		<japanese>威力</japanese>
+	</key>
+	<key name="StatusModule_ProtectionShield">
+		<korean>보호막 생성</korean>
+		<english>Generate Protection Shield</english>
+		<japanese>保護膜生成</japanese>
+	</key>
+	<key name="StatusModule_RapidReload">
+		<korean>고급 재장전 가능</korean>
+		<english>Available Advanced Reload</english>
+		<japanese>高級リロード可能</japanese>
+	</key>
+	<key name="StatusModule_Regeneration">
+		<korean>회복</korean>
+		<english>Regeneration</english>
+		<japanese>回復</japanese>
+	</key>
+	<key name="StatusModule_RegenerationNoBattle">
+		<korean>회복 (비전 투시)</korean>
+		<english>Regeneration (with No Battle)</english>
+		<japanese>回復（ビジョン透視）</japanese>
+	</key>
+	<key name="StatusModule_ReloadSpeed">
+		<korean>재장전속도</korean>
+		<english>Reload Speed</english>
+		<japanese>リロード速度</japanese>
+	</key>
+	<key name="StatusModule_Revive">
+		<korean>쓰러지면 절반의 HP로 부활합니다.</korean>
+		<english>When you are falling down, you'll be revived with half HP.</english>
+	</key>
+	<key name="StatusModule_Satiety">
+		<korean>포만감</korean>
+		<english>Satiety</english>
+		<japanese>満腹感</japanese>
+	</key>
+	<key name="StatusModule_AttractGold">
+		<korean>:distance: 안의 골드를 끌어당김</korean>
+		<english>Gold attracted within :distance:</english>
+	</key>
+	<key name="StatusModule_Str_AutoReload">
+		<korean>무기를 들고있지 않아도 재장전</korean>
+		<english>Reload without holding a weapon</english>
+		<japanese>武器を持っていなくてもリロード</japanese>
+	</key>
+	<key name="StatusModule_Str_BloodstoneRing">
+		<korean>적을 10마리 죽일 때마다 체력을 회복</korean>
+		<english>Each HP point to kill 10 enemy</english>
+		<japanese>敵を10匹殺すたびに体力を回復</japanese>
+	</key>
+	<key name="StatusModule_Str_DashBomb">
+		<korean>대쉬한 자리에 폭탄을 남김</korean>
+		<english>Drop the bomb on dash</english>
+		<japanese>ダッシュした桁に爆弾を余す</japanese>
+	</key>
+	<key name="StatusModule_Str_FleetFeet">
+		<korean>잔상을 남김</korean>
+		<english>Make afterimage</english>
+		<japanese>残像を残す</japanese>
+	</key>
+	<key name="StatusModule_Str_GiantBullet">
+		<korean>총알의 크기가 커지고 데미지가 증가</korean>
+		<english>The bullet gets bigger and the damage increases.</english>
+		<japanese>弾丸のサイズが大きくなってダメージが増加</japanese>
+	</key>
+	<key name="StatusModule_Str_IgnoreDefense">
+		<korean>방어 무시</korean>
+		<english>Ignore Defense</english>
+		<japanese>防御無視</japanese>
+	</key>
+	<key name="StatusModule_Str_IgnoreSpikeDamage">
+		<korean>가시, 용암 피해를 무시함</korean>
+		<english>Ignore Spike, magma damage</english>
+		<japanese>とげ、溶岩被害を無視する</japanese>
+	</key>
+	<key name="StatusModule_Str_IncreaseDamageOnAir">
+		<korean>공중에 오래 머무를 수록 데미지 보너스 적용</korean>
+		<english>The longer you stay in the air, the greater the damage bonus.</english>
+		<japanese>空中に長く留まるほどダメージボーナス適用</japanese>
+	</key>
+	<key name="StatusModule_Str_JetPack">
+		<korean>스페이스 키를 눌러 제트팩 사용 가능</korean>
+		<english>Use the space bar to use the jet pack</english>
+		<japanese>ウンディーネの目</japanese>
+	</key>
+	<key name="StatusModule_Str_MagmaBoots">
+		<korean>밟은 곳에 불이 붙습니다.</korean>
+		<english>Create fire to the tile that you stepped on.</english>
+		<japanese>踏んだところ火がつきました。</japanese>
+	</key>
+	<key name="StatusModule_Str_PierceBullet">
+		<korean>총알이 적을 관통</korean>
+		<english>The bullet pierces the enemy</english>
+		<japanese>弾丸が敵貫通</japanese>
+	</key>
+	<key name="StatusModule_Str_PoisonAttackedEnemy">
+		<korean>맞을시, 공격한 적에게 중독 상태 이상 부여</korean>
+		<english>Apply poison condition to enemy who attacked player</english>
+		<japanese>合う時、攻撃した敵に中毒状態異常付与</japanese>
+	</key>
+	<key name="StatusModule_Str_ScatterBullet">
+		<korean>총알이 3갈래로 발사되지만, 데미지가 감소</korean>
+		<english>Bullets are fired in three passes, but the damage is reduced</english>
+		<japanese>弾丸が3本で発射されるが、ダメージが減少</japanese>
+	</key>
+	<key name="StatusModule_Str_ShowMap">
+		<korean>맵을 모두 밝힘</korean>
+		<english>Show all map.</english>
+		<japanese>マップをすべて明らかに</japanese>
+	</key>
+	<key name="StatusModule_Str_SummonGreenBat">
+		<korean>초록 박쥐 소환</korean>
+		<english>Summon green bat</english>
+		<japanese>緑バット召喚</japanese>
+	</key>
+	<key name="StatusModule_Str_Wing">
+		<korean>날 수 있음</korean>
+		<english>YOU CAN FLY</english>
+		<japanese>大地が振動することを感じることができます。</japanese>
+	</key>
+	<key name="StatusModule_Toughness">
+		<korean>근성</korean>
+		<english>Toughness</english>
+		<japanese>トーチ</japanese>
+	</key>
+	<key name="StatusModule_TrueDamage">
+		<korean>고정 데미지</korean>
+		<english>True Damage</english>
+		<japanese>訓練場</japanese>
+	</key>
+	<key name="Trap_FireBall">
+		<korean>화염 발사기</korean>
+		<english>Fireball trap</english>
+	</key>
+	<key name="Trap_Spike">
+		<korean>가시</korean>
+		<english>Spike</english>
+	</key>
+	<key name="Trap_SpikeAuto">
+		<korean>자동 감지형 가시</korean>
+		<english>Auto detect spike</english>
+	</key>
+	<key name="Trap_Magma">
+		<korean>용암</korean>
+		<english>Magma</english>
+	</key>
+	<key name="Trap_Swamp">
+		<korean>늪지</korean>
+		<english>Swamp</english>
+	</key>
+	<key name="Tutorial_AltarOfReturn_YulfordSay_0">
+		<korean>텔레포트 포탈이군! 아깐 분명 아무것도 없었는데….</korean>
+		<english>Teleport portal! Well, I have not seen anything before.</english>
+		<japanese>私はそれらの人々に必要な居場所を作るようにするのね。</japanese>
+	</key>
+	<key name="Tutorial_AltarOfReturn_YulfordSay_1">
+		<korean>아무래도 우리가 던전을 전부 탐색해서 열린 걸 수도 있겠어!</korean>
+		<english>Maybe we were all exploring the dungeon!</english>
+		<japanese>テレポートポータルだね！ さっき明らか何もなかった... 。</japanese>
+	</key>
+	<key name="Tutorial_AltarOfReturn_YulfordSay_2">
+		<korean>한번 가보세! 날 따라오게나!</korean>
+		<english>Take a look! Follow me!</english>
+		<japanese>どうしても私たちがダンジョンをすべて探索して開かれたものかもしれないよ！</japanese>
+	</key>
+	<key name="Tutorial_Attack">
+		<korean>공격 :</korean>
+		<english>Attack :</english>
+		<japanese>：攻撃</japanese>
+	</key>
+	<key name="Tutorial_ClearFloor_YulfordSay_0">
+		<korean>자네도 방금 들었나?</korean>
+		<english>Did you hear that?</english>
+		<japanese>一度ガボセ！ 私に従ってオゲナ！</japanese>
+	</key>
+	<key name="Tutorial_ClearFloor_YulfordSay_1">
+		<korean>무슨소리지..?!</korean>
+		<english>What a weird sound..?!</english>
+		<japanese>あなたもあなただけの感じキョトナ？</japanese>
+	</key>
+	<key name="Tutorial_DoorToNextFloor">
+		<korean>다음층으로 가는 문</korean>
+		<english>The door to next floor</english>
+	</key>
+	<key name="Tutorial_DoorToNextFloor_Say">
+		<korean>(지금은 가지 않는 게 좋을 것같다.)</korean>
+		<english>I think it's not good to go in to the door now.</english>
+	</key>
+	<key name="Tutorial_Dash">
+		<korean>대쉬</korean>
+		<english>Dash</english>
+		<japanese>：（マウスの方向に）ダッシュ</japanese>
+	</key>
+	<key name="Tutorial_Dash_Pointer">
+		<korean>마우스 포인터가 가리키는 방향으로 대쉬합니다.</korean>
+		<english>Dash to the direction cursor is pointing.</english>
+		<japanese>マウスポインタが指している方向にダッシュします。</japanese>
+	</key>
+	<key name="Tutorial_Exit_YulfordSay_0">
+		<korean>이보게 모험가... 아무리 생각해도 지금 던전을 내려가기엔 위험하다네!</korean>
+		<english>Hey explorer... I think that it's dangerous to go down the dungeon!</english>
+		<japanese>どんな音か..？！</japanese>
+	</key>
+	<key name="Tutorial_Exit_YulfordSay_1">
+		<korean>다른 길을 찾아보세나!</korean>
+		<english>Let's look for another way!</english>
+		<japanese>ロース冒険...いくら考えても、今のダンジョンをたどって行くには危険であるはい！</japanese>
+	</key>
+	<key name="Tutorial_Jump">
+		<korean>점프 : </korean>
+		<english>Jump : </english>
+		<japanese>：ジャンプ</japanese>
+	</key>
+	<key name="Tutorial_LongJump">
+		<korean>롱점프 :</korean>
+		<english>Long Jump :</english>
+	</key>
+	<key name="Tutorial_DownJump">
+		<korean>하단점프 :</korean>
+		<english>Down Jump :</english>
+		<japanese>：下のジャンプ</japanese>
+	</key>
+	<key name="Tutorial_Move">
+		<korean>이동 : </korean>
+		<english>Move :</english>
+		<japanese>：移動</japanese>
+	</key>
+	<key name="Tutorial_OpenInventory">
+		<korean>인벤토리 열기</korean>
+		<english>Open Inventory.</english>
+	</key>
+	<key name="Tutorial_EquipItem">
+		<korean>아이템 장착</korean>
+		<english>Equip Item</english>
+	</key>
+	<key name="Tutorial_Unknown_Far">
+		<korean>멀리서 들려오는 목소리</korean>
+		<english>The Voice From Far</english>
+		<japanese>戦士の魂</japanese>
+	</key>
+	<key name="Tutorial_Unknown_Far_01">
+		<korean>아니 이 소리는..폐허가 된 마을을 조사하기 위해 왕국에서 파견된 모험가가 던전으로 들어오는 소리!!!</korean>
+		<english>I hear the sound that an Explorer from the kingdom comes into the dungeon to investigate ruined village!</english>
+		<japanese>いや、この音は...廃墟になった村を調査するために王国から派遣された冒険がダンジョンに入ってくる音！</japanese>
+	</key>
+	<key name="Tutorial_Unknown_Far_02">
+		<korean>모험가여!!! 이쪽으로 와주게!!!!!!</korean>
+		<english>Please come here!!</english>
+		<japanese>冒険以上！ こちらに来てが!!!!!!</japanese>
+	</key>
+	<key name="Tutorial_Unknown_Near">
+		<korean>가까이서 들리는 목소리</korean>
+		<english>The Voice From Near</english>
+		<japanese>遠くから聞こえてくる声</japanese>
+	</key>
+	<key name="Tutorial_Unknown_Near_01">
+		<korean>도와주게!!!!!!</korean>
+		<english>Help me!!!!!!</english>
+		<japanese>手助けすること!!!!!!</japanese>
+	</key>
+	<key name="Tutorial_MessageBox_Exit">
+		<korean>나가기</korean>
+		<english>Exit</english>
+	</key>
+	<key name="Tutorial_MessageBox_RescueFirst">
+		<korean>첫 구출</korean>
+		<english>Rescue first</english>
+	</key>
+	<key name="Tutorial_MessageBox_RescueFirst_Description">
+		<korean>이제 &lt;color=#ffff00ff&gt;율포드&lt;/color&gt;에게 건물 건설을 요청할 수 있습니다.</korean>
+		<english>Now you can ask &lt;color=#ffff00ff&gt;Yulford&lt;/color&gt; to build a building.</english>
+	</key>
+	<key name="Tutorial_MessageBox_ItemSwap">
+		<korean>무기 교체</korean>
+		<english>Swap Weapons</english>
+	</key>
+	<key name="Tutorial_MessageBox_ItemSwap_Description">
+		<korean>무기는 두개의 슬롯에 장착할 수 있으며, &lt;color=#ffff00ff&gt;숫자키 혹은 마우스 휠&lt;/color&gt;을 이용해 교체할 수 있습니다.</korean>
+		<english>The weapon can be equipped in two slots and You can swap with &lt;color=#ffff00ff&gt;[1], [2] key and mouse wheel&lt;/color&gt;.</english>
+	</key>
+	<key name="Tutorial_MessageBox_RescueNPC">
+		<korean>주민을 구출해주세요.</korean>
+		<english>Please rescue the villager!</english>
+	</key>
+	<key name="Tutorial_MessageBox_RescueNPC_Description_1">
+		<korean>포탈을 활성화시켜야 주민을 구출할 수 있습니다.</korean>
+		<english>You have to activate the portal to rescue villager.</english>
+	</key>
+	<key name="Tutorial_MessageBox_RescueNPC_Description_2">
+		<korean>(포탈은 방들을 모두 밝히면 활성화됩니다.)</korean>
+		<english>(The portal activated when you mark all rooms.)</english>
+	</key>
+	<key name="Tutorial_MessageBox_FoodShop">
+		<korean>음식점</korean>
+		<english>Food Shop</english>
+	</key>
+	<key name="Tutorial_MessageBox_FoodShop_Description">
+		<korean> 여관은 던전 곳곳에 존재하며, 돈을 주고 음식을 먹을 수 있는 곳입니다. &lt;color=#ffff00ff&gt;음식을 먹으면 체력이 소량 회복됩니다.&lt;/color&gt;
+
+ 하지만 포만감이 최대치가 되면 음식을 섭취하지 못하니 주의하세요! (방을 이동할때마다 포만감이 내려갑니다.)</korean>
+		<english> The Foodshop is located throughout the dungeon and can eat food. &lt;color=#ffff00ff&gt;When you eat food, you'll regain little HP.&lt;/color&gt;
+
+ But when you are full, you can not eat food! (Each time you move the room, the satiety goes down.)</english>
+	</key>
+	<key name="UI_Ability_Current">
+		<korean>현재효과</korean>
+		<english>Current</english>
+	</key>
+	<key name="UI_Ability_Next">
+		<korean>다음효과</korean>
+		<english>Next</english>
+	</key>
+	<key name="UI_GetPopup_FindNewRecipe">
+		<korean>새로운 레시피 발견</korean>
+		<english>Found New Recipe</english>
+		<japanese>獲得</japanese>
+	</key>
+	<key name="UI_GetPopup_GetItem">
+		<korean>아이템 획득</korean>
+		<english>Acquire Item</english>
+	</key>
+	<key name="UI_BuildPanel_Title">
+		<korean>건물 짓기</korean>
+		<english>Build a building</english>
+		<japanese>建物建てる</japanese>
+	</key>
+	<key name="UI_Build_No">
+		<korean>지금은 건설할 수 있는 건물이 없군요.
+던전에서 주민들을 구출하고 여러 건물을 지어보세요.</korean>
+		<english>Now there is no building you can build.
+Build more buildings to rescue the people from the dungeon.</english>
+	</key>
+	<key name="UI_BuildComplete_Title">
+		<korean>건설 완료</korean>
+		<english>Build Complete</english>
+	</key>
+	<key name="UI_BuildComplete_UnlockItem">
+		<korean>아이템 잠금해제됨!</korean>
+		<english>Unlocked new items!</english>
+	</key>
+	<key name="UI_BuildComplete_Exit">
+		<korean>나가기</korean>
+		<english>Exit</english>
+	</key>
+	<key name="UI_Satiety">
+		<korean>포만감</korean>
+		<english>Satiety</english>
+	</key>
+	<key name="UI_GameTitle">
+		<korean>던그리드</korean>
+		<english>Dungreed</english>
+		<japanese>たグリッド</japanese>
+	</key>
+	<key name="UI_Main_GameStart">
+		<korean>게임 시작</korean>
+		<english>Game Start</english>
+		<japanese>ゲーム開始</japanese>
+	</key>
+	<key name="UI_Main_Quit">
+		<korean>종료</korean>
+		<english>Quit</english>
+		<japanese>ゲーム終了</japanese>
+	</key>
+	<key name="UI_Main_Settings">
+		<korean>설정</korean>
+		<english>Settings</english>
+		<japanese>設定</japanese>
+	</key>
+	<key name="UI_Main_PlayTime">
+		<korean>플레이 시간</korean>
+		<english>Play Time</english>
+	</key>
+	<key name="UI_Main_Floor">
+		<korean>도달한 층</korean>
+		<english>Deepest floor</english>
+	</key>
+	<key name="UI_Main_Gold">
+		<korean>소지금</korean>
+		<english>Gold</english>
+	</key>
+	<key name="UI_Main_NoData">
+		<korean>데이터 없음</korean>
+		<english>No Data</english>
+	</key>
+	<key name="UI_Main_Delete">
+		<korean>삭제</korean>
+		<english>Delete</english>
+	</key>
+	<key name="UI_Main_DeleteMessage">
+		<korean>데이터를 삭제하면 복구할 수 없습니다. 그래도 삭제하시겠습니까?</korean>
+		<english>If you delete it, You can't recover it again. Are you sure you want to delete it?</english>
+	</key>
+	<key name="UI_MyLanguage">
+		<korean>한국어</korean>
+		<english>English</english>
+		<japanese>韓国語</japanese>
+	</key>
+	<key name="UI_Pause_Menu">
+		<korean>메뉴</korean>
+		<english>MENU</english>
+		<japanese>メニュー</japanese>
+	</key>
+	<key name="UI_Pause_FastMove">
+		<korean>주민들에게 빠른 이동</korean>
+		<english>Fast Move to villager</english>
+	</key>
+	<key name="UI_Pause_Time">
+		<korean>시간</korean>
+		<english>Time</english>
+	</key>
+	<key name="UI_Pause_Boons">
+		<korean>적용받는 효과들</korean>
+		<english>Boons</english>
+	</key>
+	<key name="UI_Pause_Activity">
+		<korean>활동</korean>
+		<english>Activity</english>
+	</key>
+	<key name="UI_Pause_OpenInventory">
+		<korean>인벤토리창을 엽니다.</korean>
+		<english>Open Inventory.</english>
+	</key>
+	<key name="UI_Pause_Settings">
+		<korean>설정창을 엽니다.</korean>
+		<english>Open Settings.</english>
+	</key>
+	<key name="UI_Pause_GoToMain">
+		<korean>메인화면으로 나갑니다.</korean>
+		<english>Go to main menu.</english>
+	</key>
+	<key name="UI_Pause_LeaveDungeon">
+		<korean>던전을 나갑니다.</korean>
+		<english>Leave the dungeon.</english>
+	</key>
+	<key name="UI_Activity_Succeeded">
+		<korean>성공</korean>
+		<english>Succeeded</english>
+	</key>
+	<key name="UI_Activity_Failed">
+		<korean>실패</korean>
+		<english>Failed</english>
+	</key>
+	<key name="UI_Activity_Rescue">
+		<korean>구출</korean>
+		<english>Rescue</english>
+	</key>
+	<key name="UI_Activity_Kill">
+		<korean>처치</korean>
+		<english>Kill</english>
+	</key>
+	<key name="UI_Guide_Inventory_Swap">
+		<korean>무기 교체</korean>
+		<english>Swap</english>
+	</key>
+	<key name="UI_Guide_Inventory_Equip">
+		<korean>장착</korean>
+		<english>Equip</english>
+	</key>
+	<key name="UI_Guide_Inventory_ThrowOut">
+		<korean>버리기</korean>
+		<english>Throw out</english>
+	</key>
+	<key name="UI_Guide_Inventory_Sell">
+		<korean>판매</korean>
+		<english>Sell</english>
+	</key>
+	<key name="UI_Guide_Shop_Buy">
+		<korean>구매</korean>
+		<english>Buy</english>
+	</key>
+	<key name="UI_Map_Guide">
+		<korean>당신의 위치
+포탈
+비밀통로
+상점
+음식점</korean>
+		<english>You Are Here
+Portal
+Secret Passage
+Shop
+Food Shop</english>
+	</key>
+	<key name="UI_Map_Teleport">
+		<korean>이동할 곳을 선택하세요.</korean>
+		<english>Select the secret passage to move.</english>
+	</key>
+	<key name="UI_Map_Teleport2">
+		<korean>W, A, S, D : 위치지정
+스페이스 : 이동</korean>
+		<english>W, A, S, D : Select
+Space : Move</english>
+	</key>
+	<key name="UI_Map_Scroll">
+		<korean>맵 스크롤</korean>
+		<english>Scroll map</english>
+	</key>
+	<key name="UI_Narration_TownPortalOpen">
+		<korean>포탈이 열렸습니다.</korean>
+		<english>The Portal opened.</english>
+	</key>
+	<key name="UI_Narration_NoMoreAccessorySlot">
+		<korean>빈 액세서리 슬롯이 없습니다.</korean>
+		<english>No more accessories slot.</english>
+	</key>
+	<key name="UI_Narration_CantEquipSame">
+		<korean>액세서리는 중복 장비가 불가능합니다.</korean>
+		<english>Cannot equip same accessory.</english>
+	</key>
+	<key name="UI_Narration_InventoryFull">
+		<korean>인벤토리가 가득찼습니다.</korean>
+		<english>Inventory is full.</english>
+	</key>
+	<key name="UI_Narration_CantEquipBattle">
+		<korean>전투중에는 장비를 교체할 수 없습니다.</korean>
+		<english>Cannot equip during the battle.</english>
+	</key>
+	<key name="UI_Narration_AlreadyEquipTwoHanded">
+		<korean>이미 양손무기를 장착하고 있습니다.</korean>
+		<english>Already equipped with two-handed weapon.</english>
+	</key>
+	<key name="UI_Narration_FoundChest">
+		<korean>상자 발견!</korean>
+		<english>Found the chest.</english>
+	</key>
+	<key name="UI_Narration_Rescue">
+		<korean>주민을 마을로 돌려보냈습니다.</korean>
+		<english>Rescued the villager.</english>
+	</key>
+	<key name="UI_Narration_NotEnoughGold">
+		<korean>골드가 부족합니다.</korean>
+		<english>Not enough gold.</english>
+	</key>
+	<key name="UI_Narration_Curse_HP">
+		<korean>저주를 받아 최대체력이 감소합니다…</korean>
+		<english>Take a curse to reduce your max HP…</english>
+	</key>
+	<key name="UI_Narration_Curse_Monsters">
+		<korean>저주의 냄새를 맡은 괴물들이 등장합니다…</korean>
+		<english>The monsters who smelled the curse appeared…</english>
+	</key>
+	<key name="UI_Narration_CantSellItem">
+		<korean>해당 아이템은 판매할 수 없습니다.</korean>
+		<english>The item cannot be sold.</english>
+	</key>
+	<key name="UI_Narration_CantOpenBattle">
+		<korean>전투중에는 열 수 없습니다.</korean>
+		<english>Cannot open during the battle.</english>
+	</key>
+	<key name="UI_Narration_Food_CantEatTwo">
+		<korean>이 음식은 두개 이상 먹을 수 없습니다.</korean>
+		<english>The food cannot eat more than two.</english>
+	</key>
+	<key name="UI_Narration_Food_CantEatMore">
+		<korean>배가 불러 더 먹을 수 없습니다.</korean>
+		<english>Cannot eat any more.</english>
+	</key>
+	<key name="UI_Narration_Ability_OverMaxLevel">
+		<korean>최대 레벨에 도달하여 더 훈련할 수 없습니다.</korean>
+		<english>Cannot train to reach the maximum level.</english>
+	</key>
+	<key name="UI_Narration_CantLeaveBattle">
+		<korean>전투중에는 도망칠 수 없습니다.</korean>
+		<english>Cannot leave during the battle.</english>
+	</key>
+	<key name="UI_Narration_Tribute_Reward">
+		<korean>신께서 당신의 노력에 보답해주셨습니다.</korean>
+		<english>God has rewarded your efforts.</english>
+	</key>
+	<key name="UI_Narration_Tribute_CantTributeItem">
+		<korean>그 아이템은 공물로 바칠 수 없습니다.</korean>
+		<english>The item can not be given as a tribute.</english>
+	</key>
+	<key name="UI_Narration_Tribute_Pray">
+		<korean>신께 기도합니다…</korean>
+		<english>Pray to God…</english>
+	</key>
+	<key name="UI_Narration_Tribute_NotEnoughTribute">
+		<korean>공물이 부족합니다.</korean>
+		<english>Not enough tribute.</english>
+	</key>
+	<key name="UI_Narration_MinoRevive">
+		<korean>따뜻한 '소'의 기운이 몸을 감쌉니다…</korean>
+		<english>The warm soul of "Cow" wraps the body...</english>
+	</key>
+	<key name="UI_Narration_FellDown">
+		<korean>쓰러졌습니다.</korean>
+		<english>Fell Down.</english>
+	</key>
+	<key name="UI_Popup_ButtonOK">
+		<korean>예</korean>
+		<english>Accept</english>
+	</key>
+	<key name="UI_Popup_ButtonCancel">
+		<korean>아니오</korean>
+		<english>Decline</english>
+	</key>
+	<key name="UI_Popup_SellValuableItem">
+		<korean>귀중해보이는 아이템입니다. 그래도 판매하시겠습니까?</korean>
+		<english>The item looks valuable. Do you still want to sell it?</english>
+	</key>
+	<key name="UI_Popup_Quit">
+		<korean>게임을 종료하시겠습니까?</korean>
+		<english>Are you sure you want to exit?</english>
+	</key>
+	<key name="UI_Popup_Run">
+		<korean>던전에서 도망치시겠습니까?</korean>
+		<english>Are you sure you run from the dungeon?</english>
+	</key>
+	<key name="UI_Popup_GoToMain">
+		<korean>메인화면으로 돌아가시겠습니까?</korean>
+		<english>Are you sure you go to main menu?</english>
+	</key>
+	<key name="UI_Popup_UseTownPortal">
+		<korean>포탈을 타고 마을로 나가시겠습니까?</korean>
+		<english>Are you sure you go back to village using the portal?</english>
+	</key>
+	<key name="UI_Popup_RescueMoveNext">
+		<korean>아직 구출하지 못한 주민이 있습니다. 다음층으로 이동하시겠습니까?</korean>
+		<english>Someone has not been rescued yet. Are you sure to move to next floor?</english>
+	</key>
+	<key name="UI_Popup_Build">
+		<korean>건물을 건설하시겠습니까? (비용 : :cost:G)</korean>
+		<english>Are you sure you want to build the building? (cost : :cost:G)</english>
+	</key>
+	<key name="UI_Popup_ThrowOutItem">
+		<korean>정말로 :itemName:를 버리시겠습니까? &lt;color=#ff0000ff&gt;아이템은 파괴되며 되돌릴 수 없습니다.&lt;/color&gt;</korean>
+		<english>Are you sure you want to throw :itemName: out? &lt;color=#ff0000ff&gt;The item are destroyed and cannot be reversed.&lt;/color&gt;</english>
+	</key>
+	<key name="UI_Popup_Train">
+		<korean>해당 항목을 수련하시겠습니까? (비용 : :cost:G)</korean>
+		<english>Are you sure you want to train the ability? (cost : :cost:G)</english>
+	</key>
+	<key name="UI_Place_Dungeon_10F">
+		<korean>10층 : 화산지옥</korean>
+		<english>10F : Hell of volcano</english>
+		<japanese>10階：火山地獄</japanese>
+	</key>
+	<key name="UI_Place_Dungeon_11F">
+		<korean>11층</korean>
+		<english>11F</english>
+		<japanese>11階</japanese>
+	</key>
+	<key name="UI_Place_Dungeon_12F">
+		<korean>12층</korean>
+		<english>12F</english>
+		<japanese>12階</japanese>
+	</key>
+	<key name="UI_Place_Dungeon_13F">
+		<korean>13층 : 초원</korean>
+		<english>13F</english>
+		<japanese>13階：草原</japanese>
+	</key>
+	<key name="UI_Place_Dungeon_14F">
+		<korean>14층</korean>
+		<english>14F</english>
+		<japanese>14階</japanese>
+	</key>
+	<key name="UI_Place_Dungeon_15F">
+		<korean>15층</korean>
+		<english>15F</english>
+		<japanese>15階</japanese>
+	</key>
+	<key name="UI_Place_Dungeon_16F">
+		<korean>16층 : 달빛사막</korean>
+		<english>16F</english>
+		<japanese>16階：月光の砂漠</japanese>
+	</key>
+	<key name="UI_Place_Dungeon_17F">
+		<korean>17층</korean>
+		<english>17F</english>
+		<japanese>17階</japanese>
+	</key>
+	<key name="UI_Place_Dungeon_18F">
+		<korean>18층</korean>
+		<english>18F</english>
+		<japanese>18階</japanese>
+	</key>
+	<key name="UI_Place_Dungeon_19F">
+		<korean>19층 : 던전 깊숙한 곳</korean>
+		<english>19F</english>
+		<japanese>19階：ダンジョンの奥</japanese>
+	</key>
+	<key name="UI_Place_Dungeon_1F">
+		<korean>1층 : 지하감옥</korean>
+		<english>1F</english>
+		<japanese>1階：ダンジョン</japanese>
+	</key>
+	<key name="UI_Place_Dungeon_2F">
+		<korean>2층</korean>
+		<english>2F</english>
+		<japanese>2階</japanese>
+	</key>
+	<key name="UI_Place_Dungeon_3F">
+		<korean>3층</korean>
+		<english>3F</english>
+		<japanese>3階</japanese>
+	</key>
+	<key name="UI_Place_Dungeon_4F">
+		<korean>4층 : 혹한지대</korean>
+		<english>4F</english>
+		<japanese>4階：極寒地帯</japanese>
+	</key>
+	<key name="UI_Place_Dungeon_5F">
+		<korean>5층</korean>
+		<english>5F</english>
+		<japanese>5階</japanese>
+	</key>
+	<key name="UI_Place_Dungeon_6F">
+		<korean>6층</korean>
+		<english>6F</english>
+		<japanese>6階</japanese>
+	</key>
+	<key name="UI_Place_Dungeon_7F">
+		<korean>7층 : 늪지대</korean>
+		<english>7F</english>
+		<japanese>7階：沼地</japanese>
+	</key>
+	<key name="UI_Place_Dungeon_8F">
+		<korean>8층</korean>
+		<english>8F</english>
+		<japanese>8階</japanese>
+	</key>
+	<key name="UI_Place_Dungeon_9F">
+		<korean>9층</korean>
+		<english>9F</english>
+		<japanese>9階</japanese>
+	</key>
+	<key name="UI_Place_Dungeon_Nowhere">
+		<korean>???</korean>
+		<english>???</english>
+		<japanese>???</japanese>
+	</key>
+	<key name="UI_Place_RuinedTown">
+		<korean>폐허가 된 마을</korean>
+		<english>Ruined village</english>
+		<japanese>廃墟となった村</japanese>
+	</key>
+	<key name="UI_Place_Town">
+		<korean>마을</korean>
+		<english>village</english>
+		<japanese>タワーシールド</japanese>
+	</key>
+	<key name="UI_Result_Time">
+		<korean>시   간</korean>
+		<english>Time</english>
+	</key>
+	<key name="UI_Result_Place">
+		<korean>위   치</korean>
+		<english>Place</english>
+	</key>
+	<key name="UI_Result_Gold">
+		<korean>소지금</korean>
+		<english>Gold</english>
+	</key>
+	<key name="UI_Result_AcquiredItems">
+		<korean>획득했던 아이템</korean>
+		<english>Items Acquired</english>
+	</key>
+	<key name="UI_Result_Activities">
+		<korean>활동</korean>
+		<english>Activities</english>
+	</key>
+	<key name="UI_Result_ReasonFail">
+		<korean>실패 이유</korean>
+		<english>Reason for fail</english>
+	</key>
+	<key name="UI_Result_Exit">
+		<korean>나가기</korean>
+		<english>Exit</english>
+	</key>
+	<key name="UI_Result_GoldPanelty">
+		<korean>실패패널티</korean>
+		<english>Fail Panelty</english>
+	</key>
+	<key name="UI_Result_KilledBy">
+		<korean>:name:에게 패배</korean>
+		<english>Defeated by :name:</english>
+	</key>
+	<key name="UI_Result_Run">
+		<korean>용사는 모든 무기를 버리고 도망쳤다!</korean>
+		<english>The Explorer throw all items out and ran!</english>
+	</key>
+	<key name="UI_Setting_Decrease">
+		<korean>감소</korean>
+		<english>-</english>
+		<japanese>減少</japanese>
+	</key>
+	<key name="UI_Setting_Increase">
+		<korean>증가</korean>
+		<english>+</english>
+		<japanese>増加</japanese>
+	</key>
+	<key name="UI_Settings_Apply">
+		<korean>적용</korean>
+		<english>Apply</english>
+		<japanese>適用</japanese>
+	</key>
+	<key name="UI_Settings_BGM">
+		<korean>음악 볼륨</korean>
+		<english>BGM Volume</english>
+		<japanese>BGMのボリューム</japanese>
+	</key>
+	<key name="UI_Settings_Display">
+		<korean>화면</korean>
+		<english>Display</english>
+		<japanese>画面</japanese>
+	</key>
+	<key name="UI_Settings_FX">
+		<korean>효과음 볼륨</korean>
+		<english>FX Volume</english>
+		<japanese>効果音のボリューム</japanese>
+	</key>
+	<key name="UI_Settings_GamePlay">
+		<korean>게임 플레이</korean>
+		<english>Game Play</english>
+		<japanese>ゲームプレイ</japanese>
+	</key>
+	<key name="UI_Settings_Languages">
+		<korean>언어</korean>
+		<english>Languages</english>
+		<japanese>言語</japanese>
+	</key>
+	<key name="UI_Settings_Resolution">
+		<korean>해상도</korean>
+		<english>Resolution</english>
+		<japanese>解像度</japanese>
+	</key>
+	<key name="UI_Settings_Sounds">
+		<korean>사운드</korean>
+		<english>Sounds</english>
+		<japanese>サウンド</japanese>
+	</key>
+	<key name="UI_Settings_Title">
+		<korean>설정</korean>
+		<english>Settings</english>
+		<japanese>設定</japanese>
+	</key>
+	<key name="UI_Settings_WindowMode">
+		<korean>창모드</korean>
+		<english>Window Mode</english>
+		<japanese>これ多分いい... 。</japanese>
+	</key>
+	<key name="UI_Settings_WindowMode_FullScreen">
+		<korean>전체화면</korean>
+		<english>Fullscreen</english>
+		<japanese>フルスクリーン</japanese>
+	</key>
+	<key name="UI_Settings_WindowMode_Windowed">
+		<korean>창화면</korean>
+		<english>Windowed</english>
+		<japanese>ウィンドウモード</japanese>
+	</key>
+	<key name="UI_Settings_WindowMode_WindowedFullscreen">
+		<korean>전체 창화면</korean>
+		<english>Windowed Fullscreen</english>
+		<japanese>ウィンドウ画面</japanese>
+	</key>
+	<key name="Demo_End">
+		<korean>데모버전 끝</korean>
+		<english>The End of demo version</english>
+	</key>
+	<key name="Demo_ThankYouForPlaying">
+		<korean>플레이 해 주셔서 감사드립니다.</korean>
+		<english>Thank you for playing.</english>
+	</key>
+	<key name="BeforeYouPlay">
+		<korean>시작하기 전…</korean>
+		<english>Before you play…</english>
+	</key>
+	<key name="BeforeYouPlay_Description">
+		<korean> 던그리드는 아직 개발 중입니다. 
+
+ 예상치못한 버그가 발생할 수 있는 점에 대해 미리 양해를 구합니다. 
+
+ 또한, 게임 내 구현된 요소들은 출시용 빌드에서 제거되거나 변경될 수 있음을 알려드립니다.
+
+ 감사합니다.</korean>
+		<english> Dungreed is still in development.
+
+ Please be aware of unexpected bugs.
+
+ Also, all of in-game elements maybe removed or changed at Release build.
+
+ Thank you.</english>
+	</key>
+	<key name="BeforeYouPlay_Okay">
+		<korean>알겠어요</korean>
+		<english>Okay</english>
+	</key>
+</root>
